@@ -4,7 +4,7 @@ Se o **Food Flix 1.0** já era incrível, prepare-se para a revolução! 🍕�
 
 Criado originalmente em 2021 como um desafio da **Digital Innovation One (DIO),** o **Food Flix 1.0** trouxe um catálogo de receitas com a identidade visual clássica da Netflix. Agora, em sua **versão 2.0,** ele evoluiu para uma plataforma completa onde você pode **interagir**com os ingredientes, navegar por categorias e até fritar um ovo na tela! 🍳🔥
 
-🔗 **Repositório da primeira versão:** [GitHub - Food Flix 1.0](https://github.com/tiexperient/netfood_dio/)
+🔗 **Repositório da primeira versão:** [GitHub - Food Flix 1.0](https://github.com/tiexperient/netfood_dio/)<br>
 🌍 **Demo da primeira versão:** [My Food Flix 1.0](https://my-food-flix.netlify.app/)
 
 ##  ✨ O que há de novo no Food Flix 2.0?
