@@ -33,7 +33,7 @@ Criado originalmente em 2021 como um desafio da **Digital Innovation One (DIO),*
 ## 📢 Quer ver mais projetos incríveis?
 
 🔗 **Portfólio:** [Meu Portfólio Profissional](https://ti-experient.netlify.app/)<br>
-📝 **Blog:**[Meu Blog Pessoal](https://tiexperient-blog.netlify.app/)
+📝 **Blog:** [Meu Blog Pessoal](https://tiexperient-blog.netlify.app/)
 <br> 
 
 Criado com muito carinho e algumas pitadas de código por **Célia Medeiros** 💛🚀
