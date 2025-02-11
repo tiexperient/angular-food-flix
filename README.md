@@ -6,6 +6,7 @@ Criado originalmente em 2021 como um desafio da **Digital Innovation One (DIO),*
 
 🔗 **Repositório da primeira versão:** [GitHub - Food Flix 1.0](https://github.com/tiexperient/netfood_dio/)<br>
 🌍 **Demo da primeira versão:** [My Food Flix 1.0](https://my-food-flix.netlify.app/)
+<br>
 
 ##  ✨ O que há de novo no Food Flix 2.0?
 
