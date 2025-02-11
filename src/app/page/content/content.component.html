@@ -1,0 +1,57 @@
+<body>
+  <div class="topo absolute top-0 left-0 w-full z-50 h-screen flex justify-center items-center p-4 md:p-6 lg:p-8">
+    <div class="max-w-lg bg-gradient-to-b from-white/60 to-white/30 text-[#1c0708] backdrop-blur-[.65em] border-[1px] border-solid border-white border-opacity-10 rounded-2xl shadow-black/50 overflow-hidden shadow-2xl hover:-translate-y-1 hover:shadow-black/75 hover:backdrop-blur-[1em] transition">
+      <div class="container" *ngIf="foodItem">
+        <div class="title">
+          <h2>{{ foodItem.title }}</h2>
+            <div class="subcategory" *ngIf="foodItem">
+              <span *ngFor="let tag of foodItem.subcategory" class="tag">{{ tag }}</span>
+            </div>  
+        </div>
+        <img alt="" class="recipe_img" [src]="foodItem.photoCoverContent">
+
+        <div class="sub-main" *ngIf="foodItem.video_embed">
+          <a class="button-two" [href]="foodItem.video_embed" target="_blank">
+            <span>Vídeo completo</span>
+          </a>
+        </div>
+    
+        <div class="panel-top">
+          <div class="level-item">
+            <div>
+              <div class="heading">
+                Porções: 
+              </div>
+              <div class="heading">
+                Tempo de Preparo: 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ingredients">
+          <h3 class="ingredients">Ingredientes:</h3>
+          <ul class="ingredients">
+            <li *ngFor="let ingredient of foodItem.ingredients">
+              <label><input type="checkbox"> <span>{{ ingredient }}</span></label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="container-two">
+          <div class="directions" *ngIf="foodItem" style="    max-width: 600px;">
+            <h3 class="directions">Preparo:</h3>
+            <ol class="directions">
+              <li *ngFor="let step of foodItem.preparo">
+                <label>
+                  <input type="checkbox">
+                  <span>{{ step }}</span>
+                </label>
+              </li>
+            </ol>
+          </div>
+        </div>      
+    </div>
+  </div>
+</body>

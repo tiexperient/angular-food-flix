@@ -1,0 +1,16 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url('/assets/fundo6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat fixed;;
+
+
+}
