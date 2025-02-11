@@ -27,7 +27,7 @@ Criado originalmente em 2021 como um desafio da **Digital Innovation One (DIO),*
 🟢 **Angular 14.0.0** – Para estruturar e dinamizar a aplicação.<br>
 🟣 **TypeScript** – Código mais seguro e organizado.<br>
 🔵 **Bootstrap** – Layout responsivo e estiloso.<br>
-🟡 **HTML & CSS** – Design impecável e agradável.
+🟡 **HTML** & **CSS** – Design impecável e agradável.
 <br><br>
 
 ## 📢 Quer ver mais projetos incríveis?
