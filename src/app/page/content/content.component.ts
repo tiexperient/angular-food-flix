@@ -6,7 +6,7 @@ import { FoodItem } from 'src/app/model/food.module';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css', './content.component.responsive.css']
 })
 export class ContentComponent implements OnInit {
   foodItem: FoodItem | undefined; // Armazena os dados da comida

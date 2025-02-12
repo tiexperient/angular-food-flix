@@ -4,7 +4,7 @@ import { dataFake } from 'src/app/dados/dataFake';
 @Component({
   selector: 'app-salt-category',
   templateUrl: './salt-category.component.html',
-  styleUrls: ['./salt-category.component.css']
+  styleUrls: ['./salt-category.component.css', './salt-category.component.responsive.css']
 })
 export class SaltCategoryComponent implements OnInit {
 

@@ -1,6 +1,6 @@
 body {
   font: 1em/1.618 Inter, sans-serif;
-  height: 160vh;
+  height: 200vh;
 }
 
 .topo {
@@ -138,10 +138,9 @@ span.tag {
 
 .heading {
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-bottom: 2px;
-  text-transform: uppercase;
   line-height: 1.35;
 }
 
