@@ -1,7 +1,11 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
     .col{
-        width: calc(100% - 2rem);
+        width: calc(100%);
+      }
+
+      .wrapper {
+        max-width: 200rem;
       }
 }
 

@@ -95,7 +95,7 @@ export const dataFake: FoodItem[] = [
         
         subcategory: [
                         "caldos",
-                        "comida mineira"
+                        "culinária mineira"
                      ],
 
         ingredients: [
@@ -182,10 +182,24 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "refeição",
+                        "frutos do mar"
                      ],
 
-        ingredients: [],
+        ingredients: [
+                        "2 xícaras de arroz cozido",
+                        "400g de carne de siri",
+                        "3 pimentões coloridos em cubos pequenos",
+                        "1 cebola média em cubos pequenos",
+                        "3 tomates picados sem sementes",
+                        "1 dente de alho amassado",
+                        "1 pimenta picada",
+                        "200ml de leite de coco",
+                        "1/2 xícara de cheiro verde picado",
+                        "1 limão espremido",
+                        "azeite",
+                        "sal a gosto"
+                     ],
 
         video_embed: "http://www.receitinhasdabrunildinha.com.br/2013/11/arroz-de-siri.html?m=1",
         resume: `
@@ -195,7 +209,9 @@ export const dataFake: FoodItem[] = [
                     <br><br>
                 `,
         preparo: [
-                    "Esta receita ainda está sendo escrita. Mas, você já consegue assistir o preparo no botão acima"
+                    "Em uma panela grande refogue a cebola e o alho no azeite. Acrescente a pimenta e os pimentões e continue mexendo. Coloque os tomates, a carne de siri, o limão e o sal e refogue mais um pouco. Quando estiver bem refogado, adicione o leite de coco, espere ferver e desligue o fogo",
+                    "Coloque o arroz cozido e misture bem (Se usar cheiro verde, coloque agora)",
+                    "Transfira para um refratário"
                  ],
         photoCover: "assets/img-capas/mini7.jpg",
         photoCoverContent: "assets/img-content/arroz-siri.png"
@@ -208,10 +224,27 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "caldos"
+                        "caldos",
+                        "culinária maranhense"
                      ],
 
-        ingredients: [],
+        ingredients: [
+                        "1 xícara de farinha de mandioca fina",
+                        "3 litros de água",
+                        "2 colheres de sopa de óleo",
+                        "5 dentes de alho amassados",
+                        "1 cebola grande picada",
+                        "2 tomates maduros picados",
+                        "1 pimentão verde picado",
+                        "3 pimentas de cheiro picadas",
+                        "açafrão a gosto",
+                        "colorau a gosto",
+                        "pimenta do reino a gosto",
+                        "pimenta calabresa a gosto",
+                        "sal a gosto",
+                        "cheiro verde a gosto",
+                        "7 ovos"
+                     ],
 
         video_embed: "https://www.facebook.com/jessiaraalmeidaa/videos/884500775383476/",
         resume: `
@@ -220,7 +253,10 @@ export const dataFake: FoodItem[] = [
                     Com ingredientes que usamos no dia a dia, o caldo de ovo ou cabeça de galo é uma receita super nutritiva e fica deliciosa!
                 `,
         preparo: [
-                    "Esta receita ainda está sendo escrita. Mas, você já consegue assistir o preparo no botão acima"
+                    "Em uma vasilha, despeje a farinha de mandioca e metade da água. Misture tudo e deixe hidratar",
+                    "Em uma panela, despeje o óleo e refogue a cebola, o tomate, o pimentão, a pimenta de cheiro, o colorau, o açafrão, a pimenta do reino, a pimenta calabresa e o sal. Acrescente o restante da água, misturando tudo muito bem e deixe levantar fervura",
+                    "Adicione a farinha hidratada e mexa por aproximadamente 10 minutos, para a farinha cozinhar",
+                    "Acrescente o cheiro e verde e cuidadosamente acrescente os ovos a fervura, sem mexer, para não derreter os ovos e deixe cozinhando entre 5 e 10 minutos"
                  ],
         photoCover: "assets/img-capas/mini3.jpg",
         photoCoverContent: "assets/img-content/cabeca-de-galo.jpg"
@@ -300,5 +336,71 @@ export const dataFake: FoodItem[] = [
         photoCover: "assets/img-capas/mini11.jpg",
         photoCoverContent: "assets/img-content/bolo-queijo.jpg"
     },
-  
+    {
+        id: "9",
+        category: "salgados",
+        title: "Arroz de Preguiçoso",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição"
+                     ],
+
+        ingredients: [
+                        "1 linguiça calabresa picada",
+                        "3 dentes de alho picados",
+                        "1 cenoura em cubinhos",
+                        "1 batata em cubinhos",
+                        "pimenta do reino a gosto",
+                        "orégano a gosto",
+                        "salsa desidratada a gosto",
+                        "1 colher de sopa de molho shoyo",
+                        "1 xícará de arroz",
+                        "2 xícaras de caldo de bacon",
+                        "4 ovos"
+                     ],
+
+        video_embed: "https://www.facebook.com/FoodMakersBr/videos/777572649631300/",
+        resume: `
+                    <br>
+                    Que tal aprender como fazer uma receita de arroz de preguicoso no forno bem fácil e rápido? Esse é aquele almoço completo que fica pronto bem rapidinho. 
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma panela quente, acrescente a calabresa, o alho, a cenoura, a batata, a pimenta do reino, o orégano, a salsa desidratada, o molho shoyo, o arroz e refogue tudo muito bem",
+                    "Acrescente o caldo de bacon e deixe cozinhar",
+                    "Quando a finalização do cozimento estiver quase finalizando(80%), com uma concha, abra covinhas no arroz e delicadamente deite os ovos sobre elas. Acrescente temperos a gosto. Se necessário, acrescente um pouco mais de água",
+                    "Deixe o cozimento finalizar por 5 a 10 minutos"
+                 ],
+        photoCover: "assets/img-capas/mini9.jpg",
+        photoCoverContent: "assets/img-content/arroz-de-preguicoso.jpg"
+    },
+    {
+        id: "10",
+        category: "salgados",
+        title: "Batata doce ao Forno",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "",
+                     ],
+
+        video_embed: "https://www.facebook.com/receitasfaceisdesefazer/videos/1231457040637148/",
+        resume: `
+                    <br><br>
+                    Essa é uma daquelas receitas viciantes que quando vc experimenta vc quer fazer todos os dias. Um acompanhamento coringa que todos vão amar!
+                    <br><br>
+                `,
+        preparo: [
+                    "",
+                 ],
+        photoCover: "assets/img-capas/mini26.jpg",
+        photoCoverContent: "assets/img-content/batata-doce-ao-forno.jpg"
+    },
 ]
