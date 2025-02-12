@@ -9,9 +9,11 @@
       }
 }
 
-/* Celular Paisagem *//*
+/* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
-
+      .col{
+        width: calc(50% - 2rem);
+  }
 }
 
 /* Tablet Retrato *//*
