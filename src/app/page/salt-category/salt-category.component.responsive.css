@@ -12,11 +12,11 @@
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
       .col{
-        width: calc(40%);
+        width: calc(35%);
       }
 
       .wrapper {
-        max-width: 100rem;
+        max-width: 120rem;
       }
 }
 
