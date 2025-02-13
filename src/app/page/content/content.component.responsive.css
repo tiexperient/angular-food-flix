@@ -1,5 +1,10 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
+    .container {
+       margin-top: 20px;
+       margin-bottom: 30px;
+    }
+
     .recipe_img {
         width: 100%;
     }
