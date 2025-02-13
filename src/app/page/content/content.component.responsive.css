@@ -1,11 +1,33 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
+    .recipe_img {
+        width: 100%;
+    }
 
+    .panel-top {
+        right: 1px; 
+        margin-bottom: 10px;
+    }
+
+    .ingredients{
+        display: contents;
+        margin-bottom: 20px;
+    }
+    .ingredients > h3 {
+        display: block;
+    }
+    .ingredients ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px; /* Espaçamento entre os itens */
+      }     
 }
 
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
-
+    .recipe_img {
+        width: 100%;
+    }
 }
 
 /* Tablet Retrato */
