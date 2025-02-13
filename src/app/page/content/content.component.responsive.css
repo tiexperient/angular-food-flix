@@ -38,6 +38,14 @@
 
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
+    body {
+        height: 250vh;
+      }
+
+    .container {
+        margin-top: 20px;
+     }
+
     .recipe_img {
         width: 100%;
     }
