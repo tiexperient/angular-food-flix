@@ -1,3 +1,27 @@
+    /* Celular Retrato */
+  @media (max-width:600px) and (orientation: portrait) {
+    .paragraph {
+      margin: 10px 5%;
+    }
+  }
+
+  /* Celular Paisagem */
+  @media (max-width:800px) and (orientation: landscape) {
+    .paragraph {
+      margin: 10px 10%;
+    }
+  }
+
+  /* Tablet Retrato */
+  @media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+
+  }
+
+  /* Tablet Paisagem */
+  @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+
+  }
+
   @media(min-width: 540px){
     .card-grid{
       grid-template-columns: repeat(2, 1fr); 
