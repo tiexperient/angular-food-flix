@@ -20,7 +20,15 @@
         display: flex;
         flex-direction: column;
         gap: 8px; /* Espaçamento entre os itens */
+        margin-left: 10px;
       }     
+
+      .directions {
+        width: 90%;
+        color: #ffffff;
+        margin-bottom: 20px;
+        max-width: 600px;
+      }
 }
 
 /* Celular Paisagem */
