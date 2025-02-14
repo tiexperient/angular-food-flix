@@ -43,7 +43,7 @@
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     body {
-        height: 300vh;
+        height: 430vh;
       }
 
     .container {
@@ -53,6 +53,13 @@
     .recipe_img {
         width: 100%;
     }
+
+    .ingredients ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px; /* Espaçamento entre os itens */
+        margin-left: 10px;
+      } 
 }
 
 /* Tablet Retrato */
