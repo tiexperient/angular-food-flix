@@ -1,0 +1,19 @@
+<div class="wrapper">
+    <h1>SEÇÃO DE PRATOS DOCES</h1>
+    <div class="cols">
+        <div class="col" ontouchstart="this.classList.toggle('hover');" *ngFor="let food of foods">
+            <div class="container">
+                <div class="front" [style.backgroundImage]="'url(' + food.image + ')'"></div>
+                <div class="back">
+                    <div class="inner">
+                        <h3>{{ food.title }}</h3>
+                        <p [innerHTML]="food.resume"></p>  <!-- Aqui usamos innerHTML -->
+                        <div class="sub-main">
+                            <button class="button-two" [routerLink]="['/receita', food.id]"><span>Leia mais</span></button>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

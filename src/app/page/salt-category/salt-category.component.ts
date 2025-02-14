@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { dataFake } from 'src/app/dados/dataFake';
 
 @Component({

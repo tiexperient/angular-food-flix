@@ -10,6 +10,9 @@ import { SaltCategoryComponent } from './page/salt-category/salt-category.compon
 import { HomeComponent } from './page/home/home.component';
 import { ContentComponent } from './page/content/content.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { SweetButtonComponent } from './component/sweet-button/sweet-button.component';
+import { CardSweetComponent } from './component/card-sweet/card-sweet.component';
+import { SweetCategoryComponent } from './page/sweet-category/sweet-category.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { FooterComponent } from './component/footer/footer.component';
     SaltCategoryComponent,
     HomeComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    SweetButtonComponent,
+    CardSweetComponent,
+    SweetCategoryComponent
   ],
   imports: [
     BrowserModule,

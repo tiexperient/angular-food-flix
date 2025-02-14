@@ -388,19 +388,419 @@ export const dataFake: FoodItem[] = [
                      ],
 
         ingredients: [
-                        "",
+                        "800g de batata doce com casca cortada em cubinhos",
+                        "1 colher se sopa de sal",
+                        "1 colher de chá de pimenta calabresa",
+                        "2 dentes de alho cortados em lâminas", 
+                        "alecrim a gosto",
+                        "1 colher de sopa de manteiga",
+                        "2 colheres de sopa de azeite",
+                        "1 colher de chá de orégano",
+                        "1 colher de chá de páprica"
                      ],
 
-        video_embed: "https://www.facebook.com/receitasfaceisdesefazer/videos/1231457040637148/",
+        video_embed: "https://www.youtube.com/watch?v=WBtabcGqlbA",
         resume: `
                     <br><br>
                     Essa é uma daquelas receitas viciantes que quando vc experimenta vc quer fazer todos os dias. Um acompanhamento coringa que todos vão amar!
                     <br><br>
                 `,
         preparo: [
-                    "",
+                    "Em uma panela, despeje a batata doce cortada em cubinhos, o sal, a pimenta calabresa, o alho cortado em lâminas, o alecrim e água até cobrir as batatas. Mele ao fogo e assim que levantar fervura, deixe cozinhas por 8 minutos",
+                    "Para a pasta, misture a manteiga, o azeite, o orégano e a páprica. Despeje a pasta na batata doce cozida, misturando bem",
+                    "Leve para assar em forno a 220° por 45 minutos aproximadamente"
                  ],
         photoCover: "assets/img-capas/mini26.jpg",
         photoCoverContent: "assets/img-content/batata-doce-ao-forno.jpg"
     },
+    {
+        id: "11",
+        category: "salgados",
+        title: "Salada Simples",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "azeite a gosto para fritura",
+                        "250g de grão de bico cozido",
+                        "1 cebola em tiras",
+                        "1 pepino cortado em meia lua", 
+                        "tomates cereja a gosto",
+                        "salsa a gosto",
+                        "3 colheres de azeite para o molho",
+                        "3 colheres de vinagre",
+                        "1/2 limão",
+                        "alho a gosto",
+                        "chimichurri a gosto",
+                        "pimenta calabresa a gosto",
+                        "sal a gosto"
+                     ],
+
+        video_embed: "https://www.facebook.com/Receitasdochefdelicias/videos/315877013355007/?extid=WA-UNK-UNK-UNK-AN_GK0T-GK1C",
+        resume: `
+                    <br>
+                    Não há nada melhor para dar um ânimo no seu dia do que uma salada simples. E o seu nome faz jus ao seu modo de preparo.
+                    <br><br>
+                    Repleta de nutrientes e de muito sabor, essa salada é perfeita como acompanhamento.
+                `,
+        preparo: [
+                    "Deixe a cebola cortada em tiras de molho na água gelada com gelo enquanto conduz o preparo",
+                    "Em uma panela, despeje um pouco de azeite e refogue o grão de bico. Reserve",
+                    "Prepare o molho com as 3 colheres de azeite, o vinagre, o limão, o alho, o chimichurri, a pimenta calabresa e o sal e misture tudo",
+                    "Numa travessa, acrescente o grão de bico, o pepino, a cebola, os tomates, a salsa e o molho. Misture bem"
+                 ],
+        photoCover: "assets/img-capas/mini19.jpg",
+        photoCoverContent: "assets/img-content/salada-simples.jpg"
+    },
+    {
+        id: "12",
+        category: "salgados",
+        title: "Galinhada",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição",
+                        "culinária goiana"
+                     ],
+
+        ingredients: [
+                        "6 coxas de frango",
+                        "suco de 1/2 limão para o frango no molho",
+                        "1 colher de chá de páprica",
+                        "1/2 colher de chá de pimenta do reino",
+                        "1/2 colher de chá de tempero baiano",
+                        "1 colher de chá de sal para o frango",
+                        "3 dentes de alho triturados",
+                        "suco de 1/2 limão para o frango",
+                        "2 xícaras de arroz",
+                        "1 cenoura cortada em cubos pequenos",
+                        "1 cebola roxa picada",
+                        "1 lata de milho verde",
+                        "1/2 pimentão vermelho picado",
+                        "2 pimentas de cheiro picadas",
+                        "cebolinha a gosto",
+                        "1/2 colher de chá de pimenta do reino",
+                        "1 colher de açafrão",
+                        "1 1/2 de sal para o arroz",
+                        "800ml de água",
+                        "tomate cereja a gosto",
+                        "mussarela a gosto"
+                     ],
+
+        video_embed: "https://www.facebook.com/culinariaaprendaoficial/videos/1389162188146668/",
+        resume: `
+                    Perfeita para o almoço do fim de semana, a galinhada é um prato tradicional de nossa culinária! 
+                    <br><br>
+                    Deliciosa e reconfortante, a galinhada tem cara de comida de casa de mãe. E por ser preparada numa panela só ainda é prática. Melhor, impossível.
+                `,
+        preparo: [
+                    "Numa travessa, adicione as coxas de frango e despeje água quente até cobrir, acrescente o suco de 1/2 limão e deixe descansar por 5 minutos",
+                    "Escorra e acrescente a páprica, a pimenta do reino, o tempero baiano, o sal, o alho, o limão, misture bem e deixe marinar por 30 minutos",
+                    "Numa travessa, acrescente o arroz, a cenoura, a cebola, o milho verde, o pimentão, as pimentas de cheiro, o cheiro verde, a pimenta do reino, o açafrão, o sal e os 800ml de água e misture tudo muito bem",
+                    "Acrescente as coxas de frango",
+                    "Na vasilha onde se marinou o frango, acrescente 100ml de água e acrescente na forma",
+                    "Para finalizar, acrescente os tomates cereja",
+                    "Cubra com papel alumínio com o lado brilhante virado para baixo e leve ao forno por 40 minutos, sendo 20 minutos a 250° e 20 minutos a 200°",
+                    "Após esse prazo, retire o papel alumínio e acrescente o queijo mussarela. Leve novamente ao forno por mais 10 ou 20 minutos a 200°"
+                 ],
+        photoCover: "assets/img-capas/mini37.jpg",
+        photoCoverContent: "assets/img-content/galinhada.png"
+    },
+
+    /* ############################## RECEITAS DOCES ############################## */
+
+    {
+        id: "13",
+        category: "doces",
+        title: "Bolo de Beterraba",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa",
+                        "sem lactose"
+                     ],
+
+        ingredients: [
+                        "2 beterrabas picadas",
+                        "3 ovos",
+                        "suco de 2 limões",
+                        "1 xícara de açúcar",
+                        "1/2 xícara de óleo",
+                        "2 xícaras de chá de farinha de trigo",
+                        "1 colher de sopa de fermento"
+                     ],
+
+        video_embed: "https://www.facebook.com/receitasaprenda/videos/adicionei-3-ovos-na-beterraba/2767891436805914/",
+        resume: `
+                    <br>
+                    Esse bolo é ideal pra vc que adora adicionar vegetais aos seus preparos.
+                    <br><br>
+                    Surpreendentemente gostoso, é uma ótima opção pra não deixar murchar e nem estragar a 
+                    beterraba na geladeira.
+                `,
+        preparo: [
+                    "No liquidificador bata as beterrabas, os ovos, o suco de limões, o óleo e o açúcar",
+                    "Despeje tudo numa travesa e acrescente aos poucos a farinha e o fermento. Misture bem",
+                    "Transfira a mistura para uma forma untada e leve para assar por 40 minutos a 180°"
+                 ],
+        photoCover: "assets/img-capas/mini6.jpg",
+        photoCoverContent: "assets/img-content/bolo-beterraba.jpg"
+    },
+    {
+        id: "14",
+        category: "doces",
+        title: "Broa de Fubá",
+        porcoes: "8",
+        tempo_preparo: "40 minutos",
+        
+        subcategory: [
+                        "lanche"
+                     ],
+
+        ingredients: [
+                        "1 copo de fubá",
+                        "1 copo de leite",
+                        "1/2 copo de óleo",
+                        "1 ovo",
+                        "Erva doce",
+                        "1 copo de açúcar",
+                        "1 copo e 1/2 de farinha de trigo",
+                        "1 pitada de sal",
+                        "1 colher de sopa de fermento"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/18287-broa-de-fuba.html",
+        resume: `
+                    <br><br>
+                    Descubra como fazer broa de milho caseira, com textura macia por dentro e crocante 
+                    por fora. Perfeita para acompanhar refeições ou cafés especiais.
+                    <br><br>
+                `,
+        preparo: [
+                    "Bata no liquidificador todos os ingredientes",
+                    "Leve a assar, em forno previamente aquecido por cerca de 40 a 50 minutos"
+                 ],
+        photoCover: "assets/img-capas/mini12.jpg",
+        photoCoverContent: "assets/img-content/broa-de-milho.jpg"
+    },
+    {
+        id: "15",
+        category: "doces",
+        title: "Chantilly de Chambinho",
+        porcoes: "25",
+        tempo_preparo: "15 minutos",
+        
+        subcategory: [
+                        "cobertura"
+                     ],
+
+        ingredients: [
+                        "1 lata de leite condensado de boa qualidade",
+                        "3 colheres de sopa de tang sabor morango (suco em pó)",
+                        "2 colheres de sopa de emulsificante para sorvete",
+                        "corante alimentício em gel de sua preferência (usei o rosa)"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/161811-cobertura-de-morango-para-cupcakes.html",
+        resume: `
+                    <br><br>
+                    Cremoso e cheio de sabor. uma cobertura de bolo fácil, rápida, muito saborosa e que 
+                    toda família aprova!            
+                    <br><br>
+                `,
+        preparo: [
+                    "Bata todos os ingredientes, na batedeira, por 10 minutos",
+                    "Coloque a mistura em um saco de confeitar, com o bico de sua preferência e cubra os cupcakes"
+                 ],
+        photoCover: "assets/img-capas/mini21.jpg",
+        photoCoverContent: "assets/img-content/chantilly-chambinho.jpg"
+    },
+    {
+        id: "16",
+        category: "doces",
+        title: "Cocada de leite Condensado",
+        porcoes: "30",
+        tempo_preparo: "20 minutos",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "1 lata de leite moça",
+                        "1 pacote de coco",
+                        "2 latas de açúcar"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/3688-cocada.html",
+        resume: `
+                    Super cremosa que tem em todo arraiá! Tenho certeza que vai fazer sucesso na sua festa também.
+                    <br>
+                    Feita de um jeitinho bem simples e rápido. Todo mundo vai conseguir fazer em casa e 
+                    não tem como errar.          
+                    <br>
+                `,
+        preparo: [
+                    "Misture tudo e leve ao fogo baixo até desprender da panela mexendo sempre. Na pia (mármore) deixe esfriar, e corte"
+                 ],
+        photoCover: "assets/img-capas/mini13.jpg",
+        photoCoverContent: "assets/img-content/cocada.jpg"
+    },
+    {
+        id: "17",
+        category: "doces",
+        title: "Bala de Goma",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "1 pacote de gelatina com sabor",
+                        "200ml de água",
+                        "1 pacote de gelatina sem sabor"
+                     ],
+
+        video_embed: "https://www.facebook.com/ReceitaDicaseMuitoMais/videos/212309597406910/",
+        resume: `
+                    <br>
+                    Que tal relembrar os bons tempos e preparar um doce que faz parte da memória? 
+                    Aposte nessa bala de gelatina colorida e açucarada. O preparo é super simples e prático!      
+                    <br>
+                `,
+        preparo: [
+                    "Em uma panela, acrescente a água, a gelatina com sabor e a gelatina sem sabor. Leve ao fogo e deixe até ferver",
+                    "Despeje a mistura em uma forma untada com óleo e leve a geladeira por 12 horas",
+                    "Retire da geladeira e coloque sobre uma superfície açucarada. Jogue açúcar por cima também",
+                    "Corte a balinha com uma tesoura"
+                 ],
+        photoCover: "assets/img-capas/mini34.jpg",
+        photoCoverContent: "assets/img-content/bala-de-goma.jpg"
+    },
+    {
+        id: "18",
+        category: "doces",
+        title: "Bolo de Banana",
+        porcoes: "10",
+        tempo_preparo: "40 minutos",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "3 ovos",
+                        "1 xícara (chá) de leite",
+                        "2 xícaras (chá) de farinha de trigo",
+                        "7 bananas",
+                        "2 xícaras (chá) de açúcar",
+                        "1/2 xícara (chá) de óleo",
+                        "1 colher (sopa) de fermento químico",
+                        "3/4 xícara (chá) de açúcar para a cobertura",
+                        "1/2 xícara (chá) de água quente"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/119737-bolo-de-banana-rapido-de-liquidificador.html",
+        resume: `
+                    <br>
+                    A combinação perfeita entre a praticidade e um sabor único. Esta receita é ideal para 
+                    aqueles momentos em que se deseja preparar algo delicioso sem abrir mão da facilidade 
+                    no preparo.      
+                    <br>
+                `,
+        preparo: [
+                    "Em uma panela, adicione o açúcar e misture até derreter",
+                    "Despeje a água quente e mexa até dissolver o açúcar",
+                    "Deixe engrossar até chegar ao ponto de calda e reserve",
+                    "Para a massa, bata no liquidificador os ovos, o açúcar, o óleo e o leite",
+                    "Acrescente a farinha de trigo aos poucos e continue batendo até obter uma massa lisa e homogênea",
+                    "Adicione por último o fermento e bata na velocidade mínima do liquidificador",
+                    "Unte uma forma média com margarina e farinha",
+                    "Despeje o caramelo e as bananas cortadas no comprimento",
+                    "Leve para assar em forno médio 180º C, preaquecido por aproximadamente 30 minutos"
+                 ],
+        photoCover: "assets/img-capas/mini39.jpg",
+        photoCoverContent: "assets/img-content/bolo-de-banana.png"
+    },
+    {
+        id: "19",
+        category: "doces",
+        title: "Canjica de AMendoim",
+        porcoes: "16",
+        tempo_preparo: "1 hora",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "250 g de milho para canjica",
+                        "1 lata de leite condensado",
+                        "2 xícaras de leite comum",
+                        "3 pauzinhos de canela",
+                        "Canela em pó para polvilhar",
+                        "2 litros de água",
+                        "1 vidro de leite de coco",
+                        "10 cravos da Índia",
+                        "250 g de amendoim torrado e moído grosseiramente"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/15313-canjica-com-amendoim.html",
+        resume: `
+                    <br>
+                    Uma opção perfeita para os amantes de doces de milho e amendoim. Aprenda a preparar 
+                    essa delícia seguindo o nosso passo a passo e surpreenda sua família e amigos com 
+                    essa sobremesa irresistível e cheia de sabor!    
+                    <br>
+                `,
+        preparo: [
+                    "Deixe a canjica de molho na água de um dia para o outro",
+                    "Coloque na panela de pressão e cozinhe por 30 minutos ou até que esteja macia",
+                    "Coloque em outra panela (se necessário, maior) acrescente o leite, o leite de coco, o cravo e a canela",
+                    "Deixe ferver por 10 minutos, mexendo sempre",
+                    "Acrescente o leite condensado mexendo para não grudar, por mais 10 minutos",
+                    "Desligue estando bem cremosa e não seca",
+                    "Acrescente o amendoim passe para uma travessa e polvilhe a canela em pó",
+                    "Sirva morna ou fria"
+                 ],
+        photoCover: "assets/img-capas/mini23.jpg",
+        photoCoverContent: "assets/img-content/canjica-com-amendoim.png"
+    },
+    {
+        id: "20",
+        category: "doces",
+        title: "Chantilly Caseiro",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "cobertura"
+                     ],
+
+        ingredients: [
+                        "1 caixa de creme de leite bem gelado",
+                        "2 colheres de sopa de açúcar",
+                        "1 colher de sopa de emulsificante",
+                     ],
+
+        video_embed: "https://www.youtube.com/watch?v=xBViAN4wFYU",
+        resume: `
+                    <br><br>
+                    Muito prático! Em poucos minutos, você tem um delicioso acompanhamento para diversas sobremesas.     
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma batedeira, coloque o creme de leite, o açúcar e o emulsificante e bata até dar o ponto",
+                 ],
+        photoCover: "assets/img-capas/mini22.jpg",
+        photoCoverContent: "assets/img-content/chantilly-tradicional.png"
+    }
 ]
