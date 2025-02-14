@@ -5,24 +5,22 @@
         momento! De sobremesas clássicas a criações irresistíveis, descubra sabores, 
         texturas e combinações que vão conquistar seu paladar. Prepare-se para momentos de pura doçura!</p>
     </div>
-        <section class="hero-section">
-    <div class="card-grid">
-      
-      <a class="card" href="receita/13">
-        <div class="card__background" style="background-image: url(../../../assets/img-capas/mini6.jpg)"></div>
-      </a>
-      <a class="card" href="receita/14">
-        <div class="card__background" style="background-image: url(../../../assets/img-capas/mini12.jpg)"></div>
-      </a>
-      <a class="card" href="receita/15">
-        <div class="card__background" style="background-image: url(../../../assets/img-capas/mini21.jpg)"></div>
-      </a>
-      
-      <a class="card" href="receita/16">
-        <div class="card__background" style="background-image: url(../../../assets/img-capas/mini13.jpg)"></div>
-      </a>
-    </div>
-  </section>
+    <section class="hero-section">
+      <div class="card-grid">
+        <a class="card" [routerLink]="['/receita', 13]">
+          <div class="card__background" style="background-image: url(../../../assets/img-capas/mini6.jpg)"></div>
+        </a>
+        <a class="card" [routerLink]="['/receita', 14]">
+          <div class="card__background" style="background-image: url(../../../assets/img-capas/mini12.jpg)"></div>
+        </a>
+        <a class="card" [routerLink]="['/receita', 15]">
+          <div class="card__background" style="background-image: url(../../../assets/img-capas/mini21.jpg)"></div>
+        </a>
+        <a class="card" [routerLink]="['/receita', 16]">
+          <div class="card__background" style="background-image: url(../../../assets/img-capas/mini13.jpg)"></div>
+        </a>
+      </div>
+    </section>
  
     <div class="box-button">
       <app-sweet-button></app-sweet-button>
