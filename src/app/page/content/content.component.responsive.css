@@ -1,7 +1,7 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
     body {
-        height: 450vh;
+        height: 400vh;
       }
 
     .container {
