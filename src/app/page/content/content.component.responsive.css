@@ -43,7 +43,7 @@
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     body {
-        height: 430vh;
+        height: 450vh;
       }
 
     .container {
