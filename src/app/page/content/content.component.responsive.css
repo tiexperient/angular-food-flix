@@ -1,7 +1,7 @@
 /* Celular Retrato */
 @media (max-width:600px) and (orientation: portrait) {
     body {
-        height: 520vh;
+        height: 500vh;
       }
 
     .container {
@@ -43,7 +43,7 @@
 /* Celular Paisagem */
 @media (max-width:800px) and (orientation: landscape) {
     body {
-        height: 450vh;
+        height: 470vh;
       }
 
     .container {
