@@ -1128,7 +1128,7 @@ export const dataFake: FoodItem[] = [
         ingredients: [
                         "1 caixa de creme de leite bem gelado",
                         "2 colheres de sopa de açúcar",
-                        "1 colher de sopa de emulsificante",
+                        "1 colher de sopa de emulsificante"
                      ],
 
         video_embed: "https://www.youtube.com/watch?v=xBViAN4wFYU",
@@ -1142,5 +1142,155 @@ export const dataFake: FoodItem[] = [
                  ],
         photoCover: "assets/img-capas/mini22.jpg",
         photoCoverContent: "assets/img-content/chantilly-tradicional.png"
+    },
+    {
+        id: "29",
+        category: "doces",
+        title: "Pipoca Caramelizada",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                     ],
+
+        ingredients: [
+                        "1 xícara de leite",
+                        "50ml de leite",
+                        "1 colher de manteiga",
+                        "1 1/2 xícara de milho para pipoca",
+                        "leite em pó a gosto"
+                     ],
+
+        video_embed: "https://www.facebook.com/receitasrapidas5/videos/467877697645658/?extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C",
+        resume: `
+                    Dourada, sequinha e muito crocante, esta pipoca caramelada também vai estourar na sua casa! 
+                    O modo de preparo é infalível, e garante que o caramelo não queime no fundo da panela. 
+                    Boa pra festas, pro lanche da tarde, pro cineminha… Boa sempre!     
+                    <br>
+                `,
+        preparo: [
+                    "Em uma batedeira, coloque o açúcar para derreter",
+                    "Acrescente o leite e mexa até caramelizar",
+                    "Acrescente a manteira e quando chegar no ponto de caramelo, reserve",
+                    "Faça a pipoca normalmente com o milho",
+                    "Despeje o caramelo por cima da pipoca, misture bem e depois jogue o leite em pó por cima"
+                 ],
+        photoCover: "assets/img-capas/mini30.jpg",
+        photoCoverContent: "assets/img-content/pipoca-caramelizada.png"
+    },
+    {
+        id: "30",
+        category: "doces",
+        title: "Torta de Limão",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "2 pacotes de bolacha Maria",
+                        "3 colheres de sopa de margarina derretida",
+                        "suco de 3 limões",
+                        "2 caixas de creme de leite",
+                        "1 caixa de leite condensado",
+                        "chantilly gelado"
+                     ],
+
+        video_embed: "https://www.facebook.com/cozinhadanayoficial/videos/559433991729370/",
+        resume: `
+                    <br>
+                    A leveza e o frescor do limão combinados com a textura macia do recheio fazem dessa torta uma 
+                    opção perfeita para qualquer ocasião. 
+                    <br><br> 
+                `,
+        preparo: [
+                    "No liquidificador, bata as bolachas em pedaços até que virem uma farofa",
+                    "Transfira para uma tijela, e acrescente a margarina para ficar úmida e forrar o fundo da forma",
+                    "Leve ao forno por 10 minutos",
+                    "A parte, numa travessa, acrescente o creme de leite, o leite condensado, o suco de limões e com um fuê, misture tudo muito bem",
+                    "Despeje sobre a forma com o fundo de biscoitos e finalize com o chantilly",
+                    "Povilhe com raspas de limão"
+                 ],
+        photoCover: "assets/img-capas/mini32.jpg",
+        photoCoverContent: "assets/img-content/torta-de-limao.png"
+    },
+    {
+        id: "31",
+        category: "doces",
+        title: "Bolo de Laranja",
+        porcoes: "12",
+        tempo_preparo: "40 minutos",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "4 ovos",
+                        "1 xícara (chá) de óleo",
+                        "casca de 1 laranja",
+                        "1 colher (sopa) de fermento",
+                        "2 xícaras (chá) de açúcar",
+                        "suco de 2 laranjas",
+                        "2 xícaras (chá) de farinha de trigo"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/13953-bolo-de-laranja.html",
+        resume: `
+                    <br>
+                    Esta receita simples e prática promete conquistar o paladar de todos com seu aroma cítrico e 
+                    sabor inconfundível.
+                    <br><br> 
+                `,
+        preparo: [
+                    "Bata no liquidificador os ovos, o açúcar, o óleo, o suco e a casca da laranja",
+                    "Passe para uma tigela e acrescente a farinha de trigo e o fermento",
+                    "Leve para assar em uma forma com furo central, untada e enfarinhada, por mais ou menos 30 minutos",
+                    "Desenforme o bolo e molhe com suco de laranja"
+                 ],
+        photoCover: "assets/img-capas/mini1.jpg",
+        photoCoverContent: "assets/img-content/bolo-de-laranja.png"
+    },
+    {
+        id: "32",
+        category: "doces",
+        title: "Bala de Coco",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "1 caixa de leite condensado",
+                        "100g de coco ralado",
+                        "2 xícaras de açúcar",
+                        "1 xícara de água",
+                        "2 colheres de sopa de vinagre"
+                     ],
+
+        video_embed: "https://www.facebook.com/ReceitaDicaseMuitoMais/videos/298606238660099/",
+        resume: `
+                    <br>
+                    As Balas de Coco em geral são doces ótimos para completar suas festas, aniversários, 
+                    sobremesas e para alegrar as crianças e dar um sabor adicional para as mesmas.
+                    <br>
+                    Derretem na boca com seu sabor único!
+                    <br> 
+                `,
+        preparo: [
+                    "Em uma panela, despeje o leite condensado, o coco, misture tudo muito bem. Depois leve ao fogo até engrossar ao ponto de brigadeiro",
+                    "Retire do fogo, espalhe num prato e leve a geladeira, para pegar consistência por algumas horas",
+                    "Retire da geladeira w modele as bolinhas",
+                    "A parte, em uma panela, acrescente o açúcar, a água, o vinagre e ferva em fogo baixo para caramelizar, sem usar a colher",
+                    "Retire o caramelo do fogo e despeje num copo, para facilitar",
+                    "Espete as bolinhas e banhe-as no caramelo e depois separe-as para esfriar e secar"
+                 ],
+        photoCover: "assets/img-capas/mini27.jpg",
+        photoCoverContent: "assets/img-content/bala-de-coco.jpg"
     }
 ]
