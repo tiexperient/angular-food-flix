@@ -3,6 +3,10 @@
         .paragraph {
           margin: 10px 5%;
         }
+
+        .ghost-mobile {
+          display: none
+        }
       }
     
       /* Celular Paisagem */

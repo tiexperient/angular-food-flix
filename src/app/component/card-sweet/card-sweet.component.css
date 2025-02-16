@@ -25,6 +25,10 @@
   body{
     height: 100%;
   }
+
+  .ghost-mobile {
+    display: block;
+  }
   
   .container{
     margin-top: 20px;

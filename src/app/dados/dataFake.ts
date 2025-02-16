@@ -54,12 +54,13 @@ export const dataFake: FoodItem[] = [
 
         ingredients: [
                         "500g de feijão carioca",
-                        "200g de peito picado",
+                        "200g de bacon picado",
                         "1 linguiça picada",
                         "1/2 cebola picada",
                         "3 dentes de alho picado",
                         "1 colher chá de páprica picante",
                         "1 colher chá de chimichurri",
+                        "1 colher de sobremesa de sal",
                         "1 beterraba picada",
                         "1 xícara de vargem picada",
                         "1 cenoura picada",
@@ -77,7 +78,7 @@ export const dataFake: FoodItem[] = [
                 `,
         preparo: [
                     "Deixe o feijão de molho por 3 horas e depois escorra",
-                    "Numa panela de pressão refogue o bacon, a linguiça, a cebola, o alho, a páprica picante, o chimichurri, 1 colher pequena de sal e misture tudo muito bem",
+                    "Numa panela de pressão refogue o bacon, a linguiça, a cebola, o alho, a páprica picante, o chimichurri, o sal e misture tudo muito bem",
                     "Acrescente o feijão, misture tudo muito bem e acrescente água até que cubra tudo e deixe cozinhar na pressão por 15 minutos",
                     "Após o cozimento, acrescente aos poucos a beterraba, a vargem, a cenoura, a batata, misturando tudo muito bem. Acrescente mais 1 xícara de água",
                     "Feche a panela e deixe pegar pressão. Bem no início, já retire da pressão e deixe cozinhar por mais 5 minutos",
@@ -511,6 +512,345 @@ export const dataFake: FoodItem[] = [
         photoCover: "assets/img-capas/mini37.jpg",
         photoCoverContent: "assets/img-content/galinhada.png"
     },
+    {
+        id: "21",
+        category: "salgados",
+        title: "Bolo de Carne",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "2 tomates picados",
+                        "500g de batata cortada em cubos",
+                        "1 cebola picada",
+                        "1 pimentão verde picado",
+                        "1 cenoura ralada",
+                        "4 dentes de alho amassados",
+                        "500g de carne moída",
+                        "2 colheres de sopa de extrato de tomate",
+                        "azeite a gosto",
+                        "1 colher de sobremesa de sal",
+                        "1 colher de chá de tempero baiano",
+                        "1 colher de chá de páprica",
+                        "pimenta do reino a gosto",
+                        "1 colher de chá de orégano",
+                        "100ml de água",
+                        "150g de mussarela"
+                     ],
+
+        video_embed: "https://www.facebook.com/ViajandoPelaCulinaria/videos/846117806007321/?extid=NS-UNK-UNK-UNK-AN_GK0T-GK1C",
+        resume: `
+                    <br>
+                    de carne moída é uma receita prática e deliciosa que agrada a todos com seu sabor e apresentação. 
+                    <br>
+                    Uma opção criativa e diferenciada para uma refeição especial ou uma ceia comemorativa.
+                `,
+        preparo: [
+                    "Numa forma, acrescente o tomate, a batata, a cebola, o pimentão, a cenoura, o alho, a carne moída, o extrato de tomate, o azeite, o sal, o tempero baiano, a páprica, a pimenta do reino o orégano e a água e  misture tudo muito bem",
+                    "Depois amasse, para que fique parecendo com um bolo",
+                    "Cubra com papel alumínio, com o lado brilhante virado para baixo",
+                    "Leve ao forno a 180° por 50 minutos",
+                    "Retire o papel alumínio, acrescente a mussarela e retorne ao forno por mais 20 minutos"
+
+                 ],
+        photoCover: "assets/img-capas/mini20.jpg",
+        photoCoverContent: "assets/img-content/bolo-de-carne.png"
+    },
+    {
+        id: "22",
+        category: "salgados",
+        title: "Salada Tropical",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "1/2 repolho picado",
+                        "1 cebola roxa picada",
+                        "2 tomates picados",
+                        "1 manga picada",
+                        "1 cenoura ralada",
+                        "200g de maionese",
+                        "1 caixa de creme de leite",
+                        "1 colher de sopa de mel",
+                        "1 colher de sopa de mostarda",
+                        "suco de 1/2 limão",
+                        "1/2 colher de chá de pimenta do reino"
+                     ],
+
+        video_embed: "https://www.facebook.com/Receitasedicasdevo/videos/174809421225543/?extid=WA-UNK-UNK-UNK-AN_GK0T-GK1C",
+        resume: `
+                    <br>
+                    A salada tropical é uma receita saudável, leve e nutritiva. Sugestão para os dias mais quentes, o prato é refrescante e fica pronta em poucos minutos.
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma travessa, acrescente o repolho, a cebola, os tomates, a manga, a cenoura e  misture tudo muito bem",
+                    "Em outra vasilha, adicione a maionese, o creme de leite, o mel, a mostarda, o suco do limão, a pimenta do reino e misture tudo muito bem",
+                    "Despeje sobre a salada e bom apetite!"
+
+                 ],
+        photoCover: "assets/img-capas/mini33.jpg",
+        photoCoverContent: "assets/img-content/salada-tropical.jpg"
+    },
+    {
+        id: "23",
+        category: "salgados",
+        title: "Creme de Espinafre",
+        porcoes: "10",
+        tempo_preparo: "30 minutos",
+        
+        subcategory: [
+                        "acompanhamento",
+                        "com lactose"
+                     ],
+
+        ingredients: [
+                        "1 maço de espinafre",
+                        "2 colheres de sopa de cebola picada",
+                        "2 xícaras de leite",
+                        "Pitada de noz moscada",
+                        "3 colheres de sopa de manteiga",
+                        "2 colheres de sopa de farinha de trigo",
+                        "1 colher de sopa de parmesão ralado",
+                        "Sal e pimenta do reino"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/11899-creme-de-espinafre.html",
+        resume: `
+                    <br><br>
+                    O creme de espinafre vai bem como guarnição para peixes, carnes e aves, confira esta receita simples e saborosa.
+                    <br><br>
+                `,
+        preparo: [
+                    "Retire as folhas de espinafre e elimine os talos",
+                    "Lave bem, não seque as folhas e coloque para cozinhar em uma panela com tampa, em fogo baixo por cerca de 5 a 10 minutos, ou o suficiente para murchar as folhas",
+                    "Retire do fogo e deixar esfriar",
+                    "Pique grosseiramente e reserve",
+                    "Em outra panela coloque a cebola picada e a manteiga, refogue bem para que a cebola fique murcha e macia",
+                    "Acrescente a farinha de trigo e misture bem, coloque o leite aos poucos e misture, acrescente o espinafre e o queijo ralado, cozinhe até o ponto desejado",
+                    "Tempere com sal e pimenta-do-reino",
+                    "Sirva como guarnição para peixes, carnes e aves"
+                 ],
+        photoCover: "assets/img-capas/mini18.jpg",
+        photoCoverContent: "assets/img-content/creme-de-espinafre.png"
+    },
+    {
+        id: "24",
+        category: "salgados",
+        title: "Creme de Couve",
+        porcoes: "8",
+        tempo_preparo: "20 minutos",
+        
+        subcategory: [
+                        "acompanhamento",
+                        "com lactose"
+                     ],
+
+        ingredients: [
+                        "3 folhas de couve bem picadas",
+                        "1 xícara (chá) de leite",
+                        "1 colher de farinha de trigo",
+                        "Sal a gosto",
+                        "1/2 cebola picada",
+                        "1 xícara (chá) de água",
+                        "2 colheres (sopa) de queijo parmesão ralado",
+                        "2 colheres de azeite"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/96357-creme-de-folha-de-couve.html",
+        resume: `
+                    A couve é um superalimento cheio de benefícios! Rica em fibras, ferro e vitaminas, ela é perfeita para 
+                    fortalecer a imunidade e dar aquele toque nutritivo às refeições.
+                    Nesta receita, transformamos esse ingrediente incrível em um creme delicioso!
+                `,
+        preparo: [
+                    "Refogue no azeite a cebola e as folhas picadas até que a cebola fique transparente",
+                    "Em outra frigideira junte o leite, a água, a farinha de trigo e o queijo ralado, mexa bem até que vire um creme bem encorpado",
+                    "Junte em seguida ainda com o fogo ligado, o refogado e continue mexendo por mais 2 minutos",
+                    "Servir em seguida sobre saladas, carnes ou aves, como preferir"
+                 ],
+        photoCover: "assets/img-capas/mini2.jpg",
+        photoCoverContent: "assets/img-content/creme-de-couve.jpg"
+    },
+    {
+        id: "25",
+        category: "salgados",
+        title: "Omelete de Miojo",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento",
+                        "com lactose"
+                     ],
+
+        ingredients: [
+                        "1 pacote de miojo",
+                        "mussarela a gosto",
+                        "2 ovos",
+                        "chimichurri",
+                        "orégano a gosto",
+                        "sal a gosto",
+                        "margarina para fritar"
+                     ],
+
+        video_embed: "https://www.facebook.com/manualdacozinha/videos/780793405894616/",
+        resume: `
+                    <br><br>
+                    Às vezes, a correria do dia a dia nos deixa sem tempo para um café da manhã nutritivo e saboroso. 
+                    Mas não se preocupe, temos a solução perfeita para você!
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma panela com água, ferva somente o macarrão do miojo e escorra",
+                    "Acrescente o tempero do miojo, o queijo e misture bem",
+                    "Numa tijela parte, coloque os ovos e tempere com chimichurri, orégano, sal e misture tudo muito bem",
+                    "Numa frigideira, coloque a margarina para derreter e acrescente metade da porção de ovos, a porção com macarrão e finalize com o restante da porção de ovos",
+                    "Coloque a tampa e espere o cozimento. Quando puder virar, faça como faria num omelete tradicional e estará pronto"
+                 ],
+        photoCover: "assets/img-capas/mini25.jpg",
+        photoCoverContent: "assets/img-content/omelete-de-miojo.png"
+    },
+    {
+        id: "26",
+        category: "salgados",
+        title: "Maminha de Panela",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "azeite a gosto",
+                        "3 cebolas picadas",
+                        "3 tomates picados",
+                        "4 dentes de alho triturados",
+                        "salsa a gosto",
+                        "páprica a gosto",
+                        "pimenta do reino a gosto",
+                        "1,5 kg de maminha ",
+                        "1 colher de sopa de sal grosso",
+                        "1 cenoura cortada em tiras grandes",
+                        "1 colher de sopa de manteiga",
+                        "1 colher de sopa de amido de milho"
+                     ],
+
+        video_embed: "https://www.facebook.com/receitasbraziloficial/videos/1451532441877627/",
+        resume: `
+                    <br><br>
+                    Às vezes, a correria do dia a dia nos deixa sem tempo para um café da manhã nutritivo e saboroso. 
+                    Mas não se preocupe, temos a solução perfeita para você!
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma panela de pressão, acrescente o azeite, a cebola, o tomate, o alho, a salsa, a páprica, a pimenta do reino e misture tudo muito bem",
+                    "Acrescente a carne, o sal grosso, água e deixe cozinhar por 30 minutos",
+                    "Acrescente a cenoura e deixe cozinhar por mais 10 minutos",
+                    "Retire o caldo, passe pelo coador e coloque o líquido numa panela com a manteiga e o amido de milho. Mecha até formar uma calda",
+                    "Despeje a calda sobre a carne"
+                 ],
+        photoCover: "assets/img-capas/mini38.jpg",
+        photoCoverContent: "assets/img-content/maminha-de-panela.jpg"
+    },
+    {
+        id: "27",
+        category: "salgados",
+        title: "Bolo Salgado",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                     ],
+
+        ingredients: [
+                        "3 ovos",
+                        "½ xícara de óleo",
+                        "1 colher de chá de sal",
+                        "2 xícaras de farinha de trigo",
+                        "½ xícara de amido de milho",
+                        "1 xícara de leite",
+                        "1 colher de sopa de fermento",
+                        "200g de presunto picado",
+                        "200g de mussarela picada",
+                        "salsa a gosto",
+                        "1 tomate picado",
+                     ],
+
+        video_embed: "https://www.facebook.com/tudonapanelaofc/videos/n%C3%A3o-fa%C3%A7a-bolo-antes-de-ver-essa-receita/1222209998181168/",
+        resume: `
+                    <br><br>
+                    Um Bolo Salgado muito fácil e rápido de fazer!
+                    <br><br>
+                `,
+        preparo: [
+                    "Numa travessa, despeje os ovos, o óleo, o leite, a farinha de trigo, o fermento, o sal, o amido e misture tudo muito bem",
+                    "por último, acrescente parte do presunto, do queijo, da salsa e metade do tomate picado",
+                    "Despeje o preparo numa forma untada e por cima coloque um pouco de presunto, queijo, salsa e o tomate que sobrou",
+                    "Leve ao forno pré-aquecido a 180° por 40 minutos"
+                 ],
+        photoCover: "assets/img-capas/mini17.jpg",
+        photoCoverContent: "assets/img-content/bolo-salgado.jpg"
+    },
+    {
+        id: "28",
+        category: "salgados",
+        title: "Bolinho de Feijão",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "petisco"
+                     ],
+
+        ingredients: [
+                        "2 xícaras de feijão pré cozido e amassado",
+                        "açafrão a gosto",
+                        "ervas finas a gosto",
+                        "salsa desidratada",
+                        "sal a gosto",
+                        "pimenta do reino a gosto",
+                        "2 dentes de alho amassado",
+                        "1/2 cebola picada",
+                        "1 cenoura ralada",
+                        "cheiro verde a gosto",
+                        "2 xícaras de farinha de rosca ou até dar o ponto"
+                     ],
+
+        video_embed: "https://www.facebook.com/paginadevo/videos/803650743685918/?extid=WA-UNK-UNK-UNK-AN_GK0T-GK1C",
+        resume: `
+                    <br><br>
+                    Saboroso e levemente crocante, ele marca o paladar como se fosse uma viagem ao Brasil em apenas uma mordida.
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma tijela. acrescente o feijão, o açafrão, as ervas finas, a salsa desidratada, o sal e misture tudo muito bem",
+                    "Acrescente o alho, a cebola, a cenoura, o cheiro verde e continue a misturar",
+                    "Por fim, acrescente a farinha de rosca aos poucos, até chegar ao ponto de bolinhas",
+                    "Leve para fritar em óleo quente"
+                 ],
+        photoCover: "assets/img-capas/mini14.jpg",
+        photoCoverContent: "assets/img-content/bolinho-de-feijao.jpg"
+    },
+
+
+
+
+
+
+
+
+
 
     /* ############################## RECEITAS DOCES ############################## */
 
