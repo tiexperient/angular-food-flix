@@ -11,7 +11,7 @@ export const dataFake: FoodItem[] = [
         subcategory: [
                         "com lactose",
                         "massas",
-                        "árabe"
+                        "culinária árabe"
                      ],
 
         ingredients: [
@@ -842,7 +842,328 @@ export const dataFake: FoodItem[] = [
         photoCover: "assets/img-capas/mini14.jpg",
         photoCoverContent: "assets/img-content/bolinho-de-feijao.jpg"
     },
+    {
+        id: "33",
+        category: "salgados",
+        title: "Yakisoba Fácil",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição",
+                        "culinária japonesa"
+                     ],
 
+        ingredients: [
+                        "500g de carne picada",
+                        "2 alhos picados para a carne",
+                        "sal a gosto",
+                        "pimenta do reino a gosto",
+                        "suco de 1 limão",
+                        "1 cenoura em tiras",
+                        "2 alhos picados para a cenoura",
+                        "1/2 pimentão vermelho",
+                        "1/2 pimentão amarelo",
+                        "200g de repolho picado",
+                        "1 cebola em tiras",
+                        "350ml de shoyo",
+                        "1 brócolis cozido",
+                        "macarrão para yakisoba cozido"
+                     ],
+
+        video_embed: "https://www.facebook.com/superreceitasdapaty/videos/556993592141574/",
+        resume: `
+                    <br>
+                    É um clássico nos restaurantes orientais e conquistou paladares em todo o mundo. Agora, 
+                    você terá a oportunidade de preparar sua própria versão deliciosa desse prato tão apreciado!
+                `,
+        preparo: [
+                    "Em uma panela com azeite, coloque a carne para refogar com o alho, o sal, a pimenta do reino e o suco de limão. Reserve",
+                    "Refogue a cenoura com o alho, o pimentão vermelho, o pimentão amarelo, o repolho, a cebola e um pouco do shoyo. Misture bem",
+                    "Acrescente a carne, um pouco mais de shoyo, o brócolis, o macarrão, o restante do shoyo, misturando tudo muito bem"
+                 ],
+        photoCover: "assets/img-capas/mini44.jpg",
+        photoCoverContent: "assets/img-content/yakisoba-facil.jpg"
+    },
+    {
+        id: "34",
+        category: "salgados",
+        title: "Quibe de Forno",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche",
+                        "culinária árabe"
+                     ],
+
+        ingredients: [
+                        "500g de farinha de quibe",
+                        "750g de carne moída",
+                        "1 cebola grande picada",
+                        "cheiro verde picada a gosto",
+                        "alecrim a gosto",
+                        "queijo cheddar a gosto",
+                        "400g de mussarela",
+                        "150g de azeitonas",
+                        "1 lata de milho verde",
+                        "azeite a gosto"
+                     ],
+
+        video_embed: "https://www.youtube.com/watch?app=desktop&v=Z3a6CPluM1E&feature=youtu.be",
+        resume: `
+                    <br>
+                    Uma ótima opção de refeição, de lanche, fica super gostoso, bem suculento e o preparo é bem fácil.
+                `,
+        preparo: [
+                    "Hidrate a farinha de quibe por 3 horas, conforme as instruções",
+                    "Na sequência, acrescente a carne, a cebola, o cheiro verde, o azeite e misture tudo muito bem",
+                    "Separe a mistura em 2 camadas. A primeira camada irá forrar a forma já untada. Coloque mussarela, cheddar, azeitona e milho por cima",
+                    "Acrescente a segunda camada e leve ao forno por 45 minutos",
+                 ],
+        photoCover: "assets/img-capas/mini42.jpg",
+        photoCoverContent: "assets/img-content/quibe-de-forno.jpg"
+    },
+    {
+        id: "35",
+        category: "salgados",
+        title: "Lanche Rápido",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                     ],
+
+        ingredients: [
+                        "4 salsichas pré-cozidas",
+                        "2 fatias de tomate",
+                        "2 ovos",
+                        "40ml de leite",
+                        "1 pitada de sal",
+                        "pimenta do reino a gosto",
+                        "2 fatias de pão",
+                        "margarina",
+                        "2 fatias de queijo",
+                        "orégano a gosto"
+                     ],
+
+        video_embed: "https://www.facebook.com/aprediacozinhar/videos/355479439306034/",
+        resume: `
+                    <br>
+                    Uma lanche rápido, delicioso e simples de fazer.
+                    <br><br>
+                `,
+        preparo: [
+                    "Corte a ponta das salsichas e corte-as ao meio também",
+                    "Numa tijela, acrescente os ovos, o leite, o sal, a pimenta do reino e com um fuê, acrescente tudo muito bem",
+                    "Passe margarina nos dois lados do pão e doure-os numa frigideira quente",
+                    "Acrescente as salsichas nas laterais e jogue os ovos por cima",
+                    "Acrescente os tomates e as duas fatias de queijo. Tampe a panela para que o queijo derreta",
+                    "Em seguida, acrescente orégano e corte o lanche ao meio e dobre"
+                 ],
+        photoCover: "assets/img-capas/mini40.jpg",
+        photoCoverContent: "assets/img-content/lanche.png"
+    },
+    {
+        id: "36",
+        category: "salgados",
+        title: "Xica Doida",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche",
+                        "culinária goiana"
+                     ],
+
+        ingredients: [
+                        "",
+                     ],
+
+        video_embed: "https://www.facebook.com/Receitasedicasdevo/videos/552394192791254/",
+        resume: `
+                    Uma receita que faz parte da culinária de Goiás e foi criada em Quirinópolis, 
+                    há mais de 60 anos, por Dona Petronilha e o marido, João. O prato ganhou título de patrimônio 
+                    cultural e imaterial de Goiás e não pode faltar na Festa Junina da região.
+                    <br>
+                `,
+        preparo: [
+                    "",
+                 ],
+        photoCover: "assets/img-capas/mini35.jpg",
+        photoCoverContent: "assets/img-content/xica-doida.jpg"
+    },
+    {
+        id: "37",
+        category: "salgados",
+        title: "Arroz com Linguiça",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição"
+                     ],
+
+        ingredients: [
+                        "1 colher de óleo",
+                        "2 dentes de alho triturados",
+                        "1 1/2 de arroz cru",
+                        "1 cenoura ralada",
+                        "1/2 repolho",
+                        "sal a gosto",
+                        "1 tomate picado",
+                        "1 linguiça calabresa em rodelas",
+                        "3 salsichas em rodelas",
+                        "1 cebola picada",
+                        "1/2 pimentão picado",
+                        "cheiro verde a gosto"
+                     ],
+
+        video_embed: "https://www.facebook.com/receitashowdebolaoficial/videos/297987971713718/",
+        resume: `
+                    <br>
+                    Se você esta procurando uma refeição completa, então venha aprender a preparar esse arroz com linguiça.
+                    <br><br>
+                `,
+        preparo: [
+                    "Numa panela, coloque o óleo para fritar o alho. Acrescente também o arroz",
+                    "Em seguida, coloque a cenoura, o repolho e coloque água até cobrir e adicione o sal",
+                    "Após uns 5 minutos de fervura, acrescente o tomate e misture",
+                    "Enquanto o arroz cozinha, em uma panela, frite a linguiça, as salsichas, a cebola, o pimentão e o cheiro verde. Despeje tudo sobre o arroz", 
+                 ],
+        photoCover: "assets/img-capas/mini29.jpg",
+        photoCoverContent: "assets/img-content/arroz-com-linguica.png"
+    },
+    {
+        id: "38",
+        category: "salgados",
+        title: "Salada de Grão de Bico",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "1 cenoura picada",
+                        "vargem picada a gosto",
+                        "500g de grão de bico cozido e escorrido",
+                        "2 tomates picados",
+                        "1 cebola picada",
+                        "50g de ervilha",
+                        "50g de milho verde",
+                        "100g de azeitona sem caroço",
+                        "cheiro verde a gosto",
+                        "pimenta do reino a gosto",
+                        "orégano a gosto",
+                        "azeite a gosto",
+                        "ovos de codorna a gosto"
+                     ],
+
+        video_embed: "https://www.facebook.com/FazReceitas/videos/236541944874836/",
+        resume: `
+                    <br>
+                    Aprenda a preparar esta receita de saladas de grão-de-bico e surpreenda-se com o resultado!
+                    <br><br>
+                `,
+        preparo: [
+                    "Cozinhe a cenoura e a vargem a vapor",
+                    "Numa travessa, acrescente o grão de bico, a cenoura, a vargem, o tomate, a cebola, a ervilha, o milho verde, as azeitonas e misture tudo muito bem",
+                    "Acrescente sal, o cheiro verde, a pimenta do reino, o orégano e continue a misturar",
+                    "Finalize colocando os ovos de codorna por cima"
+                 ],
+        photoCover: "assets/img-capas/mini41.jpg",
+        photoCoverContent: "assets/img-content/salada-de-grao-de-bico.png"
+    },
+    {
+        id: "39",
+        category: "salgados",
+        title: "Creme de Milho",
+        porcoes: "4",
+        tempo_preparo: "20 minutos",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "1 lata de milho",
+                        "1 colher (sopa) de manteiga",
+                        "1 tablete de caldo de legumes",                        
+                        "2 colheres (sopa) de farinha de trigo",
+                        "1 e 1/2 xícara (chá) de leite",
+                        "1 cebola média ralada",
+                        "1 lata de creme de leite"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/6662-creme-de-milho.html",
+        resume: `
+                    O creme de milho é um acompanhamento incrível e fácil de fazer, que encanta a cada garfada ou 
+                    colherada e combina com vários pratos diferentes. Com passos e ingredientes simples, você vai preparar um prato cheio de suavidade e um sabor marcante.
+                    <br>
+                `,
+        preparo: [
+                    "No liquidificador, bata o milho e o leite e reserve",
+                    "Em uma panela, aqueça a manteiga, junte a cebola e refogue um pouco",
+                    "Adicione a farinha de trigo e mexa rapidamente",
+                    "Deixe dourar e misture o milho batido com o leite ao caldo",
+                    "Mexa até dissolvê-lo completamente e cozinhe por cerca de 10 minutos, até obter uma consistência cremosa",
+                    "Acrescente o creme de leite, mexa e desligue o fogo"
+                 ],
+        photoCover: "assets/img-capas/mini15.jpg",
+        photoCoverContent: "assets/img-content/creme-de-milho.jpg"
+    },
+    {
+        id: "40",
+        category: "salgados",
+        title: "Feijão com Bucho",
+        porcoes: "8",
+        tempo_preparo: "40 minutos",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "2 kg de bucho bovino",
+                        "500 g de feijão branco",
+                        "2 cebola",
+                        "1 cabeça de alho",
+                        "Colorífico a gosto",
+                        "Sal a gosto",
+                        "Coentro a gosto",
+                        "6 limão",
+                        "2 tomates sem casca e picados",
+                        "500 g de lingüiça toscana em cubos médios",
+                        "2 folhas de louro",
+                        "1 colher (sopa) de páprica picante",
+                        "Azeite a gosto"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/17910-dobradinha-com-feijao-branco.html",
+        resume: `
+                    <br>
+                    A dobradinha com feijão branco é um prato tradicional da culinária brasileira.  
+                    <br><br>
+                `,
+        preparo: [
+                    "Deixe o feijão branco de molho, de véspera",
+                    "Cozinhe o feijão branco na água com 1 cabeça de alho inteira sem descascar, folha de louro e sal, até amolecer, sem desmanchar (cerca de 20 minutos) - reserve",
+                    "Retire toda gordura do bucho e corte em tiras",
+                    "Coloque dentro de um recipiente e lave várias vezes na água",
+                    "Em seguida esprema todo o limão (com a casca) dentro da última água e espere uns 10 minutos",
+                    "A seguir, escalde o bucho em água quente pelo menos por 3 vezes",
+                    "Pegue uma panela de pressão; coloque água, o bucho, 1 cebola inteira descascada, louro e sal",
+                    "Feche a panela e leve para cozinhar por uns 15 minutos ou até o bucho ficar macio",
+                    "Em outra panela aqueça o azeite frite a lingüiça, acrescente 1 cebola picada, colorante alimentício, páprica, o coentro e o tomate",
+                    "Para finalizar, escorra o bucho e junte ao feijão branco e o refogado da lingüiça",
+                    "Deixe apurar por mais uns 10 minutos para pegar gosto"
+                 ],
+        photoCover: "assets/img-capas/mini31.jpg",
+        photoCoverContent: "assets/img-content/feijao-com-bucho.png"
+    },
 
 
 
