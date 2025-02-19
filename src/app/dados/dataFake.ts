@@ -1,6 +1,7 @@
 import { FoodItem } from '../model/food.module';
 
 export const dataFake: FoodItem[] = [
+    /* ############################## RECEITAS SALGADAS ############################## */
     {
         id: "1",
         category: "salgados",
@@ -513,7 +514,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/galinhada.png"
     },
     {
-        id: "21",
+        id: "13",
         category: "salgados",
         title: "Bolo de Carne",
         porcoes: "",
@@ -561,7 +562,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/bolo-de-carne.png"
     },
     {
-        id: "22",
+        id: "14",
         category: "salgados",
         title: "Salada Tropical",
         porcoes: "",
@@ -601,7 +602,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/salada-tropical.jpg"
     },
     {
-        id: "23",
+        id: "15",
         category: "salgados",
         title: "Creme de Espinafre",
         porcoes: "10",
@@ -643,7 +644,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/creme-de-espinafre.png"
     },
     {
-        id: "24",
+        id: "16",
         category: "salgados",
         title: "Creme de Couve",
         porcoes: "8",
@@ -681,7 +682,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/creme-de-couve.jpg"
     },
     {
-        id: "25",
+        id: "17",
         category: "salgados",
         title: "Omelete de Miojo",
         porcoes: "",
@@ -720,7 +721,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/omelete-de-miojo.png"
     },
     {
-        id: "26",
+        id: "18",
         category: "salgados",
         title: "Maminha de Panela",
         porcoes: "",
@@ -763,7 +764,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/maminha-de-panela.jpg"
     },
     {
-        id: "27",
+        id: "19",
         category: "salgados",
         title: "Bolo Salgado",
         porcoes: "",
@@ -803,7 +804,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/bolo-salgado.jpg"
     },
     {
-        id: "28",
+        id: "20",
         category: "salgados",
         title: "Bolinho de Feijão",
         porcoes: "",
@@ -843,7 +844,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/bolinho-de-feijao.jpg"
     },
     {
-        id: "33",
+        id: "21",
         category: "salgados",
         title: "Yakisoba Fácil",
         porcoes: "",
@@ -886,7 +887,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/yakisoba-facil.jpg"
     },
     {
-        id: "34",
+        id: "22",
         category: "salgados",
         title: "Quibe de Forno",
         porcoes: "",
@@ -925,7 +926,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/quibe-de-forno.jpg"
     },
     {
-        id: "35",
+        id: "23",
         category: "salgados",
         title: "Lanche Rápido",
         porcoes: "",
@@ -966,7 +967,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/lanche.png"
     },
     {
-        id: "36",
+        id: "24",
         category: "salgados",
         title: "Xica Doida",
         porcoes: "",
@@ -995,7 +996,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/xica-doida.jpg"
     },
     {
-        id: "37",
+        id: "25",
         category: "salgados",
         title: "Arroz com Linguiça",
         porcoes: "",
@@ -1036,7 +1037,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/arroz-com-linguica.png"
     },
     {
-        id: "38",
+        id: "26",
         category: "salgados",
         title: "Salada de Grão de Bico",
         porcoes: "",
@@ -1078,7 +1079,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/salada-de-grao-de-bico.png"
     },
     {
-        id: "39",
+        id: "27",
         category: "salgados",
         title: "Creme de Milho",
         porcoes: "4",
@@ -1116,7 +1117,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/creme-de-milho.jpg"
     },
     {
-        id: "40",
+        id: "28",
         category: "salgados",
         title: "Feijão com Bucho",
         porcoes: "8",
@@ -1164,19 +1165,94 @@ export const dataFake: FoodItem[] = [
         photoCover: "assets/img-capas/mini31.jpg",
         photoCoverContent: "assets/img-content/feijao-com-bucho.png"
     },
+    {
+        id: "29",
+        category: "salgados",
+        title: "Fricassê de Frango",
+        porcoes: "5",
+        tempo_preparo: "30 minutos",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
 
+        ingredients: [
+                        "1 lata de creme de leite",
+                        "1 copo de requeijão cremoso",
+                        "2 peitos de frango desfiados",
+                        "100 g de batata palha",
+                        "1 pitada de sal",
+                        "1 lata de milho verde",
+                        "100 g de azeitona sem caroço",
+                        "200 g de mussarela fatiada",
+                        "1 xícara de água"
+                     ],
 
+        video_embed: "https://www.tudogostoso.com.br/receita/10254-fricasse-de-frango.html",
+        resume: `
+                    <br>
+                    Bora aprender uma receita de fricassê de frango fácil? Essa receita é muito prática 
+                    porque é feita com auxílio do liquidificador.
+                    <br><br>
+                `,
+        preparo: [
+                    "Bata no liquidificador o milho, o requeijão, o creme de leite e a água",
+                    "Refogue o creme do liquidificador com o frango desfiado, as azeitonas e o sal até ficar com uma textura espessa",
+                    "Coloque o refogado numa assadeira, cubra com mussarela e espalhe a batata palha por cima",
+                    "Leve ao forno até borbulhar",
+                    "Sirva com arroz branco."
+                 ],
+        photoCover: "assets/img-capas/mini45.jpg",
+        photoCoverContent: "assets/img-content/fricasse-frango.png"
+    },
+    {
+        id: "30",
+        category: "salgados",
+        title: "Omelete Saudável",
+        porcoes: "2",
+        tempo_preparo: "20 minutos",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
 
+        ingredients: [
+                        "5 ovos",
+                        "2 colheres (sopa) de farinha de trigo",
+                        "1 colher (café) de fermento em pó",
+                        "1/2 pimentão verde picado",
+                        "1 cenoura cozida em cubos",
+                        "1 tomate sem sementes picado",
+                        "1/2 lata de ervilha escorrida",
+                        "1/2 lata de milho verde escorrido",
+                        "1 xícara (chá) de queijo mussarela em cubos",
+                        "Sal a gosto",
+                        "Manteiga para untar"
+                     ],
 
+        video_embed: "https://guiadacozinha.com.br/receitas/omelete-saudavel-de-legumes/",
+        resume: `
+                    <br>
+                    Para preparar esta receita de omelete saudável de legumes, você só precisa misturar os 
+                    ingredientes e fritar. Uma mistura deliciosa e perfeita para um jantar rápido, saboroso e fit!
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma tigela, bata os ovos, a farinha e o fermento até ficar aerado",
+                    "Depois, junte o pimentão, a cenoura, o tomate, a ervilha, o milho e a mussarela e misture",
+                    "Para finalizar, tempere com sal e despeje em uma frigideira antiaderente untada, em fogo baixo, até dourar dos dois lados. Sirva"
 
-
+                 ],
+        photoCover: "assets/img-capas/mini36.jpg",
+        photoCoverContent: "assets/img-content/omelete-saudavel.jpg"
+    },
+    /* ######################### END RECEITAS SALGADAS ############################ */
 
 
 
     /* ############################## RECEITAS DOCES ############################## */
-
     {
-        id: "13",
+        id: "31",
         category: "doces",
         title: "Bolo de Beterraba",
         porcoes: "",
@@ -1214,7 +1290,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/bolo-beterraba.jpg"
     },
     {
-        id: "14",
+        id: "32",
         category: "doces",
         title: "Broa de Fubá",
         porcoes: "8",
@@ -1251,7 +1327,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/broa-de-milho.jpg"
     },
     {
-        id: "15",
+        id: "33",
         category: "doces",
         title: "Chantilly de Chambinho",
         porcoes: "25",
@@ -1283,7 +1359,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/chantilly-chambinho.jpg"
     },
     {
-        id: "16",
+        id: "34",
         category: "doces",
         title: "Cocada de leite Condensado",
         porcoes: "30",
@@ -1314,7 +1390,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/cocada.jpg"
     },
     {
-        id: "17",
+        id: "35",
         category: "doces",
         title: "Bala de Goma",
         porcoes: "",
@@ -1347,7 +1423,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/bala-de-goma.jpg"
     },
     {
-        id: "18",
+        id: "36",
         category: "doces",
         title: "Bolo de Banana",
         porcoes: "10",
@@ -1392,7 +1468,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/bolo-de-banana.png"
     },
     {
-        id: "19",
+        id: "37",
         category: "doces",
         title: "Canjica de AMendoim",
         porcoes: "16",
@@ -1436,7 +1512,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/canjica-com-amendoim.png"
     },
     {
-        id: "20",
+        id: "38",
         category: "doces",
         title: "Chantilly Caseiro",
         porcoes: "",
@@ -1465,7 +1541,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/chantilly-tradicional.png"
     },
     {
-        id: "29",
+        id: "39",
         category: "doces",
         title: "Pipoca Caramelizada",
         porcoes: "",
@@ -1501,7 +1577,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/pipoca-caramelizada.png"
     },
     {
-        id: "30",
+        id: "40",
         category: "doces",
         title: "Torta de Limão",
         porcoes: "",
@@ -1539,7 +1615,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/torta-de-limao.png"
     },
     {
-        id: "31",
+        id: "41",
         category: "doces",
         title: "Bolo de Laranja",
         porcoes: "12",
@@ -1576,7 +1652,7 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/bolo-de-laranja.png"
     },
     {
-        id: "32",
+        id: "42",
         category: "doces",
         title: "Bala de Coco",
         porcoes: "",
@@ -1613,5 +1689,164 @@ export const dataFake: FoodItem[] = [
                  ],
         photoCover: "assets/img-capas/mini27.jpg",
         photoCoverContent: "assets/img-content/bala-de-coco.jpg"
+    },
+    {
+        id: "43",
+        category: "doces",
+        title: "Pudim de Chocolate",
+        porcoes: "10",
+        tempo_preparo: "2 porções",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "1 caixa de leite condensado",
+                        "1 caixa de leite (mesma medida da caixa de leite condensado",
+                        "chocolate em pó a gosto",
+                        "1 caixa de creme de leite",
+                        "1 pacotinho de gelatina sem sabor"
+
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/197605-pudim-de-chocolate-de-geladeira.html",
+        resume: `
+                    <br>
+                    O pudim de chocolate é com certeza a sobremesa perfeita para a sua noite. 
+                    Delicioso e com gostinho de quero mais!
+                    <br><br> 
+                `,
+        preparo: [
+                    "Bata no liquidificador o leite condensado, o creme de leite e o leite",
+                    "Coloque o chocolate aos poucos com o liquidificador ainda ligado; quanto mais chocolate, mais escuro e com sabor mais forte ficará",
+                    "Dilua a gelatina sem sabor de acordo com as instruções no verso do pacote",
+                    "Após, bata a gelatina no liquidificador junto aos demais ingredientes",
+                    "Coloque tudo em uma forma para pudim de plástico e leve à geladeira por no mínimo 3 horas",
+                    "Desenforme e sirva-se"
+
+                 ],
+        photoCover: "assets/img-capas/mini28.jpg",
+        photoCoverContent: "assets/img-content/pudim-chocolate.jpg"
+    },
+    {
+        id: "44",
+        category: "doces",
+        title: "Pipoca Doce",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                     ],
+
+        ingredients: [
+                        "4 colheres de açúcar",
+                        "4 colheres de água",
+                        "4 colheres de milho",
+                        "3 colheres de óleo",
+                        "leite ninho a gosto"
+
+                     ],
+
+        video_embed: "https://www.youtube.com/watch?v=oriJZOs5x64",
+        resume: `
+                    <br>
+                    Procurando uma receita doce para assistir seu filme favorito? Confira essa receita fácil e 
+                    diferente de pipoca com leite em pó.
+                    <br><br> 
+                `,
+        preparo: [
+                    "Misture tudo com fogo ligado até formar um caramelo e as pipocas começarem a estourar",
+                    "Coloque leite ninho por cima"
+
+
+                 ],
+        photoCover: "assets/img-capas/mini24.jpg",
+        photoCoverContent: "assets/img-content/pipoca-doce.jpg"
+    },
+    {
+        id: "45",
+        category: "doces",
+        title: "Sobremesa de Banana",
+        porcoes: "12",
+        tempo_preparo: "15 minutos",
+        
+        subcategory: [
+                        "sobremesa"
+                     ],
+
+        ingredients: [
+                        "8 bananas",
+                        "1/2 xícara de água",
+                        "1 xícara de açúcar",
+                        "1 lata de leite condensado",
+                        "3 gemas",
+                        "1 colher de sobremesa de baunilha",
+                        "1 lata de leite comum",
+                        "2 colheres de sopa de amido de milho",
+                        "3 claras",
+                        "3 colheres de sopa de açúcar"
+                     ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/13974-sobremesa-deliciosa-de-banana.html",
+        resume: `
+                    <br>
+                    A sobremesa de banana combina camadas de caramelo cremoso, creme e merengue suíço. 
+                    É a receita ideal para servir em ocasiões especiais com a família.
+                    <br><br> 
+                `,
+        preparo: [
+                    "Levar ao fogo o açúcar até dourar juntar a água e mexer até derreter",
+                    "Juntar as bananas deixar cozinhar até dourar, mas sem desmanchar e passar para um refratário",
+                    "Levar ao fogo os ingredientes do creme e colocar sobre as bananas bater as claras em neve com o açúcar e colocar em cima",
+                    "Levar ao forno para corar por 15 minutos",
+                    "Servir gelado ou morno de qualquer maneira é uma delícia"
+                 ],
+        photoCover: "assets/img-capas/mini43.jpg",
+        photoCoverContent: "assets/img-content/sobremesa-banana.png"
+    },
+    {
+        id: "46",
+        category: "doces",
+        title: "Pudim de Frutas",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "250g de morangos",
+                        "200g de uvas cortadas ao meio",
+                        "1 banana em rodelas",
+                        "1 maçã picada com casca",
+                        "10 colheres de sopa de água",
+                        "2 pacotes de gelatina sem sabor",
+                        "2 caixas de creme de leite",
+                        "1 caixa de leite condensado"
+                    ],
+
+        video_embed: "https://www.facebook.com/receitariadathai/videos/210236093819875/",
+        resume: `
+                    <br>
+                    O pudim de frutas é uma sobremesa saudável e deliciosa, tem uma bela apresentação e vai dar um 
+                    colorido especial para a sua mesa. Ideal para servir bem gelado após uma de suas refeições, 
+                    essa gostosura vai deixar todos com água na boca!
+                    <br>
+                `,
+        preparo: [
+                    "Retire o talo dos morangos e corte-os ao meio",
+                    "Reserve as frutas",
+                    "Num refratário, hidrate a gelatina e reserve",
+                    "No liquidificador, adicione o creme de leite, o leite condensado e deixe bater por 1 ou 2 minutos",
+                    "Feito isso acrescente a gelatina sem sabor, que foi levada ao microondas para derreter por 25 segundos e deixe bater por mais 1 minuto",
+                    "Numa forma untada com óleo, acrescente as frutas e a calda. Cubra todas as frutas",
+                    "Leve a geladeira por no mínimo 3 horas"
+                ],
+        photoCover: "assets/img-capas/mini8.jpg",
+        photoCoverContent: "assets/img-content/pudim-de-frutas.jpg"
     }
+    /* ######################### END RECEITAS DOCES ############################ */
 ]
