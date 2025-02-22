@@ -1246,6 +1246,48 @@ export const dataFake: FoodItem[] = [
         photoCover: "assets/img-capas/mini36.jpg",
         photoCoverContent: "assets/img-content/omelete-saudavel.jpg"
     },
+    {
+        id: "47",
+        category: "salgados",
+        title: "Creme de Abóbora",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição"
+                     ],
+
+        ingredients: [
+                        "1 abóbora cabotia cebola",
+                        "1,5 kg de carne",
+                        "2 tomates picados",
+                        "1 cebola picada",
+                        "200g de bacon picado",
+                        "água até cobrir",
+                        "pimenta do reino a gosto",
+                        "páprica a gosto",
+                        "sal a gosto "
+                     ],
+
+        video_embed: "https://www.instagram.com/p/C9IrCctyPvv/",
+        resume: `
+                    <br>
+                    O creme de abóbora é uma opção deliciosa e aconchegante, ideal para esquentar os 
+                    dias mais frios ou para ser servido como uma entrada sofisticada em ocasiões especiais.
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma panela, coloque o bacon para dourar e em seguida acrescente a cebola",
+                    "Corte a carne em pedaços e acrescente a fritura para refogar",
+                    "Acrescente o tomate, a páprica, a pimenta do reino, a água e deixe cozinhar por 30 minutos",
+                    "Passado esse tempo, desfie a carne e reserve",
+                    "A parte, cozinhe a abóbora e leve ao liquidificador até virar um purê",
+                    "Leve para a panela e adicione uma caixa de leite condensado e sal",
+                    "Finalize com a cebolinha"
+                 ],
+        photoCover: "assets/img-capas/mini47.jpg",
+        photoCoverContent: "assets/img-content/creme-abobora.jpg"
+    },
     /* ######################### END RECEITAS SALGADAS ############################ */
 
 
