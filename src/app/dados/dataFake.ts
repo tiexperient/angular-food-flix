@@ -1889,6 +1889,42 @@ export const dataFake: FoodItem[] = [
                 ],
         photoCover: "assets/img-capas/mini8.jpg",
         photoCoverContent: "assets/img-content/pudim-de-frutas.jpg"
+    },
+    {
+        id: "48",
+        category: "doces",
+        title: "Panqueca de Banana",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição"
+                    ],
+
+        ingredients: [
+                        "2 ovos",
+                        "2 bananas",
+                        "3 colheres de aveia",
+                        "mel a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DCMhZ_BxooN/",
+        resume: `
+                    <br>
+                    Chegou a vez de fazer a panqueca de banana que leva apenas quatro ingredientes e vai muito bem com um 
+                    leite ou chá quente.
+                    <br>
+                `,
+        preparo: [
+                    "Amasse as duas bananas",
+                    "A parte, misture bem os dois ovos",
+                    "misture os ovos com a banana e acrescente a aveia",
+                    "Leve tudo a uma frigideira untada com manteiga e tampe",
+                    "Deixe cozinhar, vire e deixe o outro lado cozinhando por mais 2 minutos",
+                    "Retire do fogo e jogue mel por cima",
+                ],
+        photoCover: "assets/img-capas/mini48.jpg",
+        photoCoverContent: "assets/img-content/panqueca-banana.png"
     }
     /* ######################### END RECEITAS DOCES ############################ */
 ]
