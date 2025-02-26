@@ -1466,6 +1466,151 @@ export const dataFake: FoodItem[] = [
         photoCover: "assets/img-capas/mini55.jpg",
         photoCoverContent: "assets/img-content/cuscuz-frigideira.jpg"
 },
+{
+        id: "61",
+        category: "salgados",
+        title: "Pão de Flocão",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição"
+                    ],
+
+        ingredients: [
+                        "5 colheres de sopa de flocão de milho",
+                        "50ml de água",
+                        "1 ovo",
+                        "sal a gosto",
+                        "1 colher de sopa de azeite",
+                        "1 colher de café de fermento químico"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DFX6nIZxRNm/",
+        resume: `
+                    Você pode fazer um pão caseiro de uma forma muito mais simples, usando uma frigideira para tostar.
+                    Além de delicioso, em vez da farinha, a opção nesta receita prática é usar o flocão de 
+                    milho hidratado, uma receita sem glúten e perfeita para quem busca manter uma alimentação saudável.
+                `,
+        preparo: [
+                    "Hidrate o flocão e o sal na água e deixe  descansar por 10 minutos",
+                    "Em seguida, acrescente o ovo, o azeite e misture bem",
+                    "Por último, adicione o fermento e mexa muito bem",
+                    "Despeje metade da mistura numa frigideira pequena e untada, adicione o recheio da sua prederência, coloque o resto da mistura e deixe assar por 3 minutos cada lado",
+                    "Recheio sugerido: goiabada zero açúcar e 1 fatia de queijo mussarela"
+                ],
+        photoCover: "assets/img-capas/mini61.jpg",
+        photoCoverContent: "assets/img-content/pao-flocao.jpg"
+},
+{
+    id: "62",
+    category: "salgados",
+    title: "Bolinhas de Batata",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "acompanhamento"
+                ],
+
+    ingredients: [
+                    "2 xícaras de batatas cozidas e amassadas",
+                    "2 colheres (sopa) de azeite de oliva",
+                    "1⁄2 colher (chá) de sal",
+                    "1⁄2 xícara ou até dar ponto de amido de milho ou mix de farinhas sem glúten"
+                ],
+
+    video_embed: "https://www.instagram.com/p/DE7OiA5upCD/",
+    resume: `
+                <br>
+                Um lanche nutritivo, fácil e saboroso. Ideal para servir para toda a criançada. Esta receita é saudável, 
+                pois leva ingredientes naturais e pouco calóricos, além disso, não utiliza óleo em seu preparo.
+                <br>
+            `,
+    preparo: [
+                "Em um recipiente misture a batata, o azeite e o sal",
+                "Acrescente o amido ou mix de farinhas até obter ponto de desgrudar das mãos",
+                "Faça bolinhas , coloque em forma untada, pincele azeite de oliva e asse em forno preaquecido ou airfryer a 200 graus por cerca de 30 minutos ou até ficarem douradas"
+            ],
+    photoCover: "assets/img-capas/mini62.jpg",
+    photoCoverContent: "assets/img-content/bolinhas-batata.jpg"
+},
+{
+    id: "63",
+    category: "salgados",
+    title: "Muffin de Flocão",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "50g flocão de milho",
+                    "1 ovo inteiro",
+                    "25g queijo mussarela",
+                    "30g requeijão light",
+                    "50g frango desfiado",
+                    "50ml água"
+                ],
+
+    video_embed: "https://www.instagram.com/p/DD9k3LYx96A/",
+    resume: `
+                <br>
+                Muffins fit de cuscuz com frango e mussarela são uma excelente opção para o lanchinho da tarde!
+                <br>
+            `,
+    preparo: [
+                "misture o flocão, água, ovo e o sal muito bem",
+                "deixe descansar por pelo menos 10 minutos",
+                "depois de descansar é só montar nas formas de silicone",
+                "comece com a massa, recheie com o frango depois o requeijão e finalize com a massa e o queijo ralado",
+                "leve para airfryer por 5 minutos a 180 graus",
+                "Obs: o tempo pode variar em cada airfryer. Mas é importante não deixar muito tempo, pois o flocão pode ficar duro"
+            ],
+    photoCover: "assets/img-capas/mini63.jpg",
+    photoCoverContent: "assets/img-content/muffin-flocao.png"
+},
+{
+    id: "64",
+    category: "salgados",
+    title: "Bolachas de Arroz",
+    porcoes: "40 unidades",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "1/4 xícara de leite",
+                    "1 xícara de arroz cozido",
+                    "3 colheres (sopa) de azeite de oliva",
+                    "1/3 xícara de queijo parmesão ralado",
+                    "1 colher (sopa) de chia",
+                    "1/4 colher (chá) de sal",
+                    "1 xícara de tapioca"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C_-3E_pprHx/",
+    resume: `
+                <br>
+                Bolachas de arroz são um lanche prático e versátil que podem ser consumidas em vários momentos do dia. 
+                <br>
+            `,
+    preparo: [
+                "Aqueça o leite, coloque no liquidificador e bata com o arroz e o azeite",
+                "Transfira para uma vasilha e misture com o queijo, a chia e o sal",
+                "Finalize com a tapioca e mexa até obter uma massa homogênea",
+                "Coloque na geladeira por cerca de 20 minutos",
+                "Forre a bancada com um plástico, pegue uma pequena porção da massa e cubra com outro plástico para abrir com o rolo. Quanto mais fininha, mais crocantes elas ficarão",
+                "Corte em diferentes formatos com o auxílio de aros ou corte no formato que desejar",
+                "Coloque em forma untada e asse em forno preaquecido a 200 graus por cerca de 20 minutos ou até dourar levemente"
+            ],
+    photoCover: "assets/img-capas/mini64.jpg",
+    photoCoverContent: "assets/img-content/bolachas-arroz.png"
+},
     /* ######################### END RECEITAS SALGADAS ############################ */
 
 
