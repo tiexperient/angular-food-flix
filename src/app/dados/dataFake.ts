@@ -1562,11 +1562,11 @@ export const dataFake: FoodItem[] = [
                 <br>
             `,
     preparo: [
-                "misture o flocão, água, ovo e o sal muito bem",
-                "deixe descansar por pelo menos 10 minutos",
-                "depois de descansar é só montar nas formas de silicone",
-                "comece com a massa, recheie com o frango depois o requeijão e finalize com a massa e o queijo ralado",
-                "leve para airfryer por 5 minutos a 180 graus",
+                "Misture o flocão, água, ovo e o sal muito bem",
+                "Deixe descansar por pelo menos 10 minutos",
+                "Depois de descansar é só montar nas formas de silicone",
+                "Comece com a massa, recheie com o frango depois o requeijão e finalize com a massa e o queijo ralado",
+                "Leve para airfryer por 5 minutos a 180 graus",
                 "Obs: o tempo pode variar em cada airfryer. Mas é importante não deixar muito tempo, pois o flocão pode ficar duro"
             ],
     photoCover: "assets/img-capas/mini63.jpg",
@@ -1610,6 +1610,144 @@ export const dataFake: FoodItem[] = [
             ],
     photoCover: "assets/img-capas/mini64.jpg",
     photoCoverContent: "assets/img-content/bolachas-arroz.png"
+},
+{
+    id: "66",
+    category: "salgados",
+    title: "Pipoca de Cinema",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "Óleo",
+                    "1 colher de sopa de manteiga",
+                    "300g de salsichas",
+                    "1 xícara de milho de pipoca",
+                    "Sal a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/DDzwkxRN3Qi/",
+    resume: `
+                <br>
+                Essas pipocas são melhores até que as de cinema! 
+                <br>
+            `,
+    preparo: [
+                "Numa panela, acrescente o óleo, a manteiga e espere derreter",
+                "Acrescente a salsicha cortada em rodelas e deixe fritar um pouco",
+                "Adicione o milho a fritura e mexa muito bem, para pegar o sabor da salsicha",
+                "Depois que elas estourarem, retire do fogo e tempere com o sal",
+                "Obs: Se quiser, pode acrescentar bacon a mistura"
+            ],
+    photoCover: "assets/img-capas/mini66.jpg",
+    photoCoverContent: "assets/img-content/pipoca-cinema.jpg"
+},
+{
+    id: "67",
+    category: "salgados",
+    title: "Pizza Halloween Caveirinhas",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "Molho de Tomate",
+                    "Queijo",
+                    "Orégano",
+                    "cogumelos"
+                ],
+
+    video_embed: "https://www.instagram.com/p/DBW9ohdtF3Y/",
+    resume: `
+                <br>
+                O Halloween pode ficar ainda mais divertido se os monstrinhos estiverem em formato de pizza também. 
+                Inspire-se, e faça algo diferente para as visitas.
+                <br>
+            `,
+    preparo: [
+                "Caso não tenha a massa básica para pizza, procure no site. É muito fácil de fazer",
+                "Acrescente molho de tomate por cima da massa e em seguida a mussarela",
+                "Corte os cogumelos ao meio e retire a parte onde ficarão os olhos(veja no vídeo)",
+                "Finalize com orégano e leve para assar até o queijo derreter"
+            ],
+    photoCover: "assets/img-capas/mini67.jpg",
+    photoCoverContent: "assets/img-content/pizza-halloween.jpg"
+},
+{
+    id: "68",
+    category: "salgados",
+    title: "Muffin de Tapioca",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "2 ovos inteiros",
+                    "50g tapioca",
+                    "50g queijo mussarela",
+                    "20g requeijão light",
+                    "fermento (1 colher de café rasa)",
+                    "sal a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C_nqthrOoQk/",
+    resume: `
+                <br>
+                Mais uma forma pra você variar seu café da manhã/lanche da tarde com essa receita de muffin de tapioca com queijo 
+                recheado na airfryer.
+                <br>
+            `,
+    preparo: [
+                "Numa tijela, acrescente os ovos, a tapioca, a mussarela, o sal e misture tudo muito bem",
+                "Acrescente o fermento e continue a misturar",
+                "Se quiser, pode despejar nas forminhas e rechear com requeijão",
+                "Acrescente nas forminhas e leve para assar na airfryer a 120 graus por 15 minutos",
+                "Você também pode jogar queijo por cima, pra ficar mais douradinho"
+            ],
+    photoCover: "assets/img-capas/mini68.jpg",
+    photoCoverContent: "assets/img-content/muffin-tapioca.jpg"
+},
+{
+    id: "69",
+    category: "salgados",
+    title: "Rap 10 de Batata Doce",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "Batata doce raladinha",
+                    "tempero a gosto",
+                    "frango, requeijão ou mussarela para o recheio"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C-6A2gHSE17/",
+    resume: `
+                <br>
+                O wrap está entre os queridinhos porque a aveia é fonte de fibras e proteínas enquanto a batata-doce 
+                dá uma boa textura para o pão e energia para quem o come.
+                <br>
+            `,
+    preparo: [
+                "Tempere a batata ralada",
+                "Leve para uma frigideira untada e asse como um rap 10 normal. Deixe secar e criar a casquinha antes de virar"
+
+            ],
+    photoCover: "assets/img-capas/mini69.jpg",
+    photoCoverContent: "assets/img-content/rap10-batata-doce.jpg"
 },
     /* ######################### END RECEITAS SALGADAS ############################ */
 
@@ -2486,6 +2624,73 @@ export const dataFake: FoodItem[] = [
                 ],
         photoCover: "assets/img-capas/mini60.jpg",
         photoCoverContent: "assets/img-content/pamonha-forno.jpg"
+    },
+    {
+        id: "59",
+        category: "doces",
+        title: "Mousse de Café",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "100g de gelo",
+                        "6g de café solúvel",
+                        "100ml de leite desnatado",
+                        "Adoçante a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C9w0OEAxK7n/",
+        resume: `
+                    <br>
+                    Sobremesa deliciosa e prática que fica pronta em cinco minutos
+                    <br>
+                `,
+        preparo: [
+                    "Bater no mixer por 5 minutos"
+                ],
+        photoCover: "assets/img-capas/mini59.jpg",
+        photoCoverContent: "assets/img-content/mousse-cafe.jpg"
+    },
+    {
+        id: "65",
+        category: "doces",
+        title: "Bolinho de Chuva de Forno",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                    ],
+
+        ingredients: [
+                        "3 xícaras de farinha de trigo",
+                        "1 colher de sopa de fermento",
+                        "2 xícaras de leite",
+                        "3 ovos",
+                        "3 colheres de óleo",
+                        "1 xícara de açúcar"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DBhIn7Hv6Nl/",
+        resume: `
+                    <br>
+                    Sem fritura!
+                    <br>
+                    Bolinho de Chuva assado, super fácil e delicioso.
+                    <br>
+                `,
+        preparo: [
+                    "Em um liquidificador, acrescente os ovos, o óleo, o leite e o açúcar e deixe bater",
+                    "Se seu liquidificador não suportar os ingredientes que vem em seguida, despeje tudo numa tijela e acrescente a farinha, o fermento e misture bem",
+                    "Leve para assar por 20 minutos a 180°",
+                    "Depois de assado, passe o cupcake numa mistura de açúcar com canela"
+                ],
+        photoCover: "assets/img-capas/mini65.jpg",
+        photoCoverContent: "assets/img-content/bolinho-chuva-forno.jpg"
     }
     /* ######################### END RECEITAS DOCES ############################ */
 ]
