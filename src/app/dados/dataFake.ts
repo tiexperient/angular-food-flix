@@ -1282,12 +1282,190 @@ export const dataFake: FoodItem[] = [
                     "Acrescente o tomate, a páprica, a pimenta do reino, a água e deixe cozinhar por 30 minutos",
                     "Passado esse tempo, desfie a carne e reserve",
                     "A parte, cozinhe a abóbora e leve ao liquidificador até virar um purê",
-                    "Leve para a panela e adicione uma caixa de leite condensado e sal",
+                    "Leve para a panela e adicione o creme de leite e sal",
                     "Finalize com a cebolinha"
                  ],
         photoCover: "assets/img-capas/mini47.jpg",
         photoCoverContent: "assets/img-content/creme-abobora.jpg"
     },
+    {
+        id: "49",
+        category: "salgados",
+        title: "Pizza de Tapioca",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição",
+                        "com lactose"
+                     ],
+
+        ingredients: [
+                        "2 ovos",
+                        "8 colheres de sopa de tapioca",
+                        "1 colher de queijo ralado",
+                        "recheio a gosto"
+                     ],
+
+        video_embed: "https://www.instagram.com/p/DEnosZIxqJL/",
+        resume: `
+                    <br>
+                    Tudo na frigideira! Clique logo abaixo e vem com a gente ver essa receita deliciosa!
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma travessa, acrescente os ovos, a tapioca, o queijo e misture tudo muito bem",
+                    "Unte uma frigideira e leve a mistura paa cozinhar em fogo baixo",
+                    "Em seguida, vire, desligue o fogo e comece a rechear",
+                    "Leve a fogo baixo novamente. Tampe e deixe cozinhar por mais dois minutos"
+                 ],
+        photoCover: "assets/img-capas/mini49.jpg",
+        photoCoverContent: "assets/img-content/pizza-tapioca.png"
+    },
+    {
+        id: "50",
+        category: "salgados",
+        title: "Seleta de Legumes",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "1 cenoura média picada",
+                        "1 abobrinha média picada",
+                        "1 fio de azeite",
+                        "3 colheres sopa de cebola picada",
+                        "1 dente de alho picado",
+                        "sal a gosto",
+                        "páprica defumada a gosto",
+                        "orégano a gosto",
+                        "manjericão seco a gosto"
+                     ],
+
+        video_embed: "https://www.instagram.com/p/DBO2pxLOFV7/",
+        resume: `
+                    <br>
+                    Legumes assim. com um arroz branco fresquinho e um frango ou peixe grelhado fica simplesmente perfeito!
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma frigideira refogue primeiro a cebola no azeite",
+                    "Quando a cebola ficar mais transparente começando a dourar levemente, acrescente o alho picado e mexa para não queimar",
+                    "Após refogar, adicione os legumes e mexa um pouco",
+                    "Acrescente o sal e os temperos (a quantidade é a gosto) mexendo bem para agregar o sabor nos legumes e coloque um “pouquinho” de água",
+                    "Tampe a panela e deixe em fogo mais brando mexendo de vez em quando",
+                    "O ponto certo dos legumes seriam mais macios, algo em torno de 8 minutos, ou se preferir, mais moles"
+                 ],
+        photoCover: "assets/img-capas/mini50.jpg",
+        photoCoverContent: "assets/img-content/seleta-de-legumes.jpg"
+    },
+    {
+        id: "51",
+        category: "salgados",
+        title: "Pão de Frigideira",
+        porcoes: "1",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição"
+                     ],
+
+        ingredients: [
+                        "1 ovo",
+                        "3 colheres de sopa de farelo de aveia",
+                        "Sal e chimichurri a gosto",
+                        "1 colher de café de fermento",
+                        "O recheio é o da sua preferência"
+                     ],
+
+        video_embed: "https://www.instagram.com/p/C-VSNuRxsBm/",
+        resume: `
+                    <br>
+                    Se você gosta de pães macios e flexíveis este é o pãozinho fit com aveia ideal pra você!
+                    <br><br>
+                `,
+        preparo: [
+                    "Em uma travessa, acrescente o ovo, a aveia, o chimichurri, o sal e o fermento e misture tudo muito bem, até obter uma massa homogênea",
+                    "Leve até uma frigideira e asse 3 minutos de cada lado"
+                 ],
+        photoCover: "assets/img-capas/mini51.jpg",
+        photoCoverContent: "assets/img-content/pao-frigideira.jpg"
+    },
+    {
+        id: "52",
+        category: "salgados",
+        title: "Torta de Abobrinha",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                     ],
+
+        ingredients: [
+                        "1 abobrinha",
+                        "sal a gosto",
+                        "2 dentes de alho amassados",
+                        "200g de mussarela ralada",
+                        "3 ovos",
+                     ],
+
+        video_embed: "https://www.instagram.com/p/Cpdtv0vorgl/",
+        resume: `
+                    <br>
+                    rápida e deliciosa pra deixar pro jantar, acrescentar a proteína da sua preferência no prato e PRONTO.
+                    <br>
+                    Pouco calórica, temperadinha, de dar água na boca!
+                    <br>
+                `,
+        preparo: [
+                    "Rale a abobrinha e acrescente o sal, o alho e 150g da mussarela",
+                    "A parte, misture bem 3 ovos",
+                    "Misture os ovos com a abobrinha",
+                    "Finalize com 50g de mussarela por cima e leve para gratinar por 30 a 35 minutos"
+                 ],
+        photoCover: "assets/img-capas/mini52.jpg",
+        photoCoverContent: "assets/img-content/torta-abobrinha.jpg"
+    },
+    {
+        id: "55",
+        category: "salgados",
+        title: "Cuscuz de Frigideira",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição"
+                    ],
+
+        ingredients: [
+                        "3 colheres (sopa) de flocão de milho",
+                        "⁠4 colheres (sopa) de água",
+                        "sal a gosto",
+                        "⁠tomate",
+                        "atum",
+                        "queijo mussarela",
+                        "óregano fresco ou seco"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C-WK5SJOMBp/",
+        resume: `
+                    <br>
+                    Uma ótima substituta para o pão do café da manhã se quiser usar o cuscuz para inovar nos preparos da semana. 
+                    É ainda melhor para celíacos, já que o cuscuz usa farinha de milho, que não tem glúten.
+                    <br>
+                `,
+        preparo: [
+                    "Hidrate o cuscuz e o sal e sem deixar de molho, espalhe numa frigideira untada com manteiga, com a chama ainda desligada",
+                    "Ligue a chama e tampe um pouco, para cozinhar no vapor",
+                    "Acrescente o queijo, o tomate, o atum, o orégano e dobre como se fosse uma tapioca"
+                ],
+        photoCover: "assets/img-capas/mini55.jpg",
+        photoCoverContent: "assets/img-content/cuscuz-frigideira.jpg"
+},
     /* ######################### END RECEITAS SALGADAS ############################ */
 
 
@@ -1925,6 +2103,244 @@ export const dataFake: FoodItem[] = [
                 ],
         photoCover: "assets/img-capas/mini48.jpg",
         photoCoverContent: "assets/img-content/panqueca-banana.png"
+    },
+    {
+        id: "53",
+        category: "doces",
+        title: "Bolacha Maizena",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                    ],
+
+        ingredients: [
+                        "500g Maizena",
+                        "1 lada leite condensado",
+                        "1 colher bem cheia de manteiga"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/B-kDoL0nP39/",
+        resume: `
+                    <br>
+                    Com apenas 3 ingredientes, uma receita fácil para fazer com toda a família!
+                    <br>
+                `,
+        preparo: [
+                    "Adicione todos os ingredientes em um recipiente, misture até formar um massinha que não grude na mão",
+                    "Faça bolinhas. Se quiser decorar, use um garfo apertando em cima da bolinha e coloque em uma assadeira untada com um pouco de manteiga",
+                    "Leve pra assar em fogo baixo por mais ou menos 15 minutos"
+                ],
+        photoCover: "assets/img-capas/mini53.jpg",
+        photoCoverContent: "assets/img-content/bolacha-maizena.png"
+    },
+    {
+        id: "54",
+        category: "doces",
+        title: "Bolo Flocao",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                    ],
+
+        ingredients: [
+                        "1 e 1/2 xícara de Flocão de milho",
+                        "1/2 xícara de leite",
+                        "3 ovos",
+                        "1 xícara de açúcar",
+                        "3/4 xícara de óleo",
+                        "1 xícara de queijo ralado",
+                        "50g de coco ralado",
+                        "1 colher de fermento"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C3-KZkBOTsx/",
+        resume: `
+                    <br>
+                    Deliciosa receita de Bolo de flocão de milho, simples e fácil de se fazer!
+                    <br>
+                `,
+        preparo: [
+                    "Em um bol, coloque o flocão e o leite e deixe hidratar por 20 minutos",
+                    "A parte, no liquidificador, acrescente os ovos, o açúcar, o óleo e o flocão hidratado. Deixe bater por 3 minutos",
+                    "Despeje tudo em um bol. Acrescente o queijo, o coco, o fermento e misture com um fuê",
+                    "Numa forma untada com fubá, despeje o conteúdo do bol e leve para assar por 45 minutos a 180°"
+                ],
+        photoCover: "assets/img-capas/mini54.jpg",
+        photoCoverContent: "assets/img-content/bolo-flocao.png"
+    },
+    {
+        id: "56",
+        category: "doces",
+        title: "Creme de Tapioca",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "1 litro de leite",
+                        "1 xícara de tapioca granulada",
+                        "1 vidrinho de leite de coco (200ml)",
+                        "1 caixa de leite condensado",
+                        "1 caixa de creme de leite",
+                        "coco ralado (50g para o creme e 30g para decoração)"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C_wZUr3ythW/",
+        resume: `
+                    <br>
+                    Deliciosa receita de Bolo de flocão de milho, simples e fácil de se fazer!
+                    <br>
+                `,
+        preparo: [
+                    "Em uma panela coloque o leite e leve ao fogo, quando estiver quase fervendo acrescente a tapioca e mexa bem",
+                    "Começou a ferver apague o fogo e coloque o leite de coco, o leite condensado, misture",
+                    "Acrescente o coco ralado e por último o creme de leite",
+                    "Deixe descansar mexendo de vez em quando até inchar a tapioca",
+                    "Polvilhar coco ralado por cima",
+                    "Levar a geladeira até ficar bem geladinho ou sirva morno"
+                ],
+        photoCover: "assets/img-capas/mini56.jpg",
+        photoCoverContent: "assets/img-content/creme-tapioca.jpg"
+    },
+    {
+        id: "57",
+        category: "doces",
+        title: "Brigadeiro de Café",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "5 colheres de sopa de leite em pó",
+                        "4 colheres (sopa) de cacau em pó (usei 50%)",
+                        "Café (temperatura ambiente) até dar o ponto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C9kPJ1kxtC1/",
+        resume: `
+                    <br>
+                    Brigadeiro de Café cai bem com um cafezinho é uma ótima maneira de começar o dia.
+                    É uma versão sofisticada e incomum. Este novo conceito se destaca na seleção de produtos de alta qualidade, 
+                    receitas individuais e combinações de ingredientes inusitados.
+                    <br>
+                `,
+        preparo: [
+                    "Misture o leite em pó, o cacau e o café até dar o ponto, sem levar nada ao fogo",
+                    "Café sem adoçar se o cacau for 50% ou menos. Se o cacau for maior que 50% talvez tenha que adicionar algum adoçante na receita"
+                ],
+        photoCover: "assets/img-capas/mini57.jpg",
+        photoCoverContent: "assets/img-content/brigadeiro-cafe.jpg"
+    },
+    {
+        id: "58",
+        category: "doces",
+        title: "Bolo de Tapioca",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "500g de tapioca granulada fina",
+                        "1 litro de leite",
+                        "200ml de leite de coco",
+                        "2 caixas de leite condensado",
+                        "100g de coco ralado",
+                        "1/2 xícara de leite em pó"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C4ESGALO72u/",
+        resume: `
+                    <br>
+                    Preparo fácil, fica delicioso e agrada a todos!
+                    <br>
+                `,
+        preparo: [
+                    "Em uma tijela, acrescente a tapioca, o leite bem quente e o coco ralado e deixe descansar por 10 minutos",
+                    "Após esse prazo, acrescente o leite de coco, o leite condensado e misture bem",
+                    "Em seguida, acrescente o leite em pó e misture",
+                    "Despeje tudo numa forma untada com óleo, cubra com plástico filme e leve pra gelar por 12 horas",
+                    "Para desinformar, passe a faca na lateral da forma"
+                ],
+        photoCover: "assets/img-capas/mini58.jpg",
+        photoCoverContent: "assets/img-content/bolo-tapioca.jpg"
+    },
+    {
+        id: "59",
+        category: "doces",
+        title: "Mousse de Café",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "100g de gelo",
+                        "6g de café solúvel",
+                        "100ml de leite desnatado",
+                        "Adoçante a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C9w0OEAxK7n/",
+        resume: `
+                    <br>
+                    Sobremesa deliciosa e prática que fica pronta em cinco minutos
+                    <br>
+                `,
+        preparo: [
+                    "Bater no mixer por 5 minutos"
+                ],
+        photoCover: "assets/img-capas/mini59.jpg",
+        photoCoverContent: "assets/img-content/mousse-cafe.jpg"
+    },
+    {
+        id: "60",
+        category: "doces",
+        title: "Pamonha de Forno",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "2 latas de milho",
+                        "200 ml de leite de coco",
+                        "1 xícara de açúcar",
+                        "4 ovos",
+                        "4 colheres de sopa de farinha de trigo",
+                        "1 colher de fermento"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/Cs4ydYDu2uN/",
+        resume: `
+                    <br>
+                    Feito no liquidificador, esse bolo de pamonha traz o sabor e o clima da roça, 
+                    tanto no sabor quanto na apresentação, e é perfeito para festas juninas - ou julinas!
+                    <br>
+                `,
+        preparo: [
+                    "No liquidificador, acrescente o milho, o leite de coco, o açúcar, os ovos e a farinha de trigo e deixe bater por 5 minutos",
+                    "Após isso, acrescente o fermento e bata mais um pouco para misturar",
+                    "Em uma fôrma untada, despeje o conteúdo do liquidificador e leve ao forno a 180° até que fique dourada"
+                ],
+        photoCover: "assets/img-capas/mini60.jpg",
+        photoCoverContent: "assets/img-content/pamonha-forno.jpg"
     }
     /* ######################### END RECEITAS DOCES ############################ */
 ]
