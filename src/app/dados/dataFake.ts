@@ -1749,6 +1749,162 @@ export const dataFake: FoodItem[] = [
     photoCover: "assets/img-capas/mini69.jpg",
     photoCoverContent: "assets/img-content/rap10-batata-doce.jpg"
 },
+{
+    id: "70",
+    category: "salgados",
+    title: "Pizza de Frigideira",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "2 tomates cortados em rodelas",
+                    "3 ovos",
+                    "1/2 colher de sal",
+                    "alho em pó",
+                    "cebolinha a gosto",
+                    "presunto a gosto",
+                    "manteiga para untar",
+                    "queijo mussarela",
+                    "orégano a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C3s_fIHPAmr/",
+    resume: `
+                <br>
+                Poucas sensações são tão gostosas quanto saborear uma pizza bem quentinha. Melhor que isso, 
+                apenas se você puder preparar uma versão rápida em casa.
+                <br>
+            `,
+    preparo: [
+                "coloque os tomates na frigideira untada com manteiga",
+                "Acrescente um pouco de sal e por cima, coloque a mistura dos ovos com a cebolinha e os outros temperos",
+                "Coloque o presunto picado em cubinhos, feche a tampa e deixe cozinhar por 5 minutos",
+                "Retire a tampa, acrescente a mussarela e o orégano. Tampe a panela e deixe no fogo até o queijo derreter"
+
+            ],
+    photoCover: "assets/img-capas/mini70.jpg",
+    photoCoverContent: "assets/img-content/pizza-frigideira.png"
+},
+{
+    id: "72",
+    category: "salgados",
+    title: "Almoço de 1 Panela",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "refeição"
+                ],
+
+    ingredients: [
+                    "200g de linguiça fininha",
+                    "3 dentes de alho ralado",
+                    "1 tomate picado",
+                    "1/2 lata de milho",
+                    "1 cenoura ralada",
+                    "salsinha e cebolinha a gosto",
+                    "1 sachet de molho de tomate",
+                    "1 1/2 de arroz",
+                    "sal a gosto",
+                    "mussarela a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C2KpOLZu9LU/",
+    resume: `
+                <br>
+                Receita deliciosa e prática para você fazer na sua casa!
+                <br>
+            `,
+    preparo: [
+                "Unte a panela com 1 fio de azeite e acrescente a linguiça cortada em rodelas para fritar",
+                "Acrescente o alho e deixe dourar",
+                "Depois acrescente o tomate, o milho, a cenoura, a salsa, a cebola, o molho de tomate e o arroz",
+                "Cubra com água e acrescente o sal e deixe cozinhar"
+
+            ],
+    photoCover: "assets/img-capas/mini72.jpg",
+    photoCoverContent: "assets/img-content/almoco-uma-panela.png"
+},
+{
+    id: "73",
+    category: "salgados",
+    title: "Lanchão de Forno",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "4 ovos",
+                    "1 caixa de creme de leite",
+                    "1 tomate picado",
+                    "cheiro verde a gosto", 
+                    "sal a gosto",
+                    "pimenta do reino a gosto",
+                    "presunto a gosto",
+                    "mussarela a gosto",
+                    "calabresa em rodelas a gosto",
+                    "pão de sal ou de forma a gosto",
+                    "orégano a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C3QvySCO0MK/",
+    resume: `
+                <br>
+                Esse lanchão de forno vai te surpreender de tão delicioso que fica!
+                <br>
+            `,
+    preparo: [
+                "Corte pão de sal em rodelas o suficiente para cobrir uma forma já untada forma",
+                "a parte, bata os ovos e acrescente o tomate, o cheiro verde, o creme de leite, o sal, a pimenta do reino e misture bem",
+                "Despeje a mistura por cima do pão e acrescente presunto, queijo e rodelas de calabresae por cima",
+                "Finalize com orégano",
+                "Leve para assar por aproximadamente 20 ou 25 minutos a 180°"
+
+            ],
+    photoCover: "assets/img-capas/mini73.jpg",
+    photoCoverContent: "assets/img-content/lanchao-forno.jpg"
+},
+{
+    id: "74",
+    category: "salgados",
+    title: "Pão de Tapioca",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "500ml de leite desnatado",
+                    "240g de tapioca granulada",
+                    "2 ovos",
+                    "40g de queijo parmesão ralado",
+                    "sal a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/CylTvCpuczb/",
+    resume: `
+                <br>
+                Uma ótima opção de café da manhã, lanche da tarde e até pré treino! O melhor, só 121 calorias cada pãozinho.
+                <br>
+            `,
+    preparo: [
+                "Numa tijela, acrescente o leite e misture como sal, a tapioca granulada e deixe hidratar por 15 minutos na geladeira",
+                "Após esse tempo, acrescente os ovos, o parmesão, o queijo ralado e misture tudo",
+                "Molde no formato de pãezinhos e coloque na geladeira por mais 10 minutos",
+                "Leve para assar por 20 minutos a 180°"
+            ],
+    photoCover: "assets/img-capas/mini74.jpg",
+    photoCoverContent: "assets/img-content/pao-tapioca.jpg"
+},
     /* ######################### END RECEITAS SALGADAS ############################ */
 
 
@@ -2626,36 +2782,6 @@ export const dataFake: FoodItem[] = [
         photoCoverContent: "assets/img-content/pamonha-forno.jpg"
     },
     {
-        id: "59",
-        category: "doces",
-        title: "Mousse de Café",
-        porcoes: "",
-        tempo_preparo: "",
-        
-        subcategory: [
-                        "sobremesa"
-                    ],
-
-        ingredients: [
-                        "100g de gelo",
-                        "6g de café solúvel",
-                        "100ml de leite desnatado",
-                        "Adoçante a gosto"
-                    ],
-
-        video_embed: "https://www.instagram.com/p/C9w0OEAxK7n/",
-        resume: `
-                    <br>
-                    Sobremesa deliciosa e prática que fica pronta em cinco minutos
-                    <br>
-                `,
-        preparo: [
-                    "Bater no mixer por 5 minutos"
-                ],
-        photoCover: "assets/img-capas/mini59.jpg",
-        photoCoverContent: "assets/img-content/mousse-cafe.jpg"
-    },
-    {
         id: "65",
         category: "doces",
         title: "Bolinho de Chuva de Forno",
@@ -2691,6 +2817,44 @@ export const dataFake: FoodItem[] = [
                 ],
         photoCover: "assets/img-capas/mini65.jpg",
         photoCoverContent: "assets/img-content/bolinho-chuva-forno.jpg"
+    },
+    {
+        id: "71",
+        category: "doces",
+        title: "Bolo de Batata Doce",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanche"
+                    ],
+
+        ingredients: [
+                        "280g de batata doce crua",
+                        "2 ovos",
+                        "½ xícara de açúcar",
+                        "½ xícara de óleo",
+                        "200ml de leite de coco",
+                        "2 colheres de queijo parmesão ralado",
+                        "2 xícaras de farinha de arroz",
+                        "1 colher de fermento em pó"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C56CnMdOq9e/",
+        resume: `
+                    <br>
+                    Este bolo é daqueles que a gente adora, é só bater todos os ingredientes no liquidificador e 
+                    colocar o bolo pra assar, não precisa sujar nenhuma bacia, só o liquidificador, a forma e uma espátula.
+                    <br>
+                `,
+        preparo: [
+                    "Em um liquidificador, acrescente a batata doce, os ovos, o óleo, o leite de coco, o açúcar, o parmesão e deixe bater",
+                    "Despeje tudo numa tijela e acrescente a farinha de arroz, o fermento e misture bem",
+                    "Povilhe a forma com margarina, açúcar e canela e leve para assar por 40 minutos a 180°"
+
+                ],
+        photoCover: "assets/img-capas/mini71.jpg",
+        photoCoverContent: "assets/img-content/bolo-batata-doce.jpg"
     }
     /* ######################### END RECEITAS DOCES ############################ */
 ]
