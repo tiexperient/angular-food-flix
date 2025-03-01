@@ -1905,6 +1905,289 @@ export const dataFake: FoodItem[] = [
     photoCover: "assets/img-capas/mini74.jpg",
     photoCoverContent: "assets/img-content/pao-tapioca.jpg"
 },
+{
+    id: "77",
+    category: "salgados",
+    title: "Ovos natalinos",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "acompanhamento"
+                ],
+
+    ingredients: [
+                    "Ovos de galinha",
+                    "grãos de café",
+                    "pimentão vermelho",
+                    "maionese"
+                ],
+
+    video_embed: "https://www.instagram.com/p/DCzczflIv7p/",
+    resume: `
+                <br>
+                Uma data especial merece um jeitinho diferente de comemorar, 
+                ainda mais em momentos onde toda a família está reunida!
+                <br>
+            `,
+    preparo: [
+                "Corte os ovos ao meio",
+                "Corte os pimentões em formato de chapeu",
+                "Utilize os grãos para moldar olhos e nariz",
+                "Com a maionese, faça a barba e a cola do chapeu"
+            ],
+    photoCover: "assets/img-capas/mini77.jpg",
+    photoCoverContent: "assets/img-content/ovos-natalinos.png"
+},
+{
+    id: "78",
+    category: "salgados",
+    title: "Cestinhas de Pastel",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "massa pequena de pastel",
+                    "presunto a gosto",
+                    "mussarela a gosto",
+                    "orégano a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/DCk0iCluD9d/",
+    resume: `
+                Se você pensou que a massa de pastel serve apenas para fazer pastel, achou errado. 
+                Temos uma receita que dá uma nova funcionalidade para ela. São cestinhas recheadas com presunto, 
+                queijo e o que mais você gostar.
+                <br>
+                É uma boa ideia de aperitivo! E o melhor: é assado, não frito.
+            `,
+    preparo: [
+                "Coloque as forminhas na forma de cupcake",
+                "Dentro da cestinha coloque presunto e finalize com mussarela e orégano",
+                "Deixe assar em forno a 180° até percener que as bordas da cestinha estão ficando douradas",
+                "Obs: O recheio pode ser de sua preferência. Desde que finalize com a mussarela com orégano"
+            ],
+    photoCover: "assets/img-capas/mini78.jpg",
+    photoCoverContent: "assets/img-content/cestinhas-pastel.png"
+},
+{
+    id: "79",
+    category: "salgados",
+    title: "Esfirra de Batata",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "lanche"
+                ],
+
+    ingredients: [
+                    "350g de batata",
+                    "25g farinha de aveia",
+                    "sal a gosto",
+                    "pimenta do reino a gosto",
+                    "requeijão a gosto",
+                    "mussarela a gosto",
+                    "orégano a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C9TC6eYSkod/",
+    resume: `
+                <br>
+                Sem farinha trigo, sem glúten e o principal, é muito fácil de fazer!
+                <br>
+            `,
+    preparo: [
+                "Amasse as batatas como se fosse fazer um purê",
+                "Acrescente a farinha de aveia, o sal, a pimenta do reino e misture bem até virar uma massinha",
+                "Molde as esfirras e coloque os recheios como requeijão, a mussarela e o orégano",
+                "Leve ao forno por 20 minutos a 180°"
+            ],
+    photoCover: "assets/img-capas/mini79.jpg",
+    photoCoverContent: "assets/img-content/esfirra-batata.png"
+},
+{
+    id: "80",
+    category: "salgados",
+    title: "Pizza de Abobrinha",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "acompanhamento"
+                ],
+
+    ingredients: [
+                    "1 abobrinha grande",
+                    "1 ovo",
+                    "1 colher de sopa de creme de ricota ou requeijão",
+                    "60g de frango desfiado",
+                    "50g de queijo mussarela",
+                    "sal a gosto",
+                    "pimenta do reino a gosto",
+                    "cheiro verde a gosto",
+                    "azeite a gosto",
+                    "orégano a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C-kpkunOgd3/",
+    resume: `
+                <br>
+                Uma pizza sem massa, com rodelas de abobrinha e nem por isso menos saborosa!
+                <br>
+            `,
+    preparo: [
+                "Corte as abobrinhas em rodelas e retire o miolo, como aneis",
+                "Coloque os aneis numa tijela e tempere com azeite, sal e pimenta do reino e coloque numa forma forrada com papel manteiga",
+                "Pique o miolo finamente e acrescente o frango, o creme de ricota, o ovo, sal, pimenta do reino e misture bem",
+                "Recheie os aneis e finalize com a mussarela e orégano",
+                "Leve ao forno a 180° até dourar"
+            ],
+    photoCover: "assets/img-capas/mini80.jpg",
+    photoCoverContent: "assets/img-content/pizza-abobrinha.png"
+},  
+{
+    id: "81",
+    category: "salgados",
+    title: "Arroz Primavera",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "refeição"
+                ],
+
+    ingredients: [
+                    "3 ovos",
+                    "300g de carne de porco ou frango",
+                    "1/2 cenoura ralada",
+                    "Sal",
+                    "500g de arroz cozido",
+                    "cebolinha a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C248JD9OEEf/",
+    resume: `
+                <br>
+                Soltinho, simples e saboroso!
+                <br>
+            `,
+    preparo: [
+                "Frite os ovos mexidos e reserve",
+                "Frite a carne já picada. Acrescente a cenoura e refogue",
+                "Adicione os ovos, o sal e misture bem",
+                "Adicione o arroz, a cebolinha e misture"
+            ],
+    photoCover: "assets/img-capas/mini81.jpg",
+    photoCoverContent: "assets/img-content/arroz-primavera.jpg"
+}, 
+{
+    id: "83",
+    category: "salgados",
+    title: "Batata Rústica",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "acompanhamento"
+                ],
+
+    ingredients: [
+                    "Batata inglesa",
+                    "Sal",
+                    "3ml de azeite"
+                ],
+
+    video_embed: "https://www.instagram.com/p/CskDSMuOvKz/",
+    resume: `
+                <br>
+                Como fazer batatas assadas perfeitas na airfryer ou no forno: macia por dentro e com casca crocante por fora.
+                <br>
+            `,
+    preparo: [
+                "Corte as batatas em 4 pedaços",
+                "Acrescente azeite, sal e misture bem",
+                "Levar para a Air fryer por 30 minutos com temperatura de 160 graus"
+            ],
+    photoCover: "assets/img-capas/mini83.jpg",
+    photoCoverContent: "assets/img-content/batata-rustica.jpg"
+}, 
+{
+    id: "84",
+    category: "salgados",
+    title: "Massa Básica para Pizza",
+    porcoes: "",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "Lanche"
+                ],
+
+    ingredients: [
+                    "2 ovos",
+                    "1/2 xícara de óleo",
+                    "2 xícaras de leite",
+                    "2 xícaras de farinha de trigo",
+                    "1 pitada de sal",
+                    "1 colher de fermento"
+                ],
+
+    video_embed: "https://www.instagram.com/p/DCbomQCuyDg/",
+    resume: `
+                <br>
+                Aprenda a fazer massa caseira profissional para pizza! Receita fácil e prática, que garante pizzas deliciosas.
+                <br>
+            `,
+    preparo: [
+                "No liquidificador, coloque os ovos, o óleo, o leite, o sal, a farinha e o fermento e bata até atingir a mistura",
+                "Despeje o conteúdo numa forma untada e leve ao forno por 15 minutos a 180°"
+            ],
+    photoCover: "assets/img-capas/mini84.jpg",
+    photoCoverContent: "assets/img-content/massa-basica-pizza.jpg"
+}, 
+{
+    id: "85",
+    category: "salgados",
+    title: "Arroz Temperado",
+    porcoes: "5",
+    tempo_preparo: "",
+    
+    subcategory: [
+                    "refeição"
+                ],
+
+    ingredients: [
+                    "350g de arroz",
+                    "1 calabresa e meia",
+                    "1 cenoura",
+                    "1 milho verde",
+                    "cebola a gosto",
+                    "pimenta de cheiro a gosto",
+                    "alho a gosto",
+                    "temperos a gosto"
+                ],
+
+    video_embed: "https://www.instagram.com/p/C62SJjHu8Ye/",
+    resume: `
+                <br>
+                Confira todas as dicas e detalhes dessa receita de Arroz temperado que é uma delícia e simples de ser feita. 
+                Divirta-se e delicie-se!
+                <br>
+            `,
+    preparo: [
+                "Triture a calabresa",
+                "Coloque a calabresa para fritar",
+                " Em seguida acrescente o alho, a cebola, a pimenta de cheiro, o arroz, os temperos, a cenoura, o milho e refogue tudo muito bem",
+                "Acrescente 2 medidas de água iguais a do arroz e deixe cozinhar",
+                "Depois de cozido, finalize com cheiro verde por cima"
+            ],
+    photoCover: "assets/img-capas/mini85.jpg",
+    photoCoverContent: "assets/img-content/arroz-temperado.jpg"
+},
     /* ######################### END RECEITAS SALGADAS ############################ */
 
 
@@ -2855,6 +3138,206 @@ export const dataFake: FoodItem[] = [
                 ],
         photoCover: "assets/img-capas/mini71.jpg",
         photoCoverContent: "assets/img-content/bolo-batata-doce.jpg"
+    },
+    {
+        id: "75",
+        category: "doces",
+        title: "Balas de Gengibre",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "400 gramas de açúcar",
+                        "100 ml de suco de limão",
+                        "1 gengibre grande ralado",
+                        "1 pitada de açafrão"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/CviAF7WAHua/",
+        resume: `
+                    <br>
+                    Além de serem muito gostosas, fazem muito bem a saúde!
+                    <br>
+                    Auxilia na má digestão, azia, tosse e resfriado.
+                    <br>
+                `,
+        preparo: [
+                    "Em uma panela, despeje o açúcar, o limão, o gengibre, o açafrão e mexa apenas para misturar os ingredientes. Depois, não pode mexer mais",
+                    "Deixe cozinhando até chegar no ponto de bala, o que pode levar de 10 a 15 minutos",
+                    "Despeje a mistura numa forma untada com azeite",
+                    "A medida que for ficando morno e esfriando, vá modelando. Enrole com papel manteiga"
+
+                ],
+        photoCover: "assets/img-capas/mini75.jpg",
+        photoCoverContent: "assets/img-content/bala-gengibre.jpg"
+    },
+    {
+        id: "76",
+        category: "doces",
+        title: "Árvores de Waffes",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamento"
+                    ],
+
+        ingredients: [
+                        "1 Pacote de Waffes de chocolate",
+                        "1 Pacote de Torrone",
+                        "Chocolate derretido",
+                        "palito de pirulito"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DCqI4gRtveB/",
+        resume: `
+                    <br>
+                    Rústicos, criativos, econômicos, lindos, fáceis de fazer e com apenas 4 ingredientes!
+                    <br>
+                `,
+        preparo: [
+                    "Corte as bolachas em 5 tamanhos diferentes",
+                    "Espete as bolachas com o palito e coloque o chocolate derretido para firmar onde foi feito o furo",
+                    "Corte as estrelinhas com uma forminha em estrela de alumínio e coloque no topo do palito"
+                ],
+        photoCover: "assets/img-capas/mini76.jpg",
+        photoCoverContent: "assets/img-content/arvores-waffes.jpg"
+    },
+    {
+        id: "82",
+        category: "doces",
+        title: "Cocada de Forno",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "1 lata de leite condensado",
+                        "3 ovos",
+                        "1 vidrinho de leite de coco",
+                        "1 colher de sopa de manteiga",
+                        "100g de coco ralado seco sem açúcar"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/Csglq1PuXej/",
+        resume: `
+                    <br>
+                    Cocada de forno bem cremosa e fácil de fazer. Tão boa que você vai querer toda semana!
+                    <br>
+                `,
+        preparo: [
+                    "Numa travessa, acrescente os ovos, o leite de coco, o leite condensado, a manteiga em ponto pomada e misture bem",
+                    "Adicione o coco ralado e continue a misturar",
+                    "Despeje tudo numa travessa untada com manteiga e leve ao forno por aproximadamente 35 minutos a 180°"
+                ],
+        photoCover: "assets/img-capas/mini82.jpg",
+        photoCoverContent: "assets/img-content/cocada-forno.png"
+    },
+    {
+        id: "86",
+        category: "doces",
+        title: "Café Gelado",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "bebida"
+                    ],
+
+        ingredients: [
+                        "café em cubinhos de gelo",
+                        "1/2 litro de leite",
+                        "2 colheres de leite em pó",
+                        "2 colheres de achocolatado",
+                        "100g de coco ralado seco sem açúcar"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C0hwelxuaCB/",
+        resume: `
+                    <br>
+                    Nunca mais você vai comprar café gelado depois de aprender a fazer esse aqui.
+                    <br>E no calor, te garanto que seu café da manhã vai ser sempre assim!
+                    <br>
+                `,
+        preparo: [
+                    "Bater tudo no liquidificador"
+                ],
+        photoCover: "assets/img-capas/mini86.jpg",
+        photoCoverContent: "assets/img-content/cafe-gelado.jpg"
+    },
+    {
+        id: "87",
+        category: "doces",
+        title: "Pudim na Caixa",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "1 caixa de leite condensado",
+                        "1 xícara de chocolate em pó 50%",
+                        "2 caixas de creme de leite",
+                        "1 xícaras de leite",
+                        "24g de gelatina sem sabor hidratada"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/CrWjD0Cgd38/",
+        resume: `
+                    <br>
+                    O pudim de chocolate desta receita é tão prático de preparar que você nem vai acreditar!
+                    <br>
+                `,
+        preparo: [
+                    "No liquidificador, acrescente o leite consensado, o leite, o creme de leite, o chocolate em pó e deixe bater por alguns minutos",
+                    "Por último, coloque a gelatina sem sabor e deixe bater um pouco mais",
+                    "Despeje tudo numa caixa de leite já higienizada e leve para a geladeira por no mínimo 3 horas",
+                    "Depois, corte a caixa com uma tesoura"
+                ],
+        photoCover: "assets/img-capas/mini87.jpg",
+        photoCoverContent: "assets/img-content/pudim-caixa.jpg"
+    },
+    {
+        id: "88",
+        category: "doces",
+        title: "Bombom Caribe",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "sobremesa"
+                    ],
+
+        ingredients: [
+                        "3 bananas",
+                        "1 colher de sopa de cacau",
+                        "1/2 xícara de água",
+                        "200g de chocolate 70% para banhar"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/CslxtK9OI2o/",
+        resume: `
+                    <br>
+                    Essa receita de Bombom caribe é uma delicia e o melhor de tudo é que a gente come um doce sem pesar 
+                    na balança e na consciência.
+                    <br>
+                `,
+        preparo: [
+                    "Amasse as bananas, misture o cacau e água e leve ao fogo até o ponto de brigadeiro",
+                    "Coloque em um prato de vidro untado com margarina e leve para gelar",
+                    "Corte em quadradinhos e banhe no chocolate meio amargo"
+                ],
+        photoCover: "assets/img-capas/mini88.jpg",
+        photoCoverContent: "assets/img-content/bombom-caribe.jpg"
     }
     /* ######################### END RECEITAS DOCES ############################ */
 ]
