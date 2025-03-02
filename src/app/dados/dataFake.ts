@@ -787,8 +787,7 @@ export const dataFake: FoodItem[] = [
         
         subcategory: [
                         "bolos",
-                        "lanches",
-                        "café da manhã"
+                        "lanches"
                      ],
 
         ingredients: [
@@ -1128,7 +1127,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "20 minutos",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -1166,7 +1165,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "40 minutos",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "carnes",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -1215,7 +1216,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "30 minutos",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "carnes"
                      ],
 
         ingredients: [
@@ -1255,7 +1257,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "20 minutos",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -1296,7 +1298,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "refeição completa",
+                        "caldos",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -1338,8 +1342,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição",
-                        "com lactose"
+                        "refeição completa",
+                        "pizzas"
                      ],
 
         ingredients: [
@@ -1372,7 +1376,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -1412,7 +1417,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "sem lactose",
+                        "café da manhã",
+                        "pães"
                      ],
 
         ingredients: [
@@ -1444,7 +1451,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "bolos"
                      ],
 
         ingredients: [
@@ -1480,7 +1488,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "café da manhã"
                     ],
 
         ingredients: [
@@ -1516,7 +1524,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "sem lactose",
+                        "café da manhã",
+                        "pães"
                     ],
 
         ingredients: [
@@ -1552,7 +1562,9 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "acompanhamento"
+                    "acompanhamentos",
+                    "petiscos",
+                    "sem lactose"
                 ],
 
     ingredients: [
@@ -1585,7 +1597,8 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "lanches",
+                    "bolos"
                 ],
 
     ingredients: [
@@ -1622,8 +1635,10 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
-                ],
+                    "lanches",
+                    "biscoitos",
+                    "arroz"
+                 ],
 
     ingredients: [
                     "1/4 xícara de leite",
@@ -1661,7 +1676,7 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "pipocas"
                 ],
 
     ingredients: [
@@ -1696,7 +1711,9 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "massas",
+                    "pizzas",
+                    "datas comemorativas"
                 ],
 
     ingredients: [
@@ -1730,7 +1747,8 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "lanches",
+                    "bolos"
                 ],
 
     ingredients: [
@@ -1767,7 +1785,7 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "café da manhã"
                 ],
 
     ingredients: [
@@ -1799,7 +1817,7 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "pizzas"
                 ],
 
     ingredients: [
@@ -1839,7 +1857,8 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "refeição"
+                    "refeição completa",
+                    "arroz"
                 ],
 
     ingredients: [
@@ -1879,7 +1898,7 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "lanches"
                 ],
 
     ingredients: [
@@ -1921,7 +1940,8 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "café da manhã",
+                    "pães"
                 ],
 
     ingredients: [
@@ -1955,8 +1975,9 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "acompanhamento"
-                ],
+                    "datas comemorativas",
+                    "sem lactose"
+                 ],
 
     ingredients: [
                     "Ovos de galinha",
@@ -1989,7 +2010,8 @@ export const dataFake: FoodItem[] = [
     tempo_preparo: "",
     
     subcategory: [
-                    "lanche"
+                    "massas",
+                    "lanches"
                 ],
 
     ingredients: [
@@ -2016,6 +2038,7 @@ export const dataFake: FoodItem[] = [
     photoCover: "assets/img-capas/mini78.jpg",
     photoCoverContent: "assets/img-content/cestinhas-pastel.png"
 },
+/* AQUI 50 */
 {
     id: "79",
     category: "salgados",
