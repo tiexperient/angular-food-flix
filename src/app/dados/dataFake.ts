@@ -10,9 +10,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "com lactose",
+                        "pães",
                         "massas",
-                        "culinária árabe"
+                        "café da manhã"
                      ],
 
         ingredients: [
@@ -50,7 +50,7 @@ export const dataFake: FoodItem[] = [
         
         subcategory: [
                         "sem lactose",
-                        "refeição"
+                        "acompanhamento"
                      ],
 
         ingredients: [
@@ -97,7 +97,7 @@ export const dataFake: FoodItem[] = [
         
         subcategory: [
                         "caldos",
-                        "culinária mineira"
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -141,7 +141,10 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche",
+                        "lanches",
+                        "bolos",
+                        "arroz"
+
                      ],
 
         ingredients: [
@@ -184,8 +187,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição",
-                        "frutos do mar"
+                        "refeição completa",
+                        "arroz",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -227,7 +231,7 @@ export const dataFake: FoodItem[] = [
         
         subcategory: [
                         "caldos",
-                        "culinária maranhense"
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -271,7 +275,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "refeição completa",
+                        "café da manhã"
                      ],
 
         ingredients: [
@@ -310,7 +315,10 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "40 minutos",
         
         subcategory: [
-                        "lanche"
+                        "bolos",
+                        "pães",
+                        "lanches",
+                        "café da manhã"
                      ],
 
         ingredients: [
@@ -346,7 +354,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "refeição completa",
+                        "arroz",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -386,7 +396,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -423,7 +433,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "saladas",
+                        "sem lactose",
                      ],
 
         ingredients: [
@@ -466,8 +478,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição",
-                        "culinária goiana"
+                        "refeição completa",
+                        "arroz"
                      ],
 
         ingredients: [
@@ -521,7 +533,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "carnes",
+                        "bolos"
                      ],
 
         ingredients: [
@@ -569,7 +583,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "saladas",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -609,8 +625,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "30 minutos",
         
         subcategory: [
-                        "acompanhamento",
-                        "com lactose"
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -651,8 +666,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "20 minutos",
         
         subcategory: [
-                        "acompanhamento",
-                        "com lactose"
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -689,8 +703,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento",
-                        "com lactose"
+                        "refeição completa",
+                        "massas"
                      ],
 
         ingredients: [
@@ -728,7 +742,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "carnes",
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -771,7 +786,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "bolos",
+                        "lanches",
+                        "café da manhã"
                      ],
 
         ingredients: [
@@ -811,7 +828,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "petisco"
+                        "petiscos",
+                        "sem lactose",
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -851,8 +870,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição",
-                        "culinária japonesa"
+                        "refeição completa",
+                        "massas",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -894,8 +914,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche",
-                        "culinária árabe"
+                        "lanches",
+                        "acompanhamentos"
                      ],
 
         ingredients: [
@@ -933,7 +953,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "lanches",
+                        "pães",
+                        "café da manhã"
                      ],
 
         ingredients: [
@@ -974,12 +996,21 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche",
-                        "culinária goiana"
+                        "caldos"
                      ],
 
         ingredients: [
-                        "",
+                        "300g de bacon picado",
+                        "2 linguiças calabresas picadas",
+                        "4 latas de milho verde",
+                        "1 cebola picada",
+                        "3 dentes de alho picados",
+                        "1 pimenta dedo de moça picada",
+                        "sal a gosto",
+                        "300g de mussarela",
+                        "400g de linguiça de porco picada frita",
+                        "1 lata de milho verde para a finalização",
+                        "cheiro verde a gosto"
                      ],
 
         video_embed: "https://www.facebook.com/Receitasedicasdevo/videos/552394192791254/",
@@ -990,7 +1021,14 @@ export const dataFake: FoodItem[] = [
                     <br>
                 `,
         preparo: [
-                    "",
+                    "Numa panela, coloque o bacon para fritar e soltar um pouco da gordura",
+                    "Acrescente a linguiça e deixe fritar bem",
+                    "A parte, no liquidificador, adicione as 4 latas de milho verde, água até cobrir e bater por 5 minutos aproximadamente",
+                    "Onde o bacon e a linguiça estão fritando, retire o excesso de óleo e adicione a cebola e deixe refogar",
+                    "Acrescente o alho e refogue bem",
+                    "Acrescente a mistura do liquidificador, a pimenta dedo de moça, misture e deixe cozinhar por 10 minutos aproximadamente",
+                    "Acrescente o sal, a mussarela e misture bem",
+                    "Acrescente a linguiça de porco, o milho para a finalização, o cheiro verde e misture"
                  ],
         photoCover: "assets/img-capas/mini35.jpg",
         photoCoverContent: "assets/img-content/xica-doida.jpg"
@@ -1003,7 +1041,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "arroz",
+                        "refeição completa",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -1044,7 +1084,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "acompanhamentos",
+                        "saladas",
+                        "sem lactose"
                      ],
 
         ingredients: [

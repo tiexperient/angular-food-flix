@@ -1,0 +1,52 @@
+/* Celular Retrato */
+@media (max-width:600px) and (orientation: portrait) {
+    .col{
+        width: calc(70%);
+      }
+
+      .wrapper {
+        max-width: 200rem;
+      }
+}
+
+/* Celular Paisagem */
+@media (max-width:800px) and (orientation: landscape) {
+      .col{
+        width: calc(35%);
+      }
+
+      .wrapper {
+        max-width: 120rem;
+      }
+}
+
+/* Tablet Retrato *//*
+@media (min-width: 601px) and (max-width: 800px) and (orientation: portrait) {
+
+}
+
+ /* Tablet Paisagem *//*
+ @media (min-width: 801px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+
+/*
+  @media screen and (max-width: 64rem){
+    .col{
+      width: calc(33.333333% - 2rem);
+    }
+  }
+  
+  @media screen and (max-width: 48rem){
+    .col{
+      width: calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (max-width: 32rem){
+    .col{
+      width: 100%;
+      margin: 0 0 2rem 0;
+    }
+  }*/

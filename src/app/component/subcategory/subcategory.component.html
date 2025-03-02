@@ -1,0 +1,22 @@
+<div class="wrapper">
+    <h1>SEÇÃO DE {{ subcategoryName | uppercase }}</h1>
+    <div class="cols" *ngIf="foods.length > 0; else notFound">
+        <div class="col" ontouchstart="this.classList.toggle('hover');" *ngFor="let food of foods">
+            <div class="container">
+                <div class="front" [style.backgroundImage]="'url(' + food.image + ')'"></div>
+                <div class="back">
+                    <div class="inner">
+                        <h3>{{ food.title }}</h3>
+                        <p [innerHTML]="food.resume"></p>
+                        <div class="sub-main">
+                            <button class="button-two" [routerLink]="['/receita', food.id]"><span>Leia mais</span></button>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <ng-template #notFound>
+        <p style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; font-weight: 500; margin-bottom: 50px; margin-top: 50px; display: flex; justify-content: center;">Nenhuma receita encontrada para esta subcategoria.</p>
+    </ng-template>
+</div>

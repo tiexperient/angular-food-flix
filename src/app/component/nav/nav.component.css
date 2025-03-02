@@ -1,6 +1,7 @@
-.container{
+/* Container centralizado */
+.container {
     margin-top: 0;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
@@ -19,6 +20,9 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 0 30px;
+    
+    position: relative; /* Garante que o z-index funcione corretamente */
+    z-index: 999;
 }
 
 /* Lista de navegação */
@@ -27,9 +31,12 @@ ul {
     display: flex;
     gap: 2rem;
     align-items: center;
+    position: relative;
 }
+
 ul li {
     color: #fff;
+    position: relative;
 }
 
 /* Ícone do logo */
@@ -48,6 +55,7 @@ ul li {
     position: relative;
     transition: color 0.3s ease-in-out;
 }
+
 .menu::before {
     content: "";
     position: absolute;
@@ -60,8 +68,55 @@ ul li {
     bottom: 0;
     left: 0;
 }
+
 .menu:hover::before {
     transform: scaleX(1);
+}
+
+/* Submenu */
+.has-submenu {
+    position: relative;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(51, 51, 51, 0.9);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: none; /* Inicialmente escondido */
+    z-index: 1000;
+}
+
+/* Espaçamento e fundo dos itens do submenu */
+.submenu-item {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.submenu-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Exibir submenu ao passar o mouse */
+.has-submenu:hover .submenu,
+.has-submenu:focus-within .submenu {
+    display: block;
+}
+
+/* Evitar falha ao descer o mouse */
+.submenu li {
+    margin: 0;
+    padding: 0;
 }
 
 /* Responsividade */
@@ -79,5 +134,12 @@ ul li {
 
     .menu {
         font-size: 1rem;
+    }
+
+    /* Ajustando submenu para mobile */
+    .submenu {
+        position: static;
+        width: 100%;
+        text-align: center;
     }
 }

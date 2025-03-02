@@ -13,6 +13,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { SweetButtonComponent } from './component/sweet-button/sweet-button.component';
 import { CardSweetComponent } from './component/card-sweet/card-sweet.component';
 import { SweetCategoryComponent } from './page/sweet-category/sweet-category.component';
+import { SubcategoryComponent } from './component/subcategory/subcategory.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SweetCategoryComponent } from './page/sweet-category/sweet-category.com
     FooterComponent,
     SweetButtonComponent,
     CardSweetComponent,
-    SweetCategoryComponent
+    SweetCategoryComponent,
+    SubcategoryComponent
   ],
   imports: [
     BrowserModule,

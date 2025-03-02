@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  submenuAberto = false;
+
+  mostrarSubmenu(estado: boolean) {
+    this.submenuAberto = estado;
+  }
+
   constructor() { }
 
   ngOnInit(): void {

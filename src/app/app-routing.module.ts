@@ -4,6 +4,7 @@ import { SaltCategoryComponent } from './page/salt-category/salt-category.compon
 import { HomeComponent } from './page/home/home.component';
 import { ContentComponent } from './page/content/content.component';
 import { SweetCategoryComponent } from './page/sweet-category/sweet-category.component';
+import { SubcategoryComponent } from './component/subcategory/subcategory.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,11 @@ const routes: Routes = [
     path: 'doces',
     component: SweetCategoryComponent
   },
+
+  { 
+    path: 'subcategoria/:name', 
+    component: SubcategoryComponent }, // Rota dinâmica para subcategorias
+
   {
     path: 'receita/:id',
     component: ContentComponent
