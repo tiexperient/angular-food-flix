@@ -1553,706 +1553,902 @@ export const dataFake: FoodItem[] = [
                 ],
         photoCover: "assets/img-capas/mini61.jpg",
         photoCoverContent: "assets/img-content/pao-flocao.jpg"
-},
-{
-    id: "62",
-    category: "salgados",
-    title: "Bolinhas de Batata",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "acompanhamentos",
-                    "petiscos",
-                    "sem lactose"
+    },
+    {
+        id: "62",
+        category: "salgados",
+        title: "Bolinhas de Batata",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamentos",
+                        "petiscos",
+                        "sem lactose"
+                    ],
+
+        ingredients: [
+                        "2 xícaras de batatas cozidas e amassadas",
+                        "2 colheres (sopa) de azeite de oliva",
+                        "1⁄2 colher (chá) de sal",
+                        "1⁄2 xícara ou até dar ponto de amido de milho ou mix de farinhas sem glúten"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DE7OiA5upCD/",
+        resume: `
+                    <br>
+                    Um lanche nutritivo, fácil e saboroso. Ideal para servir para toda a criançada. Esta receita é saudável, 
+                    pois leva ingredientes naturais e pouco calóricos, além disso, não utiliza óleo em seu preparo.
+                    <br>
+                `,
+        preparo: [
+                    "Em um recipiente misture a batata, o azeite e o sal",
+                    "Acrescente o amido ou mix de farinhas até obter ponto de desgrudar das mãos",
+                    "Faça bolinhas , coloque em forma untada, pincele azeite de oliva e asse em forno preaquecido ou airfryer a 200 graus por cerca de 30 minutos ou até ficarem douradas"
                 ],
+        photoCover: "assets/img-capas/mini62.jpg",
+        photoCoverContent: "assets/img-content/bolinhas-batata.jpg"
+    },
+    {
+        id: "63",
+        category: "salgados",
+        title: "Muffin de Flocão",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanches",
+                        "bolos"
+                    ],
 
-    ingredients: [
-                    "2 xícaras de batatas cozidas e amassadas",
-                    "2 colheres (sopa) de azeite de oliva",
-                    "1⁄2 colher (chá) de sal",
-                    "1⁄2 xícara ou até dar ponto de amido de milho ou mix de farinhas sem glúten"
+        ingredients: [
+                        "50g flocão de milho",
+                        "1 ovo inteiro",
+                        "25g queijo mussarela",
+                        "30g requeijão light",
+                        "50g frango desfiado",
+                        "50ml água"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DD9k3LYx96A/",
+        resume: `
+                    <br>
+                    Muffins fit de cuscuz com frango e mussarela são uma excelente opção para o lanchinho da tarde!
+                    <br>
+                `,
+        preparo: [
+                    "Misture o flocão, água, ovo e o sal muito bem",
+                    "Deixe descansar por pelo menos 10 minutos",
+                    "Depois de descansar é só montar nas formas de silicone",
+                    "Comece com a massa, recheie com o frango depois o requeijão e finalize com a massa e o queijo ralado",
+                    "Leve para airfryer por 5 minutos a 180 graus",
+                    "Obs: o tempo pode variar em cada airfryer. Mas é importante não deixar muito tempo, pois o flocão pode ficar duro"
                 ],
+        photoCover: "assets/img-capas/mini63.jpg",
+        photoCoverContent: "assets/img-content/muffin-flocao.png"
+    },
+    {
+        id: "64",
+        category: "salgados",
+        title: "Bolachas de Arroz",
+        porcoes: "40 unidades",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanches",
+                        "biscoitos",
+                        "arroz"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/DE7OiA5upCD/",
-    resume: `
-                <br>
-                Um lanche nutritivo, fácil e saboroso. Ideal para servir para toda a criançada. Esta receita é saudável, 
-                pois leva ingredientes naturais e pouco calóricos, além disso, não utiliza óleo em seu preparo.
-                <br>
-            `,
-    preparo: [
-                "Em um recipiente misture a batata, o azeite e o sal",
-                "Acrescente o amido ou mix de farinhas até obter ponto de desgrudar das mãos",
-                "Faça bolinhas , coloque em forma untada, pincele azeite de oliva e asse em forno preaquecido ou airfryer a 200 graus por cerca de 30 minutos ou até ficarem douradas"
-            ],
-    photoCover: "assets/img-capas/mini62.jpg",
-    photoCoverContent: "assets/img-content/bolinhas-batata.jpg"
-},
-{
-    id: "63",
-    category: "salgados",
-    title: "Muffin de Flocão",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "lanches",
-                    "bolos"
+        ingredients: [
+                        "1/4 xícara de leite",
+                        "1 xícara de arroz cozido",
+                        "3 colheres (sopa) de azeite de oliva",
+                        "1/3 xícara de queijo parmesão ralado",
+                        "1 colher (sopa) de chia",
+                        "1/4 colher (chá) de sal",
+                        "1 xícara de tapioca"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C_-3E_pprHx/",
+        resume: `
+                    <br>
+                    Bolachas de arroz são um lanche prático e versátil que podem ser consumidas em vários momentos do dia. 
+                    <br>
+                `,
+        preparo: [
+                    "Aqueça o leite, coloque no liquidificador e bata com o arroz e o azeite",
+                    "Transfira para uma vasilha e misture com o queijo, a chia e o sal",
+                    "Finalize com a tapioca e mexa até obter uma massa homogênea",
+                    "Coloque na geladeira por cerca de 20 minutos",
+                    "Forre a bancada com um plástico, pegue uma pequena porção da massa e cubra com outro plástico para abrir com o rolo. Quanto mais fininha, mais crocantes elas ficarão",
+                    "Corte em diferentes formatos com o auxílio de aros ou corte no formato que desejar",
+                    "Coloque em forma untada e asse em forno preaquecido a 200 graus por cerca de 20 minutos ou até dourar levemente"
                 ],
+        photoCover: "assets/img-capas/mini64.jpg",
+        photoCoverContent: "assets/img-content/bolachas-arroz.png"
+    },
+    {
+        id: "66",
+        category: "salgados",
+        title: "Pipoca de Cinema",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "pipocas"
+                     ],
 
-    ingredients: [
-                    "50g flocão de milho",
-                    "1 ovo inteiro",
-                    "25g queijo mussarela",
-                    "30g requeijão light",
-                    "50g frango desfiado",
-                    "50ml água"
+        ingredients: [
+                        "Óleo",
+                        "1 colher de sopa de manteiga",
+                        "300g de salsichas",
+                        "1 xícara de milho de pipoca",
+                        "Sal a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DDzwkxRN3Qi/",
+        resume: `
+                    <br>
+                    Essas pipocas são melhores até que as de cinema! 
+                    <br>
+                `,
+        preparo: [
+                    "Numa panela, acrescente o óleo, a manteiga e espere derreter",
+                    "Acrescente a salsicha cortada em rodelas e deixe fritar um pouco",
+                    "Adicione o milho a fritura e mexa muito bem, para pegar o sabor da salsicha",
+                    "Depois que elas estourarem, retire do fogo e tempere com o sal",
+                    "Obs: Se quiser, pode acrescentar bacon a mistura"
                 ],
+        photoCover: "assets/img-capas/mini66.jpg",
+        photoCoverContent: "assets/img-content/pipoca-cinema.jpg"
+    },
+    {
+        id: "67",
+        category: "salgados",
+        title: "Pizza Halloween Caveirinhas",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "massas",
+                        "pizzas",
+                        "datas comemorativas"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/DD9k3LYx96A/",
-    resume: `
-                <br>
-                Muffins fit de cuscuz com frango e mussarela são uma excelente opção para o lanchinho da tarde!
-                <br>
-            `,
-    preparo: [
-                "Misture o flocão, água, ovo e o sal muito bem",
-                "Deixe descansar por pelo menos 10 minutos",
-                "Depois de descansar é só montar nas formas de silicone",
-                "Comece com a massa, recheie com o frango depois o requeijão e finalize com a massa e o queijo ralado",
-                "Leve para airfryer por 5 minutos a 180 graus",
-                "Obs: o tempo pode variar em cada airfryer. Mas é importante não deixar muito tempo, pois o flocão pode ficar duro"
-            ],
-    photoCover: "assets/img-capas/mini63.jpg",
-    photoCoverContent: "assets/img-content/muffin-flocao.png"
-},
-{
-    id: "64",
-    category: "salgados",
-    title: "Bolachas de Arroz",
-    porcoes: "40 unidades",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "lanches",
-                    "biscoitos",
-                    "arroz"
-                 ],
+        ingredients: [
+                        "Molho de Tomate",
+                        "Queijo",
+                        "Orégano",
+                        "cogumelos"
+                    ],
 
-    ingredients: [
-                    "1/4 xícara de leite",
-                    "1 xícara de arroz cozido",
-                    "3 colheres (sopa) de azeite de oliva",
-                    "1/3 xícara de queijo parmesão ralado",
-                    "1 colher (sopa) de chia",
-                    "1/4 colher (chá) de sal",
-                    "1 xícara de tapioca"
+        video_embed: "https://www.instagram.com/p/DBW9ohdtF3Y/",
+        resume: `
+                    <br>
+                    O Halloween pode ficar ainda mais divertido se os monstrinhos estiverem em formato de pizza também. 
+                    Inspire-se, e faça algo diferente para as visitas.
+                    <br>
+                `,
+        preparo: [
+                    "Caso não tenha a massa básica para pizza, procure no site. É muito fácil de fazer",
+                    "Acrescente molho de tomate por cima da massa e em seguida a mussarela",
+                    "Corte os cogumelos ao meio e retire a parte onde ficarão os olhos(veja no vídeo)",
+                    "Finalize com orégano e leve para assar até o queijo derreter"
                 ],
+        photoCover: "assets/img-capas/mini67.jpg",
+        photoCoverContent: "assets/img-content/pizza-halloween.jpg"
+    },
+    {
+        id: "68",
+        category: "salgados",
+        title: "Muffin de Tapioca",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanches",
+                        "bolos"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/C_-3E_pprHx/",
-    resume: `
-                <br>
-                Bolachas de arroz são um lanche prático e versátil que podem ser consumidas em vários momentos do dia. 
-                <br>
-            `,
-    preparo: [
-                "Aqueça o leite, coloque no liquidificador e bata com o arroz e o azeite",
-                "Transfira para uma vasilha e misture com o queijo, a chia e o sal",
-                "Finalize com a tapioca e mexa até obter uma massa homogênea",
-                "Coloque na geladeira por cerca de 20 minutos",
-                "Forre a bancada com um plástico, pegue uma pequena porção da massa e cubra com outro plástico para abrir com o rolo. Quanto mais fininha, mais crocantes elas ficarão",
-                "Corte em diferentes formatos com o auxílio de aros ou corte no formato que desejar",
-                "Coloque em forma untada e asse em forno preaquecido a 200 graus por cerca de 20 minutos ou até dourar levemente"
-            ],
-    photoCover: "assets/img-capas/mini64.jpg",
-    photoCoverContent: "assets/img-content/bolachas-arroz.png"
-},
-{
-    id: "66",
-    category: "salgados",
-    title: "Pipoca de Cinema",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "pipocas"
+        ingredients: [
+                        "2 ovos inteiros",
+                        "50g tapioca",
+                        "50g queijo mussarela",
+                        "20g requeijão light",
+                        "fermento (1 colher de café rasa)",
+                        "sal a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C_nqthrOoQk/",
+        resume: `
+                    <br>
+                    Mais uma forma pra você variar seu café da manhã/lanche da tarde com essa receita de muffin de tapioca com queijo 
+                    recheado na airfryer.
+                    <br>
+                `,
+        preparo: [
+                    "Numa tijela, acrescente os ovos, a tapioca, a mussarela, o sal e misture tudo muito bem",
+                    "Acrescente o fermento e continue a misturar",
+                    "Se quiser, pode despejar nas forminhas e rechear com requeijão",
+                    "Acrescente nas forminhas e leve para assar na airfryer a 120 graus por 15 minutos",
+                    "Você também pode jogar queijo por cima, pra ficar mais douradinho"
                 ],
+        photoCover: "assets/img-capas/mini68.jpg",
+        photoCoverContent: "assets/img-content/muffin-tapioca.jpg"
+    },
+    {
+        id: "69",
+        category: "salgados",
+        title: "Rap 10 de Batata Doce",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "café da manhã"
+                     ],
 
-    ingredients: [
-                    "Óleo",
-                    "1 colher de sopa de manteiga",
-                    "300g de salsichas",
-                    "1 xícara de milho de pipoca",
-                    "Sal a gosto"
+        ingredients: [
+                        "Batata doce raladinha",
+                        "tempero a gosto",
+                        "frango, requeijão ou mussarela para o recheio"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C-6A2gHSE17/",
+        resume: `
+                    <br>
+                    O wrap está entre os queridinhos porque a aveia é fonte de fibras e proteínas enquanto a batata-doce 
+                    dá uma boa textura para o pão e energia para quem o come.
+                    <br>
+                `,
+        preparo: [
+                    "Tempere a batata ralada",
+                    "Leve para uma frigideira untada e asse como um rap 10 normal. Deixe secar e criar a casquinha antes de virar"
+
                 ],
+        photoCover: "assets/img-capas/mini69.jpg",
+        photoCoverContent: "assets/img-content/rap10-batata-doce.jpg"
+    },
+    {
+        id: "70",
+        category: "salgados",
+        title: "Pizza de Frigideira",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "pizzas"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/DDzwkxRN3Qi/",
-    resume: `
-                <br>
-                Essas pipocas são melhores até que as de cinema! 
-                <br>
-            `,
-    preparo: [
-                "Numa panela, acrescente o óleo, a manteiga e espere derreter",
-                "Acrescente a salsicha cortada em rodelas e deixe fritar um pouco",
-                "Adicione o milho a fritura e mexa muito bem, para pegar o sabor da salsicha",
-                "Depois que elas estourarem, retire do fogo e tempere com o sal",
-                "Obs: Se quiser, pode acrescentar bacon a mistura"
-            ],
-    photoCover: "assets/img-capas/mini66.jpg",
-    photoCoverContent: "assets/img-content/pipoca-cinema.jpg"
-},
-{
-    id: "67",
-    category: "salgados",
-    title: "Pizza Halloween Caveirinhas",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "massas",
-                    "pizzas",
-                    "datas comemorativas"
+        ingredients: [
+                        "2 tomates cortados em rodelas",
+                        "3 ovos",
+                        "1/2 colher de sal",
+                        "alho em pó",
+                        "cebolinha a gosto",
+                        "presunto a gosto",
+                        "manteiga para untar",
+                        "queijo mussarela",
+                        "orégano a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C3s_fIHPAmr/",
+        resume: `
+                    <br>
+                    Poucas sensações são tão gostosas quanto saborear uma pizza bem quentinha. Melhor que isso, 
+                    apenas se você puder preparar uma versão rápida em casa.
+                    <br>
+                `,
+        preparo: [
+                    "coloque os tomates na frigideira untada com manteiga",
+                    "Acrescente um pouco de sal e por cima, coloque a mistura dos ovos com a cebolinha e os outros temperos",
+                    "Coloque o presunto picado em cubinhos, feche a tampa e deixe cozinhar por 5 minutos",
+                    "Retire a tampa, acrescente a mussarela e o orégano. Tampe a panela e deixe no fogo até o queijo derreter"
+
                 ],
+        photoCover: "assets/img-capas/mini70.jpg",
+        photoCoverContent: "assets/img-content/pizza-frigideira.png"
+    },
+    {
+        id: "72",
+        category: "salgados",
+        title: "Almoço de 1 Panela",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "refeição completa",
+                        "arroz"
+                     ],
 
-    ingredients: [
-                    "Molho de Tomate",
-                    "Queijo",
-                    "Orégano",
-                    "cogumelos"
+        ingredients: [
+                        "200g de linguiça fininha",
+                        "3 dentes de alho ralado",
+                        "1 tomate picado",
+                        "1/2 lata de milho",
+                        "1 cenoura ralada",
+                        "salsinha e cebolinha a gosto",
+                        "1 sachet de molho de tomate",
+                        "1 1/2 de arroz",
+                        "sal a gosto",
+                        "mussarela a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C2KpOLZu9LU/",
+        resume: `
+                    <br>
+                    Receita deliciosa e prática para você fazer na sua casa!
+                    <br>
+                `,
+        preparo: [
+                    "Unte a panela com 1 fio de azeite e acrescente a linguiça cortada em rodelas para fritar",
+                    "Acrescente o alho e deixe dourar",
+                    "Depois acrescente o tomate, o milho, a cenoura, a salsa, a cebola, o molho de tomate e o arroz",
+                    "Cubra com água e acrescente o sal e deixe cozinhar"
+
                 ],
+        photoCover: "assets/img-capas/mini72.jpg",
+        photoCoverContent: "assets/img-content/almoco-uma-panela.png"
+    },
+    {
+        id: "73",
+        category: "salgados",
+        title: "Lanchão de Forno",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "lanches"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/DBW9ohdtF3Y/",
-    resume: `
-                <br>
-                O Halloween pode ficar ainda mais divertido se os monstrinhos estiverem em formato de pizza também. 
-                Inspire-se, e faça algo diferente para as visitas.
-                <br>
-            `,
-    preparo: [
-                "Caso não tenha a massa básica para pizza, procure no site. É muito fácil de fazer",
-                "Acrescente molho de tomate por cima da massa e em seguida a mussarela",
-                "Corte os cogumelos ao meio e retire a parte onde ficarão os olhos(veja no vídeo)",
-                "Finalize com orégano e leve para assar até o queijo derreter"
-            ],
-    photoCover: "assets/img-capas/mini67.jpg",
-    photoCoverContent: "assets/img-content/pizza-halloween.jpg"
-},
-{
-    id: "68",
-    category: "salgados",
-    title: "Muffin de Tapioca",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "lanches",
-                    "bolos"
+        ingredients: [
+                        "4 ovos",
+                        "1 caixa de creme de leite",
+                        "1 tomate picado",
+                        "cheiro verde a gosto", 
+                        "sal a gosto",
+                        "pimenta do reino a gosto",
+                        "presunto a gosto",
+                        "mussarela a gosto",
+                        "calabresa em rodelas a gosto",
+                        "pão de sal ou de forma a gosto",
+                        "orégano a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C3QvySCO0MK/",
+        resume: `
+                    <br>
+                    Esse lanchão de forno vai te surpreender de tão delicioso que fica!
+                    <br>
+                `,
+        preparo: [
+                    "Corte pão de sal em rodelas o suficiente para cobrir uma forma já untada forma",
+                    "a parte, bata os ovos e acrescente o tomate, o cheiro verde, o creme de leite, o sal, a pimenta do reino e misture bem",
+                    "Despeje a mistura por cima do pão e acrescente presunto, queijo e rodelas de calabresae por cima",
+                    "Finalize com orégano",
+                    "Leve para assar por aproximadamente 20 ou 25 minutos a 180°"
+
                 ],
+        photoCover: "assets/img-capas/mini73.jpg",
+        photoCoverContent: "assets/img-content/lanchao-forno.jpg"
+    },
+    {
+        id: "74",
+        category: "salgados",
+        title: "Pão de Tapioca",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "café da manhã",
+                        "pães"
+                     ],
 
-    ingredients: [
-                    "2 ovos inteiros",
-                    "50g tapioca",
-                    "50g queijo mussarela",
-                    "20g requeijão light",
-                    "fermento (1 colher de café rasa)",
-                    "sal a gosto"
+        ingredients: [
+                        "500ml de leite desnatado",
+                        "240g de tapioca granulada",
+                        "2 ovos",
+                        "40g de queijo parmesão ralado",
+                        "sal a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/CylTvCpuczb/",
+        resume: `
+                    <br>
+                    Uma ótima opção de café da manhã, lanche da tarde e até pré treino! O melhor, só 121 calorias cada pãozinho.
+                    <br>
+                `,
+        preparo: [
+                    "Numa tijela, acrescente o leite e misture como sal, a tapioca granulada e deixe hidratar por 15 minutos na geladeira",
+                    "Após esse tempo, acrescente os ovos, o parmesão, o queijo ralado e misture tudo",
+                    "Molde no formato de pãezinhos e coloque na geladeira por mais 10 minutos",
+                    "Leve para assar por 20 minutos a 180°"
                 ],
+        photoCover: "assets/img-capas/mini74.jpg",
+        photoCoverContent: "assets/img-content/pao-tapioca.jpg"
+    },
+    {
+        id: "77",
+        category: "salgados",
+        title: "Ovos natalinos",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "datas comemorativas",
+                        "sem lactose"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/C_nqthrOoQk/",
-    resume: `
-                <br>
-                Mais uma forma pra você variar seu café da manhã/lanche da tarde com essa receita de muffin de tapioca com queijo 
-                recheado na airfryer.
-                <br>
-            `,
-    preparo: [
-                "Numa tijela, acrescente os ovos, a tapioca, a mussarela, o sal e misture tudo muito bem",
-                "Acrescente o fermento e continue a misturar",
-                "Se quiser, pode despejar nas forminhas e rechear com requeijão",
-                "Acrescente nas forminhas e leve para assar na airfryer a 120 graus por 15 minutos",
-                "Você também pode jogar queijo por cima, pra ficar mais douradinho"
-            ],
-    photoCover: "assets/img-capas/mini68.jpg",
-    photoCoverContent: "assets/img-content/muffin-tapioca.jpg"
-},
-{
-    id: "69",
-    category: "salgados",
-    title: "Rap 10 de Batata Doce",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "café da manhã"
+        ingredients: [
+                        "Ovos de galinha",
+                        "grãos de café",
+                        "pimentão vermelho",
+                        "maionese"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DCzczflIv7p/",
+        resume: `
+                    <br>
+                    Uma data especial merece um jeitinho diferente de comemorar, 
+                    ainda mais em momentos onde toda a família está reunida!
+                    <br>
+                `,
+        preparo: [
+                    "Corte os ovos ao meio",
+                    "Corte os pimentões em formato de chapeu",
+                    "Utilize os grãos para moldar olhos e nariz",
+                    "Com a maionese, faça a barba e a cola do chapeu"
                 ],
+        photoCover: "assets/img-capas/mini77.jpg",
+        photoCoverContent: "assets/img-content/ovos-natalinos.png"
+    },
+    {
+        id: "78",
+        category: "salgados",
+        title: "Cestinhas de Pastel",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "massas",
+                        "lanches"
+                     ],
 
-    ingredients: [
-                    "Batata doce raladinha",
-                    "tempero a gosto",
-                    "frango, requeijão ou mussarela para o recheio"
+        ingredients: [
+                        "massa pequena de pastel",
+                        "presunto a gosto",
+                        "mussarela a gosto",
+                        "orégano a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/DCk0iCluD9d/",
+        resume: `
+                    Se você pensou que a massa de pastel serve apenas para fazer pastel, achou errado. 
+                    Temos uma receita que dá uma nova funcionalidade para ela. São cestinhas recheadas com presunto, 
+                    queijo e o que mais você gostar.
+                    <br>
+                    É uma boa ideia de aperitivo! E o melhor: é assado, não frito.
+                `,
+        preparo: [
+                    "Coloque as forminhas na forma de cupcake",
+                    "Dentro da cestinha coloque presunto e finalize com mussarela e orégano",
+                    "Deixe assar em forno a 180° até percener que as bordas da cestinha estão ficando douradas",
+                    "Obs: O recheio pode ser de sua preferência. Desde que finalize com a mussarela com orégano"
                 ],
+        photoCover: "assets/img-capas/mini78.jpg",
+        photoCoverContent: "assets/img-content/cestinhas-pastel.png"
+    },
+    {
+        id: "79",
+        category: "salgados",
+        title: "Esfirra de Batata",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "massas"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/C-6A2gHSE17/",
-    resume: `
-                <br>
-                O wrap está entre os queridinhos porque a aveia é fonte de fibras e proteínas enquanto a batata-doce 
-                dá uma boa textura para o pão e energia para quem o come.
-                <br>
-            `,
-    preparo: [
-                "Tempere a batata ralada",
-                "Leve para uma frigideira untada e asse como um rap 10 normal. Deixe secar e criar a casquinha antes de virar"
+        ingredients: [
+                        "350g de batata",
+                        "25g farinha de aveia",
+                        "sal a gosto",
+                        "pimenta do reino a gosto",
+                        "requeijão a gosto",
+                        "mussarela a gosto",
+                        "orégano a gosto"
+                    ],
 
-            ],
-    photoCover: "assets/img-capas/mini69.jpg",
-    photoCoverContent: "assets/img-content/rap10-batata-doce.jpg"
-},
-{
-    id: "70",
-    category: "salgados",
-    title: "Pizza de Frigideira",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "pizzas"
+        video_embed: "https://www.instagram.com/p/C9TC6eYSkod/",
+        resume: `
+                    <br>
+                    Sem farinha trigo, sem glúten e o principal, é muito fácil de fazer!
+                    <br>
+                `,
+        preparo: [
+                    "Amasse as batatas como se fosse fazer um purê",
+                    "Acrescente a farinha de aveia, o sal, a pimenta do reino e misture bem até virar uma massinha",
+                    "Molde as esfirras e coloque os recheios como requeijão, a mussarela e o orégano",
+                    "Leve ao forno por 20 minutos a 180°"
                 ],
+        photoCover: "assets/img-capas/mini79.jpg",
+        photoCoverContent: "assets/img-content/esfirra-batata.png"
+    },
+    {
+        id: "80",
+        category: "salgados",
+        title: "Pizza de Abobrinha",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamentos",
+                        "pizzas",
+                     ],
 
-    ingredients: [
-                    "2 tomates cortados em rodelas",
-                    "3 ovos",
-                    "1/2 colher de sal",
-                    "alho em pó",
-                    "cebolinha a gosto",
-                    "presunto a gosto",
-                    "manteiga para untar",
-                    "queijo mussarela",
-                    "orégano a gosto"
+        ingredients: [
+                        "1 abobrinha grande",
+                        "1 ovo",
+                        "1 colher de sopa de creme de ricota ou requeijão",
+                        "60g de frango desfiado",
+                        "50g de queijo mussarela",
+                        "sal a gosto",
+                        "pimenta do reino a gosto",
+                        "cheiro verde a gosto",
+                        "azeite a gosto",
+                        "orégano a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C-kpkunOgd3/",
+        resume: `
+                    <br>
+                    Uma pizza sem massa, com rodelas de abobrinha e nem por isso menos saborosa!
+                    <br>
+                `,
+        preparo: [
+                    "Corte as abobrinhas em rodelas e retire o miolo, como aneis",
+                    "Coloque os aneis numa tijela e tempere com azeite, sal e pimenta do reino e coloque numa forma forrada com papel manteiga",
+                    "Pique o miolo finamente e acrescente o frango, o creme de ricota, o ovo, sal, pimenta do reino e misture bem",
+                    "Recheie os aneis e finalize com a mussarela e orégano",
+                    "Leve ao forno a 180° até dourar"
                 ],
+        photoCover: "assets/img-capas/mini80.jpg",
+        photoCoverContent: "assets/img-content/pizza-abobrinha.png"
+    },  
+    {
+        id: "81",
+        category: "salgados",
+        title: "Arroz Primavera",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamentos",
+                        "arroz",
+                        "sem lactose"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/C3s_fIHPAmr/",
-    resume: `
-                <br>
-                Poucas sensações são tão gostosas quanto saborear uma pizza bem quentinha. Melhor que isso, 
-                apenas se você puder preparar uma versão rápida em casa.
-                <br>
-            `,
-    preparo: [
-                "coloque os tomates na frigideira untada com manteiga",
-                "Acrescente um pouco de sal e por cima, coloque a mistura dos ovos com a cebolinha e os outros temperos",
-                "Coloque o presunto picado em cubinhos, feche a tampa e deixe cozinhar por 5 minutos",
-                "Retire a tampa, acrescente a mussarela e o orégano. Tampe a panela e deixe no fogo até o queijo derreter"
+        ingredients: [
+                        "3 ovos",
+                        "300g de carne de porco ou frango",
+                        "1/2 cenoura ralada",
+                        "Sal",
+                        "500g de arroz cozido",
+                        "cebolinha a gosto"
+                    ],
 
-            ],
-    photoCover: "assets/img-capas/mini70.jpg",
-    photoCoverContent: "assets/img-content/pizza-frigideira.png"
-},
-{
-    id: "72",
-    category: "salgados",
-    title: "Almoço de 1 Panela",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "refeição completa",
-                    "arroz"
+        video_embed: "https://www.instagram.com/p/C248JD9OEEf/",
+        resume: `
+                    <br>
+                    Soltinho, simples e saboroso!
+                    <br>
+                `,
+        preparo: [
+                    "Frite os ovos mexidos e reserve",
+                    "Frite a carne já picada. Acrescente a cenoura e refogue",
+                    "Adicione os ovos, o sal e misture bem",
+                    "Adicione o arroz, a cebolinha e misture"
                 ],
+        photoCover: "assets/img-capas/mini81.jpg",
+        photoCoverContent: "assets/img-content/arroz-primavera.jpg"
+    }, 
+    {
+        id: "83",
+        category: "salgados",
+        title: "Batata Rústica",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamentos",
+                        "sem lactose"
+                     ],
 
-    ingredients: [
-                    "200g de linguiça fininha",
-                    "3 dentes de alho ralado",
-                    "1 tomate picado",
-                    "1/2 lata de milho",
-                    "1 cenoura ralada",
-                    "salsinha e cebolinha a gosto",
-                    "1 sachet de molho de tomate",
-                    "1 1/2 de arroz",
-                    "sal a gosto",
-                    "mussarela a gosto"
+        ingredients: [
+                        "Batata inglesa",
+                        "Sal",
+                        "3ml de azeite"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/CskDSMuOvKz/",
+        resume: `
+                    <br>
+                    Como fazer batatas assadas perfeitas na airfryer ou no forno: macia por dentro e com casca crocante por fora.
+                    <br>
+                `,
+        preparo: [
+                    "Corte as batatas em 4 pedaços",
+                    "Acrescente azeite, sal e misture bem",
+                    "Levar para a Air fryer por 30 minutos com temperatura de 160 graus"
                 ],
+        photoCover: "assets/img-capas/mini83.jpg",
+        photoCoverContent: "assets/img-content/batata-rustica.jpg"
+    }, 
+    {
+        id: "84",
+        category: "salgados",
+        title: "Massa Básica para Pizza",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "massas",
+                        "pizzas"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/C2KpOLZu9LU/",
-    resume: `
-                <br>
-                Receita deliciosa e prática para você fazer na sua casa!
-                <br>
-            `,
-    preparo: [
-                "Unte a panela com 1 fio de azeite e acrescente a linguiça cortada em rodelas para fritar",
-                "Acrescente o alho e deixe dourar",
-                "Depois acrescente o tomate, o milho, a cenoura, a salsa, a cebola, o molho de tomate e o arroz",
-                "Cubra com água e acrescente o sal e deixe cozinhar"
+        ingredients: [
+                        "2 ovos",
+                        "1/2 xícara de óleo",
+                        "2 xícaras de leite",
+                        "2 xícaras de farinha de trigo",
+                        "1 pitada de sal",
+                        "1 colher de fermento"
+                    ],
 
-            ],
-    photoCover: "assets/img-capas/mini72.jpg",
-    photoCoverContent: "assets/img-content/almoco-uma-panela.png"
-},
-{
-    id: "73",
-    category: "salgados",
-    title: "Lanchão de Forno",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "lanches"
+        video_embed: "https://www.instagram.com/p/DCbomQCuyDg/",
+        resume: `
+                    <br>
+                    Aprenda a fazer massa caseira profissional para pizza! Receita fácil e prática, que garante pizzas deliciosas.
+                    <br>
+                `,
+        preparo: [
+                    "No liquidificador, coloque os ovos, o óleo, o leite, o sal, a farinha e o fermento e bata até atingir a mistura",
+                    "Despeje o conteúdo numa forma untada e leve ao forno por 15 minutos a 180°"
                 ],
+        photoCover: "assets/img-capas/mini84.jpg",
+        photoCoverContent: "assets/img-content/massa-basica-pizza.jpg"
+    }, 
+    {
+        id: "85",
+        category: "salgados",
+        title: "Arroz Temperado",
+        porcoes: "5",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "acompanhamentos",
+                        "arroz",
+                        "sem lactose"
+                     ],
 
-    ingredients: [
-                    "4 ovos",
-                    "1 caixa de creme de leite",
-                    "1 tomate picado",
-                    "cheiro verde a gosto", 
-                    "sal a gosto",
-                    "pimenta do reino a gosto",
-                    "presunto a gosto",
-                    "mussarela a gosto",
-                    "calabresa em rodelas a gosto",
-                    "pão de sal ou de forma a gosto",
-                    "orégano a gosto"
+        ingredients: [
+                        "350g de arroz",
+                        "1 calabresa e meia",
+                        "1 cenoura",
+                        "1 milho verde",
+                        "cebola a gosto",
+                        "pimenta de cheiro a gosto",
+                        "alho a gosto",
+                        "temperos a gosto"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C62SJjHu8Ye/",
+        resume: `
+                    <br>
+                    Confira todas as dicas e detalhes dessa receita de Arroz temperado que é uma delícia e simples de ser feita. 
+                    Divirta-se e delicie-se!
+                    <br>
+                `,
+        preparo: [
+                    "Triture a calabresa",
+                    "Coloque a calabresa para fritar",
+                    " Em seguida acrescente o alho, a cebola, a pimenta de cheiro, o arroz, os temperos, a cenoura, o milho e refogue tudo muito bem",
+                    "Acrescente 2 medidas de água iguais a do arroz e deixe cozinhar",
+                    "Depois de cozido, finalize com cheiro verde por cima"
                 ],
+        photoCover: "assets/img-capas/mini85.jpg",
+        photoCoverContent: "assets/img-content/arroz-temperado.jpg"
+    },
+    {
+        id: "91",
+        category: "salgados",
+        title: "Nhoque de Batata Doce",
+        porcoes: "4",
+        tempo_preparo: "50 minutos",
+        
+        subcategory: [
+                        "massas",
+                        "refeição completa"
+                    ],
 
-    video_embed: "https://www.instagram.com/p/C3QvySCO0MK/",
-    resume: `
-                <br>
-                Esse lanchão de forno vai te surpreender de tão delicioso que fica!
-                <br>
-            `,
-    preparo: [
-                "Corte pão de sal em rodelas o suficiente para cobrir uma forma já untada forma",
-                "a parte, bata os ovos e acrescente o tomate, o cheiro verde, o creme de leite, o sal, a pimenta do reino e misture bem",
-                "Despeje a mistura por cima do pão e acrescente presunto, queijo e rodelas de calabresae por cima",
-                "Finalize com orégano",
-                "Leve para assar por aproximadamente 20 ou 25 minutos a 180°"
+        ingredients: [
+                        "1kg de batata doce",
+                        "1 xícara de farinha de trigo",
+                        "noz-moscada ralada",
+                        "1 ovo",
+                        "sal a gosto",
+                        "1 lata de tomate pelatti",
+                        "50 g de bacon",
+                        "manjericão, tomilho, orégano fresco",
+                        "pimenta do reino",
+                        "1 cenoura pequena",
+                        "4 dentes de alho",
+                        "azeite",
+                        "queijo parmesão ralado"
+                    ],
 
-            ],
-    photoCover: "assets/img-capas/mini73.jpg",
-    photoCoverContent: "assets/img-content/lanchao-forno.jpg"
-},
-{
-    id: "74",
-    category: "salgados",
-    title: "Pão de Tapioca",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "café da manhã",
-                    "pães"
+        video_embed: "https://www.tudogostoso.com.br/receita/161717-nhoque-de-batata-doce-ao-molho-sugo.html",
+        resume: `
+                    <br>
+                    Delicioso para harmonizar com um molho mais salgado como o bolonhesa! 
+                    <br>
+                    Aprenda a fazer essa receita italiana tão querida por aqui e aproveite para aprender a 
+                    fazer mais tipos de molho!
+                    <br>
+                `,
+        preparo: [
+                    "Cozinha as batatas, depois de cozidas esmague com um garfo ou passe pelo espremedor e deixe esfriar",
+                    "Depois de frio acrescente o ovo batido, sal a gosto e noz-moscada a gosto",
+                    "Vá acrescentando farinha até dar o ponto que não gruda nas mãos",
+                    "Enrole tiras finas, corte em pedaços de mais ou menos um 1 cm e forme o nhoque (com a ajuda do dedo indicador de uma pressionada na massa)",
+                    "Coloque uma panela de água com uma pitada de sal",
+                    "Depois que ferver a água, coloque o nhoque na panela, quando boiar pode retirar",
+                    "Para o molho, Esmagar os dentes de alho (não cortar)",
+                    "Fritar no azeite, acrescentar a cenoura cortada em cubos pequenos (jardineira)",
+                    "Fritar a peça de bacon",
+                    "Colocar a lata de tomate pelatti",
+                    "Acrescentar as ervas (manjericão, tomilho, orégano de fresco)",
+                    "Deixar reduzir o molho e reservar",
+                    "Depois que o molho esteja frio bater no liquidificador",
+                    "Voltar ao fogo, temperar com sal e pimenta-do-reino",
+                    "Caso esteja ácido colocar uma pitada de açúcar",
+                    "Servir o nhoque acompanhado do molho",
+                    "Se preferir coloque queijo parmesão ralado"
                 ],
+        photoCover: "assets/img-capas/mini91.jpg",
+        photoCoverContent: "assets/img-content/nhoque-batata-doce.jpg"
+    },
+    {
+        id: "92",
+        category: "salgados",
+        title: "Pão de Batata Recheado",
+        porcoes: "45",
+        tempo_preparo: "1 hora",
+        
+        subcategory: [
+                        "pães",
+                        "lanches"
+                     ],
 
-    ingredients: [
-                    "500ml de leite desnatado",
-                    "240g de tapioca granulada",
-                    "2 ovos",
-                    "40g de queijo parmesão ralado",
-                    "sal a gosto"
+        ingredients: [
+                        "1 kg de farinha de trigo",
+                        "1 copo de leite de vaca morno",
+                        "4 colheres de (sopa) de açúcar",
+                        "20 g de fermento instantâneo para pão",
+                        "3 ovos inteiros",
+                        "½ copo de óleo",
+                        "1 colher de (sopa) de sal",
+                        "500 g de batata cozida não muito mole e espremida para o recheio",
+                        "500 g de mortadela triturada no processador ou liquidificador",
+                        "1 xícara de (chá) de cheiro verde",
+                        "2 colheres de (sopa) de orégano",
+                        "2 colheres (sopa) de molho de tomate(opcional)",
+                        "200 g de requeijão cremoso ou catupiry",
+                        "1 xícara de (chá) azeitonas verdes (opcional)",
+                        "1 colher de (há) de mostarda",
+                        "½ colher (sopa) de óleo"
+                    ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/21235-pao-de-batata-recheado-com-mortadela.html",
+        resume: `
+                    <br>
+                    Que tal um pão de batata recheado para seu lanche da tarde de hoje?
+                    <br>
+                `,
+        preparo: [
+                    "Dissolva o fermento no leite morno",
+                    "Coloque no copo do liquidificador o açúcar, sal, óleo, ovos e o fermento e bata bem",
+                    "Em uma bacia junte a farinha de trigo a batata e o líquido do liquidificador",
+                    "Amasse tudo muito bem, deixe a massa descansar até dobrar de volume, refogue a mortadela com os outros ingredientes e deixe esfriar, faça as bolinhas recheie",
+                    "Colocando-as na assadeira untada com margarina, deixe crescer novamente, passe gemas em todas e leve para assar em forno pré-aquecido a 180º até que dourem",
+                    "Dica: Cozinhe a batata com água e sal, se ela ficar muito mole, diminua o leite na massa. A massa do pão não deve ficar muito dura"
+
                 ],
+        photoCover: "assets/img-capas/mini92.jpg",
+        photoCoverContent: "assets/img-content/pao-batata-recheado.jpg"
+    },
+    {
+        id: "94",
+        category: "salgados",
+        title: "Macarrão na Pressão",
+        porcoes: "21",
+        tempo_preparo: "10 minutos",
+        
+        subcategory: [
+                        "massas",
+                        "refeição completa"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/CylTvCpuczb/",
-    resume: `
-                <br>
-                Uma ótima opção de café da manhã, lanche da tarde e até pré treino! O melhor, só 121 calorias cada pãozinho.
-                <br>
-            `,
-    preparo: [
-                "Numa tijela, acrescente o leite e misture como sal, a tapioca granulada e deixe hidratar por 15 minutos na geladeira",
-                "Após esse tempo, acrescente os ovos, o parmesão, o queijo ralado e misture tudo",
-                "Molde no formato de pãezinhos e coloque na geladeira por mais 10 minutos",
-                "Leve para assar por 20 minutos a 180°"
-            ],
-    photoCover: "assets/img-capas/mini74.jpg",
-    photoCoverContent: "assets/img-content/pao-tapioca.jpg"
-},
-{
-    id: "77",
-    category: "salgados",
-    title: "Ovos natalinos",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "datas comemorativas",
-                    "sem lactose"
-                 ],
+        ingredients: [
+                        "1 pacote de macarrão penne, parafuso, ou gravatinha",
+                        "2 caixinha (a mesma medida da caixinha do molho) de água",
+                        "1 cebola média picada",
+                        "Sal a gosto",
+                        "1 caixinha de extrato/polpa/molho de tomate",
+                        "1 lata de creme de leite",
+                        "3 gomos de calabresa picados em rodelas finas",
+                        "Óleo ou azeite para refogar a cebola e a calabresa"
+                    ],
 
-    ingredients: [
-                    "Ovos de galinha",
-                    "grãos de café",
-                    "pimentão vermelho",
-                    "maionese"
+        video_embed: "https://www.tudogostoso.com.br/receita/15559-macarrao-com-calabresa-na-panela-de-pressao.html",
+        resume: `
+                    <br>
+                    Hoje tem Macarrão de Panela de Pressão. É a receita ideal para um almoço rápido, completo e delicioso.
+                    <br>
+                `,
+        preparo: [
+                    "Em uma panela de pressão, doure a cebola e a calabresa",
+                    "Após dourar, adicione o sal, o molho, as 2 medidas de água, o macarrão e o creme de leite",
+                    "Se o macarrão não tiver completamente coberto, coloque mais água",
+                    "Misturar bem, adicionar o sal e fechar a panela",
+                    "Contar 5 minutos a partir do momento em que a panela fizer pressão",
+                    "Polvilhe queijo ralado e bom apetite"
                 ],
+        photoCover: "assets/img-capas/mini94.jpg",
+        photoCoverContent: "assets/img-content/macarrao-pressao.png"
+    },
+    {
+        id: "96",
+        category: "salgados",
+        title: "Enroladinho de Salsicha",
+        porcoes: "24",
+        tempo_preparo: "40 minutos",
+        
+        subcategory: [
+                        "petiscos"
+                     ],
 
-    video_embed: "https://www.instagram.com/p/DCzczflIv7p/",
-    resume: `
-                <br>
-                Uma data especial merece um jeitinho diferente de comemorar, 
-                ainda mais em momentos onde toda a família está reunida!
-                <br>
-            `,
-    preparo: [
-                "Corte os ovos ao meio",
-                "Corte os pimentões em formato de chapeu",
-                "Utilize os grãos para moldar olhos e nariz",
-                "Com a maionese, faça a barba e a cola do chapeu"
-            ],
-    photoCover: "assets/img-capas/mini77.jpg",
-    photoCoverContent: "assets/img-content/ovos-natalinos.png"
-},
-{
-    id: "78",
-    category: "salgados",
-    title: "Cestinhas de Pastel",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "massas",
-                    "lanches"
+        ingredients: [
+                        "2 xícaras de farinha de trigo",
+                        "sal a gosto",
+                        "1 colher (sopa) de fermento químico em pó",
+                        "1 gema",
+                        "1 colher (sopa) de manteiga",
+                        "1 xícara de leite",
+                        "8 - 10 salsichas cozidas",
+                        "orégano a gosto"
+                    ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/192610-enroladinho-de-salsicha-de-forno.html",
+        resume: `
+                    <br>
+                    Essa é uma boa ideia para o lanche da tarde ou quando bate aquela fome fora de hora. 
+                    E ainda faz sucesso com a criançada, nas festas infantis.
+                    <br>
+                `,
+        preparo: [
+                    "Em um recipiente, miture a farinha de trigo com a manteiga, sal, leite e fermento",
+                    "Adicione mais farinha aos poucos se precisar",
+                    "Abra a massa e corte-a em pequenos retângulos",
+                    "Corte as salsichas em 3 pedaços e coloque-os sobre os retângulos de massa",
+                    "Feche os retângulos, enrolando as salsichas",
+                    "Acomode os enroladinhos em uma forma untada e enfarinhada",
+                    "Pincele cada enroladinho com uma mistura de gema com orégano",
+                    "Leve ao forno (180° C), por cerca de 30 minutos"
                 ],
-
-    ingredients: [
-                    "massa pequena de pastel",
-                    "presunto a gosto",
-                    "mussarela a gosto",
-                    "orégano a gosto"
-                ],
-
-    video_embed: "https://www.instagram.com/p/DCk0iCluD9d/",
-    resume: `
-                Se você pensou que a massa de pastel serve apenas para fazer pastel, achou errado. 
-                Temos uma receita que dá uma nova funcionalidade para ela. São cestinhas recheadas com presunto, 
-                queijo e o que mais você gostar.
-                <br>
-                É uma boa ideia de aperitivo! E o melhor: é assado, não frito.
-            `,
-    preparo: [
-                "Coloque as forminhas na forma de cupcake",
-                "Dentro da cestinha coloque presunto e finalize com mussarela e orégano",
-                "Deixe assar em forno a 180° até percener que as bordas da cestinha estão ficando douradas",
-                "Obs: O recheio pode ser de sua preferência. Desde que finalize com a mussarela com orégano"
-            ],
-    photoCover: "assets/img-capas/mini78.jpg",
-    photoCoverContent: "assets/img-content/cestinhas-pastel.png"
-},
-/* AQUI 50 */
-{
-    id: "79",
-    category: "salgados",
-    title: "Esfirra de Batata",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "lanche"
-                ],
-
-    ingredients: [
-                    "350g de batata",
-                    "25g farinha de aveia",
-                    "sal a gosto",
-                    "pimenta do reino a gosto",
-                    "requeijão a gosto",
-                    "mussarela a gosto",
-                    "orégano a gosto"
-                ],
-
-    video_embed: "https://www.instagram.com/p/C9TC6eYSkod/",
-    resume: `
-                <br>
-                Sem farinha trigo, sem glúten e o principal, é muito fácil de fazer!
-                <br>
-            `,
-    preparo: [
-                "Amasse as batatas como se fosse fazer um purê",
-                "Acrescente a farinha de aveia, o sal, a pimenta do reino e misture bem até virar uma massinha",
-                "Molde as esfirras e coloque os recheios como requeijão, a mussarela e o orégano",
-                "Leve ao forno por 20 minutos a 180°"
-            ],
-    photoCover: "assets/img-capas/mini79.jpg",
-    photoCoverContent: "assets/img-content/esfirra-batata.png"
-},
-{
-    id: "80",
-    category: "salgados",
-    title: "Pizza de Abobrinha",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "acompanhamento"
-                ],
-
-    ingredients: [
-                    "1 abobrinha grande",
-                    "1 ovo",
-                    "1 colher de sopa de creme de ricota ou requeijão",
-                    "60g de frango desfiado",
-                    "50g de queijo mussarela",
-                    "sal a gosto",
-                    "pimenta do reino a gosto",
-                    "cheiro verde a gosto",
-                    "azeite a gosto",
-                    "orégano a gosto"
-                ],
-
-    video_embed: "https://www.instagram.com/p/C-kpkunOgd3/",
-    resume: `
-                <br>
-                Uma pizza sem massa, com rodelas de abobrinha e nem por isso menos saborosa!
-                <br>
-            `,
-    preparo: [
-                "Corte as abobrinhas em rodelas e retire o miolo, como aneis",
-                "Coloque os aneis numa tijela e tempere com azeite, sal e pimenta do reino e coloque numa forma forrada com papel manteiga",
-                "Pique o miolo finamente e acrescente o frango, o creme de ricota, o ovo, sal, pimenta do reino e misture bem",
-                "Recheie os aneis e finalize com a mussarela e orégano",
-                "Leve ao forno a 180° até dourar"
-            ],
-    photoCover: "assets/img-capas/mini80.jpg",
-    photoCoverContent: "assets/img-content/pizza-abobrinha.png"
-},  
-{
-    id: "81",
-    category: "salgados",
-    title: "Arroz Primavera",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "refeição"
-                ],
-
-    ingredients: [
-                    "3 ovos",
-                    "300g de carne de porco ou frango",
-                    "1/2 cenoura ralada",
-                    "Sal",
-                    "500g de arroz cozido",
-                    "cebolinha a gosto"
-                ],
-
-    video_embed: "https://www.instagram.com/p/C248JD9OEEf/",
-    resume: `
-                <br>
-                Soltinho, simples e saboroso!
-                <br>
-            `,
-    preparo: [
-                "Frite os ovos mexidos e reserve",
-                "Frite a carne já picada. Acrescente a cenoura e refogue",
-                "Adicione os ovos, o sal e misture bem",
-                "Adicione o arroz, a cebolinha e misture"
-            ],
-    photoCover: "assets/img-capas/mini81.jpg",
-    photoCoverContent: "assets/img-content/arroz-primavera.jpg"
-}, 
-{
-    id: "83",
-    category: "salgados",
-    title: "Batata Rústica",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "acompanhamento"
-                ],
-
-    ingredients: [
-                    "Batata inglesa",
-                    "Sal",
-                    "3ml de azeite"
-                ],
-
-    video_embed: "https://www.instagram.com/p/CskDSMuOvKz/",
-    resume: `
-                <br>
-                Como fazer batatas assadas perfeitas na airfryer ou no forno: macia por dentro e com casca crocante por fora.
-                <br>
-            `,
-    preparo: [
-                "Corte as batatas em 4 pedaços",
-                "Acrescente azeite, sal e misture bem",
-                "Levar para a Air fryer por 30 minutos com temperatura de 160 graus"
-            ],
-    photoCover: "assets/img-capas/mini83.jpg",
-    photoCoverContent: "assets/img-content/batata-rustica.jpg"
-}, 
-{
-    id: "84",
-    category: "salgados",
-    title: "Massa Básica para Pizza",
-    porcoes: "",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "Lanche"
-                ],
-
-    ingredients: [
-                    "2 ovos",
-                    "1/2 xícara de óleo",
-                    "2 xícaras de leite",
-                    "2 xícaras de farinha de trigo",
-                    "1 pitada de sal",
-                    "1 colher de fermento"
-                ],
-
-    video_embed: "https://www.instagram.com/p/DCbomQCuyDg/",
-    resume: `
-                <br>
-                Aprenda a fazer massa caseira profissional para pizza! Receita fácil e prática, que garante pizzas deliciosas.
-                <br>
-            `,
-    preparo: [
-                "No liquidificador, coloque os ovos, o óleo, o leite, o sal, a farinha e o fermento e bata até atingir a mistura",
-                "Despeje o conteúdo numa forma untada e leve ao forno por 15 minutos a 180°"
-            ],
-    photoCover: "assets/img-capas/mini84.jpg",
-    photoCoverContent: "assets/img-content/massa-basica-pizza.jpg"
-}, 
-{
-    id: "85",
-    category: "salgados",
-    title: "Arroz Temperado",
-    porcoes: "5",
-    tempo_preparo: "",
-    
-    subcategory: [
-                    "refeição"
-                ],
-
-    ingredients: [
-                    "350g de arroz",
-                    "1 calabresa e meia",
-                    "1 cenoura",
-                    "1 milho verde",
-                    "cebola a gosto",
-                    "pimenta de cheiro a gosto",
-                    "alho a gosto",
-                    "temperos a gosto"
-                ],
-
-    video_embed: "https://www.instagram.com/p/C62SJjHu8Ye/",
-    resume: `
-                <br>
-                Confira todas as dicas e detalhes dessa receita de Arroz temperado que é uma delícia e simples de ser feita. 
-                Divirta-se e delicie-se!
-                <br>
-            `,
-    preparo: [
-                "Triture a calabresa",
-                "Coloque a calabresa para fritar",
-                " Em seguida acrescente o alho, a cebola, a pimenta de cheiro, o arroz, os temperos, a cenoura, o milho e refogue tudo muito bem",
-                "Acrescente 2 medidas de água iguais a do arroz e deixe cozinhar",
-                "Depois de cozido, finalize com cheiro verde por cima"
-            ],
-    photoCover: "assets/img-capas/mini85.jpg",
-    photoCoverContent: "assets/img-content/arroz-temperado.jpg"
-},
+        photoCover: "assets/img-capas/mini96.jpg",
+        photoCoverContent: "assets/img-content/enroladinho-salsicha.jpg"
+    },
     /* ######################### END RECEITAS SALGADAS ############################ */
 
 
@@ -2266,8 +2462,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa",
-                        "sem lactose"
+                        "sobremesas",
+                        "sem lactose",
+                        "bolos"
                      ],
 
         ingredients: [
@@ -2304,7 +2501,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "40 minutos",
         
         subcategory: [
-                        "lanche"
+                        "café da manhã"
                      ],
 
         ingredients: [
@@ -2341,7 +2538,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "15 minutos",
         
         subcategory: [
-                        "cobertura"
+                        "bolos"
                      ],
 
         ingredients: [
@@ -2373,7 +2570,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "20 minutos",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                      ],
 
         ingredients: [
@@ -2404,7 +2601,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas",
+                        "sem lactose"
                      ],
 
         ingredients: [
@@ -2437,7 +2635,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "40 minutos",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas",
+                        "bolos"
                      ],
 
         ingredients: [
@@ -2482,7 +2681,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "1 hora",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                      ],
 
         ingredients: [
@@ -2526,7 +2725,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "cobertura"
+                        "bolos"
                      ],
 
         ingredients: [
@@ -2555,7 +2754,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "pipocas"
                      ],
 
         ingredients: [
@@ -2591,7 +2790,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas",
+                        "bolos"
                      ],
 
         ingredients: [
@@ -2629,7 +2829,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "40 minutos",
         
         subcategory: [
-                        "sobremesa"
+                        "bolos",
+                        "sem lactose",
+                        "lanches"
                      ],
 
         ingredients: [
@@ -2666,7 +2868,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                      ],
 
         ingredients: [
@@ -2705,7 +2907,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "2 porções",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                      ],
 
         ingredients: [
@@ -2744,7 +2946,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "pipocas"
                      ],
 
         ingredients: [
@@ -2780,7 +2982,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "15 minutos",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                      ],
 
         ingredients: [
@@ -2821,7 +3023,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                     ],
 
         ingredients: [
@@ -2863,7 +3065,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "refeição"
+                        "café da manhã",
+                        "sem lactose"
                     ],
 
         ingredients: [
@@ -2899,7 +3102,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "biscoitos"
                     ],
 
         ingredients: [
@@ -2930,7 +3133,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "bolos",
+                        "lanches"
                     ],
 
         ingredients: [
@@ -2967,7 +3171,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                     ],
 
         ingredients: [
@@ -3004,7 +3208,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                     ],
 
         ingredients: [
@@ -3024,7 +3228,7 @@ export const dataFake: FoodItem[] = [
         preparo: [
                     "Misture o leite em pó, o cacau e o café até dar o ponto, sem levar nada ao fogo",
                     "Café sem adoçar se o cacau for 50% ou menos. Se o cacau for maior que 50% talvez tenha que adicionar algum adoçante na receita"
-                ],
+                 ],
         photoCover: "assets/img-capas/mini57.jpg",
         photoCoverContent: "assets/img-content/brigadeiro-cafe.jpg"
     },
@@ -3036,8 +3240,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
-                    ],
+                        "sobremesas",
+                        "bolos"
+                     ],
 
         ingredients: [
                         "500g de tapioca granulada fina",
@@ -3072,7 +3277,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                     ],
 
         ingredients: [
@@ -3102,7 +3307,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                     ],
 
         ingredients: [
@@ -3137,7 +3342,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "bolos",
+                        "lanches"
                     ],
 
         ingredients: [
@@ -3174,7 +3380,9 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "lanche"
+                        "lanches",
+                        "bolos",
+                        "sem lactose"
                     ],
 
         ingredients: [
@@ -3212,7 +3420,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                     ],
 
         ingredients: [
@@ -3248,7 +3456,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "acompanhamento"
+                        "comemorativas"
                     ],
 
         ingredients: [
@@ -3280,7 +3488,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
+                        "sobremesas"
                     ],
 
         ingredients: [
@@ -3313,7 +3521,7 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "bebida"
+                        "bebidas"
                     ],
 
         ingredients: [
@@ -3345,8 +3553,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
-                    ],
+                        "sobremesas"
+                     ],
 
         ingredients: [
                         "1 caixa de leite condensado",
@@ -3367,7 +3575,7 @@ export const dataFake: FoodItem[] = [
                     "Por último, coloque a gelatina sem sabor e deixe bater um pouco mais",
                     "Despeje tudo numa caixa de leite já higienizada e leve para a geladeira por no mínimo 3 horas",
                     "Depois, corte a caixa com uma tesoura"
-                ],
+                 ],
         photoCover: "assets/img-capas/mini87.jpg",
         photoCoverContent: "assets/img-content/pudim-caixa.jpg"
     },
@@ -3379,8 +3587,8 @@ export const dataFake: FoodItem[] = [
         tempo_preparo: "",
         
         subcategory: [
-                        "sobremesa"
-                    ],
+                        "sobremesas"
+                     ],
 
         ingredients: [
                         "3 bananas",
@@ -3400,9 +3608,151 @@ export const dataFake: FoodItem[] = [
                     "Amasse as bananas, misture o cacau e água e leve ao fogo até o ponto de brigadeiro",
                     "Coloque em um prato de vidro untado com margarina e leve para gelar",
                     "Corte em quadradinhos e banhe no chocolate meio amargo"
-                ],
+                 ],
         photoCover: "assets/img-capas/mini88.jpg",
         photoCoverContent: "assets/img-content/bombom-caribe.jpg"
-    }
+    },
+    {
+        id: "89",
+        category: "doces",
+        title: "Bolo de Caneca",
+        porcoes: "1",
+        tempo_preparo: "3 minutos",
+        
+        subcategory: [
+                        "bolos",
+                        "lanches"
+                     ],
+
+        ingredients: [
+                        "1 ovo",
+                        "3 colheres de açúcar",
+                        "2 colheres de óleo",
+                        "2 colheres de sopa de leite",
+                        "3 colheres de sopa de chocolate em pó",
+                        "4 colheres de sopa de farinha de trigo",
+                        "1 colher de café de fermento"
+                     ],
+
+        video_embed: "https://www.instagram.com/p/C5jAnA8OeOP/",
+        resume: `
+                    Se você estiver com aquela vontade de doce mas não está a fim de usar muitos ingredientes, 
+                    essa receita de bolo de caneca de chocolate foi feita especialmente para você! 
+                    <br>
+                    Além de ser um bolo de caneca de microondas, esse doce delicioso é super rápido de fazer.
+                    <br>
+                `,
+        preparo: [
+                    "Numa caneca, acrescente os ovos, o açúcar e misture bem",
+                    "Acrescente o óleo, o leite, o achocolatado e misture mais um pouco",
+                    "Acrescente a farinha de trigo, o fermento e misture",
+                    "Leve ao microondas por 3 minutos"
+                ],
+        photoCover: "assets/img-capas/mini89.jpg",
+        photoCoverContent: "assets/img-content/bolo-caneca.jpg"
+    },
+    {
+        id: "90",
+        category: "doces",
+        title: "Detox dias quentes",
+        porcoes: "",
+        tempo_preparo: "",
+        
+        subcategory: [
+                        "bebidas",
+                        "sem lactose"
+                     ],
+
+        ingredients: [
+                        "1 cenoura picada",
+                        "1 maçã picada",
+                        "suco de 1 limão"
+                    ],
+
+        video_embed: "https://www.instagram.com/p/C54f3sGPLP3/",
+        resume: `
+                    <br>
+                    Uma bebida perfeita para quem busca uma opção saudável e refrescante no dia a dia.
+                    <br>
+                    Uma combinação simples, fácil e deliciosa que agrada até quem não é fã de vegetais crus.
+                    <br>
+                `,
+        preparo: [
+                    "No liquidificador, acrescente todos os ingredientes, água e coloque para bater",
+                    "Peneire com o uso do coador"
+                ],
+        photoCover: "assets/img-capas/mini90.jpg",
+        photoCoverContent: "assets/img-content/detox-dias-quentes.jpg"
+    },
+    {
+        id: "93",
+        category: "doces",
+        title: "Suco de Melancia com Gengibre",
+        porcoes: "2",
+        tempo_preparo: "10 minutos",
+        
+        subcategory: [
+                        "bebidas",
+                        "sem lactose"
+                     ],
+
+        ingredients: [
+                        "2 fatias médias de melancia",
+                        "1 pedaço pequeno de gengibre",
+                        "1 colher (sobremesa) de linhaça",
+                        "8 folhas de hortelã"
+                    ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/165018-suco-de-melancia-com-gengibre.html",
+        resume: `
+                    Descubra os benefícios do suco de melancia com gengibre. Um suco natural simples, delicioso e cheio 
+                    de nutrientes que trazem muitos benefícios para a saúde! 
+                    Uma poderosa receita energizante
+                    <br>
+                `,
+        preparo: [
+                    "Bater todos os ingredientes no liquidificador com algumas pedrinhas de gelo e consumir imediatamente"
+                ],
+        photoCover: "assets/img-capas/mini93.jpg",
+        photoCoverContent: "assets/img-content/suco-melancia-gengibre.jpg"
+    },
+    {
+        id: "95",
+        category: "doces",
+        title: "Sorvete de Banana",
+        porcoes: "20",
+        tempo_preparo: "1 hora",
+        
+        subcategory: [
+                        "sobremesa",
+                     ],
+
+        ingredients: [
+                        "8 bananas nanicas",
+                        "1 copos de açúcar",
+                        "1 colher (chá) de liga neutra",
+                        "1 litro de leite",
+                        "4 colheres (sopa) de leite em pó",
+                        "1 colher de sobremesa de emulsificante"
+                    ],
+
+        video_embed: "https://www.tudogostoso.com.br/receita/143809-sorvete-de-banana.html",
+        resume: `
+                    <br>
+                    Sorvete de banana é uma delícia! Confira como preparar na sua própria casa essa incrível 
+                    receita fácil de fazer!
+                    <br>
+                `,
+        preparo: [
+                    "Colocar no liquidificador as bananas, o leite, o açúcar, a liga neutra, o leite em pó",
+                    "Bater por 2 minutos, colocar para gelar numa vasilha de alumínio",
+                    "Quando estiver firme, corte os pedaços e coloque numa vasilha de plástico grande",
+                    "Colocar uma colher de emulsificante, bater por 10 minutos, colocar em pote para congelar até ficar duro e pronto para servir",
+                    "pode bater na batedeira"
+                ],
+        photoCover: "assets/img-capas/mini95.jpg",
+        photoCoverContent: "assets/img-content/sorvete-banana.png"
+    },
+    
     /* ######################### END RECEITAS DOCES ############################ */
 ]
